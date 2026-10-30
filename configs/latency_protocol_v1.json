@@ -1,0 +1,30 @@
+{
+  "status": "REGISTERED_VALIDATION_TIMING_BEFORE_TEST",
+  "version": "property_latency_v1",
+  "partition": "val",
+  "purpose": "Measure the fixed direct property-ranking workflow on exactly the registered public candidate queries; do not change scientific predictions or select methods by timing.",
+  "protocols": [
+    "identity",
+    "scaffold"
+  ],
+  "methods": [
+    "nearest",
+    "lgbm",
+    "chemprop"
+  ],
+  "seeds": [
+    17,
+    42,
+    2026
+  ],
+  "nearest_repetitions_across_seeds": 1,
+  "timing_repetitions": 3,
+  "cpu_threads": 4,
+  "accelerator": "cpu",
+  "candidate_calls": "Cache identical full-solute-SMILES/full-solvent-SMILES/temperature triples within the supplied cohort. Report both candidate appearances and unique calls; all property methods use the identical policy.",
+  "feature_cache_policy": "Clear loaded LightGBM query fingerprint and descriptor caches before every repetition without changing fitted medians. Recreate Chemprop graphs/loaders each repetition. Nearest-neighbor implementation rebuilds its indices per call. Library/OS caches are uncontrolled.",
+  "timing_scope": "Report public request assembly, model loading, query featurization, forward computation and deterministic decision construction separately. Model-resident application time includes request assembly plus featurization/forward/decisions, excludes library import, checkpoint loading, provenance checks and output persistence. Model loading is a separate observed cost.",
+  "reference_check": "Compare CPU values and decisions to saved validation property predictions without opening targets. Device/roundoff differences remain reported; never replace original scientific evaluations.",
+  "reporting": "Amortized batch time per public question is throughput, not single-question interactive latency. CPU property costs and GPU LM costs must retain their device, batch, feature/cache and loading scopes. Shared-host contention is disclosed; no isolated-host or energy-cost claim. All methods and timing repetitions retained, including slower results.",
+  "created_utc": "2026-10-26T06:58:16.202198+00:00"
+}

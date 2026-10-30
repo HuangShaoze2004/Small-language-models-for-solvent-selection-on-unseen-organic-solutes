@@ -1,0 +1,23 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrr}
+\toprule
+Protocol & Method & Accuracy (\%) & Best hit (\%) & Regret (dex) \\
+\midrule
+Identity & NN & 58.5 [53.8, 63.2] & 50.3 [42.9, 57.8] & 0.449 [0.342, 0.570] \\
+Identity & LightGBM & 67.4 [63.1, 71.6] & 73.5 [66.8, 79.9] & 0.143 [0.101, 0.190] \\
+Identity & Chemprop & 70.1 [66.3, 73.9] & 75.4 [69.4, 81.0] & 0.133 [0.097, 0.172] \\
+Identity & Base LM & 38.6 [34.8, 42.5] & 27.5 [23.2, 32.1] & 0.842 [0.717, 0.979] \\
+Identity & Ordinary SFT & 68.1 [64.2, 71.8] & 71.7 [65.9, 77.2] & 0.193 [0.141, 0.251] \\
+Identity & R-SFT + structure & 68.6 [64.8, 72.3] & 69.8 [63.9, 75.4] & 0.192 [0.145, 0.245] \\
+Identity & R-SFT + condition & 69.4 [65.6, 73.1] & 73.3 [67.7, 78.5] & 0.166 [0.122, 0.217] \\
+Scaffold & NN & 53.1 [48.1, 58.0] & 42.7 [35.1, 50.3] & 0.561 [0.441, 0.694] \\
+Scaffold & LightGBM & 63.6 [59.2, 67.9] & 72.0 [65.6, 78.1] & 0.151 [0.109, 0.200] \\
+Scaffold & Chemprop & 67.1 [62.8, 71.3] & 71.6 [65.3, 77.4] & 0.177 [0.125, 0.240] \\
+Scaffold & Base LM & 38.6 [34.8, 42.5] & 27.5 [23.2, 32.1] & 0.842 [0.717, 0.979] \\
+Scaffold & Ordinary SFT & 64.0 [59.6, 68.3] & 65.4 [59.2, 71.4] & 0.225 [0.165, 0.297] \\
+Scaffold & R-SFT + structure & 64.7 [60.3, 68.9] & 64.4 [58.3, 70.3] & 0.244 [0.185, 0.313] \\
+Scaffold & R-SFT + condition & 66.0 [61.5, 70.4] & 66.2 [60.0, 71.9] & 0.227 [0.170, 0.296] \\
+\bottomrule
+\end{tabular}
+\endgroup

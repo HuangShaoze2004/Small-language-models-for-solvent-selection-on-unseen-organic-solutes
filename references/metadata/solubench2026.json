@@ -1,0 +1,162 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.6c00677",
+  "retrieved_at_utc": "2026-10-25T05:43:42.748913+00:00",
+  "response_sha256": "188ce2114d4145d109b4c4745a8e75c5e2a130f2b74d37d253edcc6652532708",
+  "metadata": {
+    "DOI": "10.1021/acs.jcim.6c00677",
+    "title": [
+      "Can LLMs Solve\nSolubility Tasks? The SoluBench Benchmark\nfor Pure and Mixed Solvent Systems"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3563-3839",
+        "authenticated-orcid": true,
+        "given": "Lev",
+        "family": "Krasnov",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Russian Academy of Sciences , , Leninskii pr. 31 , ,",
+            "place": [
+              "Moscow, Russia, 119991"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1503-8189",
+        "authenticated-orcid": true,
+        "given": "Sergei V.",
+        "family": "Tatarin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Russian Academy of Sciences , , Leninskii pr. 31 , ,",
+            "place": [
+              "Moscow, Russia, 119991"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2017-517X",
+        "authenticated-orcid": true,
+        "given": "Stanislav I.",
+        "family": "Bezzubov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Russian Academy of Sciences , , Leninskii pr. 31 , ,",
+            "place": [
+              "Moscow, Russia, 119991"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Information\nand Modeling"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          11
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          11
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          27
+        ]
+      ]
+    },
+    "volume": "66",
+    "issue": "14",
+    "page": "7929-7939",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2026-07-11T00:00:00Z",
+          "timestamp": 1783728000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2026-07-11T00:00:00Z",
+          "timestamp": 1783728000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2026-07-11T00:00:00Z",
+          "timestamp": 1783728000000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-045"
+      }
+    ],
+    "URL": "https://doi.org/10.1021/acs.jcim.6c00677"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

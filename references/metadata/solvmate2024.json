@@ -1,0 +1,89 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1039/D4DD00138A",
+  "retrieved_at_utc": "2026-10-25T05:43:42.143624+00:00",
+  "response_sha256": "30493055e5d832912f31e7c72eaec7a0e4e23b1e74e70b97fc3533e97c55bbcc",
+  "metadata": {
+    "DOI": "10.1039/d4dd00138a",
+    "title": [
+      "Solvmate – a hybrid physical/ML approach to solvent recommendation leveraging a rank-based problem framework"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8961-8680",
+        "authenticated-orcid": false,
+        "given": "Jan",
+        "family": "Wollschläger",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Machine Learning Research, Bayer Pharmaceuticals, Müllerstr. 178, Berlin, 13353, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Floriane",
+        "family": "Montanari",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Machine Learning Research, Bayer Pharmaceuticals, Müllerstr. 178, Berlin, 13353, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Digital Discovery"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "published-print": null,
+    "volume": "3",
+    "issue": "9",
+    "page": "1749-1760",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              30
+            ]
+          ],
+          "date-time": "2024-07-30T00:00:00Z",
+          "timestamp": 1722297600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 211,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "URL": "https://doi.org/10.1039/d4dd00138a"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

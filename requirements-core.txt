@@ -1,0 +1,14 @@
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+rdkit==2025.9.1
+lightgbm==4.6.0
+pyarrow==21.0.0
+pyyaml==6.0.3
+pytest==8.4.2
+requests==2.32.5
+matplotlib==3.10.7
+seaborn==0.13.2
+rank-bm25==0.2.2
+huggingface-hub==0.35.3

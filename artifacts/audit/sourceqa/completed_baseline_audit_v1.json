@@ -1,0 +1,261 @@
+{
+  "status": "PASSED_COMPLETED_BASELINE_AUDIT",
+  "created_utc": "2026-10-26T04:20:16.106427+00:00",
+  "models": [
+    {
+      "run": "sourceqa_identity_nearest",
+      "status": "PASSED",
+      "check": "Every stored neighbor row and label equals the current training partition.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_identity_lgbm_17",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_identity_lgbm_42",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_identity_lgbm_2026",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_identity_chemprop_17",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": false
+    },
+    {
+      "run": "sourceqa_identity_chemprop_42",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": false
+    },
+    {
+      "run": "sourceqa_identity_chemprop_2026",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 81365,
+      "training_solutes_recounted": 1140,
+      "training_solute_count_present_in_model_metadata": false
+    },
+    {
+      "run": "sourceqa_scaffold_nearest",
+      "status": "PASSED",
+      "check": "Every stored neighbor row and label equals the current training partition.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_scaffold_lgbm_17",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_scaffold_lgbm_42",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_scaffold_lgbm_2026",
+      "status": "PASSED",
+      "check": "All descriptor-imputation medians recomputed with training-row weights; caches are deterministic structural features, not labels.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": true
+    },
+    {
+      "run": "sourceqa_scaffold_chemprop_17",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": false
+    },
+    {
+      "run": "sourceqa_scaffold_chemprop_42",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": false
+    },
+    {
+      "run": "sourceqa_scaffold_chemprop_2026",
+      "status": "PASSED",
+      "check": "Weights match actual consistency run; all temperature/target scalers independently recomputed on train only.",
+      "training_records_recounted": 52062,
+      "training_solutes_recounted": 734,
+      "training_solute_count_present_in_model_metadata": false
+    }
+  ],
+  "direct_evidence": [
+    {
+      "protocol": "identity",
+      "mode": "text",
+      "queries": 5133,
+      "cards_checked": 20532,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "identity",
+      "mode": "structure",
+      "queries": 5133,
+      "cards_checked": 20532,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "identity",
+      "mode": "condition",
+      "queries": 5133,
+      "cards_checked": 20532,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "identity",
+      "mode": "no_temperature",
+      "queries": 5133,
+      "cards_checked": 20532,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "identity",
+      "mode": "no_solvent",
+      "queries": 5133,
+      "cards_checked": 20532,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "scaffold",
+      "mode": "text",
+      "queries": 3258,
+      "cards_checked": 13032,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "scaffold",
+      "mode": "structure",
+      "queries": 3258,
+      "cards_checked": 13032,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "scaffold",
+      "mode": "condition",
+      "queries": 3258,
+      "cards_checked": 13032,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "scaffold",
+      "mode": "no_temperature",
+      "queries": 3258,
+      "cards_checked": 13032,
+      "status": "PASSED"
+    },
+    {
+      "protocol": "scaffold",
+      "mode": "no_solvent",
+      "queries": 3258,
+      "cards_checked": 13032,
+      "status": "PASSED"
+    }
+  ],
+  "evidence_sha256": {
+    "data/splits/sourceqa/identity.csv": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+    "data/processed/sourceqa/measurements.parquet": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+    "artifacts/runs_sourceqa/sourceqa_identity_nearest/metadata.json": "05851beb1cee9fbc98fe9cdc315a6338f99d639d40750206de398a2ffddf357c",
+    "src/solvent_select/baselines.py": "b36eb8b0ef5daef4b36519ed904d1615016e97ad28dfa2417b5b3e93bdf1af1e",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_nearest/run.json": "094a81ebdb9fdc50738ffc90ad1a31f9ae6fc77ff0695f86049931589ebdd4c8",
+    "artifacts/runs_sourceqa/sourceqa_identity_nearest/model.joblib": "86ef41a0b224161557cf177781e6df95a71d3c86a574342351a4fc9a17641db9",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_17/metadata.json": "1183a2013d5871b63f0d0c018b07a4e9f0bc6938aeda089ad54760837ff015c5",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_17/run.json": "93370b464f2e65bbb704d965aafb2f03eac5297ed17009ef59cb58638e362053",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_17/model.joblib": "93eccaec6e5593fe66a3fd4652dea082f88b136975375eeca138d6b9b9f3eb95",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_42/metadata.json": "1215d4f855aa4efa0bf3d76bf1b988dce32e0596ce72b1e43d9a19def4f0d0f9",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_42/run.json": "c199ee3e8cfc4e3a9aec3d5e6f4e587b4d80334a90d51124d326898b2d93228d",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_42/model.joblib": "009aa43ab4fceb346fff798e3e93395b662747973bc38ad6f19147d99e07347a",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_2026/metadata.json": "c7f2c872daaa3f29c005f9dc0c04dcc744bd2570b5cd6cacfe52c3ea881835b9",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_2026/run.json": "cc54d721f90c3cab18cf45906c52b3d7bb9f36d476afde2bac4bdc108a080993",
+    "artifacts/runs_sourceqa/sourceqa_identity_lgbm_2026/model.joblib": "6a61b89f73dbea20171beea357760361014e7fb396a99a8448b6e4c755d21257",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_17/metadata.json": "3557ff4cb09402daa26e24a4ffb6c6cb2bb66a1183f2dff464e3182a3a41f2ca",
+    "src/solvent_select/chemprop_runner.py": "624dc6169df3bf0af2b932ed93010a05a51b10282fbc1121c90322e869a77372",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_chemprop_17/run.json": "f9a3c711df6631c26847afe36b594aa0616931efc577cd034f1038b83f43a2b3",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_identity_chemprop_17/checkpoints/epoch=003-val=0.51655.ckpt": "f85d1b2665d7b715c7987b9e42ebbca6e0d3355516f956797d4c52cb736b77c0",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_17/scalers.json": "51d2e7ecf914b6854581ed690032aa7ba9a58ce969e3f9dd31212b451e9297cb",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_42/metadata.json": "66ace3173c2b80d7913ab52035f2a5520bf35dee8261a11ef7b7f1525743f5ec",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_chemprop_42/run.json": "d30b5c2db18369406c7e5bdb57c96d299d30e69b0198c56730d5ba574549aa7f",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_identity_chemprop_42/checkpoints/epoch=002-val=0.47116.ckpt": "0f60302d7684533457bdf7b6ee0b3aa17a3d445e91073934c3d1ee8f42cfa0ae",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_42/scalers.json": "51d2e7ecf914b6854581ed690032aa7ba9a58ce969e3f9dd31212b451e9297cb",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_2026/metadata.json": "9c1dda319392b7f0a04cab9ff3ab8e29e8f6fcb5af4fe4903f5b22ed9eed72f2",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_chemprop_2026/run.json": "747857e4d0bdaa7f2db7d03e2633cc4cd7c4dc5224e207e0904bdf9d596fff0c",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_identity_chemprop_2026/checkpoints/epoch=005-val=0.46612.ckpt": "1281324c27fc783ad1b33432ca3ce929961d2d0a993a7af1858ae90e74a00019",
+    "artifacts/runs_sourceqa/sourceqa_identity_chemprop_2026/scalers.json": "51d2e7ecf914b6854581ed690032aa7ba9a58ce969e3f9dd31212b451e9297cb",
+    "data/views/sourceqa/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+    "artifacts/runs_sourceqa/sourceqa_identity_evidence_text_val/predictions.jsonl": "218336f239ea3e7a4b0ef8fb3b09779f2022de4e6fd7a054b6fa688e3cff6805",
+    "artifacts/runs_sourceqa/sourceqa_identity_evidence_structure_val/predictions.jsonl": "fe6964b312e07b477ffeef8b606c9bfe70eb99145414ecb89dba77be765ac8c7",
+    "artifacts/runs_sourceqa/sourceqa_identity_evidence_condition_val/predictions.jsonl": "d4b876ae5ca42c66d9b8736dacbec492e91000918136fd1d886ff5295b21d235",
+    "artifacts/runs_sourceqa/sourceqa_identity_evidence_no_temperature_val/predictions.jsonl": "34bc860162c40083c7665a215b78690e875f02f2e1538a95a303573b5a515de3",
+    "artifacts/runs_sourceqa/sourceqa_identity_evidence_no_solvent_val/predictions.jsonl": "45e895ed85e25aa2255283c69a5a41ed1fb915e14ca648123b1b556a528ce72b",
+    "data/splits/sourceqa/scaffold.csv": "14e7cdc285375898e10703367f5916409daeed2884c0778a39dbeac6694e5ccb",
+    "data/processed/sourceqa/measurements_scaffold.parquet": "d32e950ac3fc893ba91d7b27ae90199aff29a81bf18b9dd7d04d2541699727df",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_nearest/metadata.json": "0ad7af90dd5eb773b48a73cfc2669a93b521fe0b6ce57744c11b03e7b7b6f0a2",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_nearest/run.json": "411b218b05edddeccbdfe7e3f58a10f563bdb51b78b0eef870da916e539f302e",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_nearest/model.joblib": "9ea901091909646f60e89268e263b32072cf12564d449686e0e84393714e5d95",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_17/metadata.json": "6dbaf40d10a33f9d819682b16ba1d53d1ba96edbcec17736357df5ce62d41d34",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_lgbm_17/run.json": "af78f521988d3214a96e8c7e32869be6254995f3e8c37a6f1b74447513e17431",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_17/model.joblib": "4f8547266263e39d2b12cc06756180a6dba50e1c4e2001a500cee777c6d87545",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_42/metadata.json": "375f8a5af15cb17dfb16d3fb2f77e4b4bd3002a7332b7c9579b9478baef7e206",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_lgbm_42/run.json": "a261e5206fba76395430932778b095cf0665e0269c9a81306144726b5b5a6dd5",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_42/model.joblib": "943e892de578a113d99900e20568ed5f426e1251b1a9dfb02beadfd943b983bd",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_2026/metadata.json": "609004cd7ab404375b126e07fcccd5c73e2b57f5c89cd25ad858ea650515540f",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_lgbm_2026/run.json": "ef4ad48f9cc70cd687565efb151e10968ab0215eb096d7b11448104864e43aa5",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_lgbm_2026/model.joblib": "38d0c0e6180b791946867dc2481707d1f1afdbc3bac6877fbeab6a98febda30c",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_17/metadata.json": "b17dfb2441eb52f62e19035467995d14081186758b66c64c5e429ad31be07096",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_chemprop_17/run.json": "2f06210d1684a082afad65b24755c90b083c7dbc1e716721970bbe9a0e03a286",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_17/checkpoints/epoch=011-val=0.49747.ckpt": "6e724af0626a05383e57f43d54825816014a619c387d50191cdc5b7b61957eae",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_17/scalers.json": "630bf8d33636ef6ddfd8f271ba9db7c08e5a44383dd1070cd2cc91bd44500764",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_42/metadata.json": "85dbf83ba6c75c2542381d8ccfa1a9e8a673a3fc7b750b9ebd842feeb70c71c2",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_chemprop_42/run.json": "9535847b40026027df2cd34c948c91c2b9a2608ececce825624f9676634545d0",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_42/checkpoints/epoch=006-val=0.51102.ckpt": "f5356ff5252773ab4cf5e2af789a2a15b7b002fec21c9c8de3bfe98c4e461809",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_42/scalers.json": "630bf8d33636ef6ddfd8f271ba9db7c08e5a44383dd1070cd2cc91bd44500764",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_2026/metadata.json": "352b3ff2ec289cf9e4d6cc499542334affc8f7d34ebebcb3168241b4ef7292fb",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_chemprop_2026/run.json": "4f4ba39a4c32a4c06c0ab01ead66598861799d5e50bba5f2e9c58cf9771f6d74",
+    "/root/autodl-tmp/light_modeltune/artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_2026/checkpoints/epoch=006-val=0.50275.ckpt": "bda8202de5ef3b5fdd4ea76fe0c0e04109807b28f89f4ca1ea6fadf6e0726699",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_chemprop_2026/scalers.json": "630bf8d33636ef6ddfd8f271ba9db7c08e5a44383dd1070cd2cc91bd44500764",
+    "data/views/sourceqa/scaffold/val_queries.jsonl": "4ae538ae40fcce2fe9557b92df7851b4b4fdb58dbea40080cdf4b280362bdefe",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_text_val/predictions.jsonl": "6bf5824f5e77953088ca1812166b90fa14be234d8f327cd55f88816a1ed4b27d",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_structure_val/predictions.jsonl": "6111984a9e43df1f361f98b6e766895eafcdc4ac5e429e14f5f78ded6a240e63",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_condition_val/predictions.jsonl": "bd7753b959162875631867eafec99eec1cc3f3976667b9a234992d0f0b97243e",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_no_temperature_val/predictions.jsonl": "e7920e7f4ecd8e226cab509bc61b20d37af702155a4b82c4ebde6e731b123805",
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_no_solvent_val/predictions.jsonl": "7892c472cf46a5102b70d1cbcd2f65bbd3395fe6747d79d2109d446ecbf5cbf7"
+  },
+  "test_target_values_read": false,
+  "code_sha256": "d384eadba5fee36662022cf44740e5c8833bfd78346e866ed628276847a7d54a",
+  "scope": "14current property models and10actual validation evidence outputs. Checks weights, train membership, fitted statistics and evidence provenance. Does not verify all remaining label values or substitute for final paper/claim review."
+}

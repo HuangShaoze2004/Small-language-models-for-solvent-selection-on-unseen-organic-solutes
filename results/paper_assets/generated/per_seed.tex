@@ -1,0 +1,78 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lp{.39\linewidth}rrr}
+\caption{All 62 completed final method runs. The run IDs identify the fixed learning seed where applicable. Each number is independently checked against raw predictions and measured targets; these rows are not independent datasets.}\label{tab:per-seed}\\
+\toprule
+Protocol & Run & Accuracy (\%) & Best hit (\%) & Regret (dex) \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{Continued}} \\
+\toprule
+Protocol & Run & Accuracy (\%) & Best hit (\%) & Regret (dex) \\
+\midrule
+\endhead
+identity & \path{nearest} & 58.47 & 50.28 & 0.449110 \\
+identity & \path{lgbm_17} & 67.63 & 73.42 & 0.137253 \\
+identity & \path{lgbm_42} & 67.70 & 73.67 & 0.138553 \\
+identity & \path{lgbm_2026} & 66.91 & 73.46 & 0.152938 \\
+identity & \path{chemprop_17} & 69.58 & 74.86 & 0.159724 \\
+identity & \path{chemprop_42} & 71.95 & 76.16 & 0.108953 \\
+identity & \path{chemprop_2026} & 68.86 & 75.17 & 0.129324 \\
+identity & \path{qwen_sft_17_none} & 68.66 & 70.20 & 0.216630 \\
+identity & \path{qwen_sft_17_condition} & 66.65 & 69.98 & 0.222742 \\
+identity & \path{qwen_rag_17_text} & 65.55 & 71.63 & 0.190952 \\
+identity & \path{qwen_rag_17_structure} & 67.46 & 70.33 & 0.192570 \\
+identity & \path{qwen_rag_17_condition} & 68.19 & 74.03 & 0.161249 \\
+identity & \path{qwen_rag_17_no_temperature} & 67.26 & 73.80 & 0.175083 \\
+identity & \path{qwen_rag_17_no_solvent} & 67.51 & 69.30 & 0.183889 \\
+identity & \path{qwen_sft_42_none} & 66.36 & 73.68 & 0.166701 \\
+identity & \path{qwen_sft_42_condition} & 67.44 & 63.20 & 0.377824 \\
+identity & \path{qwen_rag_42_text} & 67.07 & 69.50 & 0.206704 \\
+identity & \path{qwen_rag_42_structure} & 70.16 & 68.05 & 0.201989 \\
+identity & \path{qwen_rag_42_condition} & 70.80 & 71.70 & 0.170159 \\
+identity & \path{qwen_rag_42_no_temperature} & 70.44 & 70.58 & 0.174014 \\
+identity & \path{qwen_rag_42_no_solvent} & 68.82 & 69.45 & 0.191019 \\
+identity & \path{qwen_sft_2026_none} & 69.22 & 71.23 & 0.196500 \\
+identity & \path{qwen_sft_2026_condition} & 66.15 & 54.60 & 0.568051 \\
+identity & \path{qwen_rag_2026_text} & 66.25 & 68.64 & 0.226346 \\
+identity & \path{qwen_rag_2026_structure} & 68.08 & 70.89 & 0.182566 \\
+identity & \path{qwen_rag_2026_condition} & 69.21 & 74.18 & 0.165174 \\
+identity & \path{qwen_rag_2026_no_temperature} & 68.67 & 74.63 & 0.158229 \\
+identity & \path{qwen_rag_2026_no_solvent} & 68.08 & 70.59 & 0.187262 \\
+identity & \path{qwen_base_17_none} & 38.60 & 27.52 & 0.841935 \\
+identity & \path{qwen_base_17_text} & 44.62 & 32.60 & 0.704185 \\
+identity & \path{qwen_base_17_structure} & 44.83 & 30.57 & 0.714872 \\
+identity & \path{qwen_base_17_condition} & 45.92 & 34.45 & 0.652488 \\
+identity & \path{evidence_text} & 36.37 & 48.47 & 0.470409 \\
+identity & \path{evidence_structure} & 38.94 & 43.78 & 0.538509 \\
+identity & \path{evidence_condition} & 61.66 & 64.77 & 0.273599 \\
+identity & \path{evidence_no_temperature} & 63.03 & 62.99 & 0.276492 \\
+identity & \path{evidence_no_solvent} & 40.77 & 46.09 & 0.515694 \\
+scaffold & \path{nearest} & 53.07 & 42.69 & 0.561358 \\
+scaffold & \path{lgbm_17} & 61.69 & 72.59 & 0.146922 \\
+scaffold & \path{lgbm_42} & 64.05 & 71.09 & 0.156158 \\
+scaffold & \path{lgbm_2026} & 64.95 & 72.32 & 0.149122 \\
+scaffold & \path{chemprop_17} & 67.46 & 73.46 & 0.176465 \\
+scaffold & \path{chemprop_42} & 67.58 & 73.42 & 0.155387 \\
+scaffold & \path{chemprop_2026} & 66.13 & 67.98 & 0.199692 \\
+scaffold & \path{qwen_sft_17_none} & 62.98 & 65.22 & 0.215501 \\
+scaffold & \path{qwen_rag_17_structure} & 63.93 & 65.45 & 0.239109 \\
+scaffold & \path{qwen_rag_17_condition} & 65.41 & 68.86 & 0.220310 \\
+scaffold & \path{qwen_sft_42_none} & 64.52 & 66.91 & 0.214056 \\
+scaffold & \path{qwen_rag_42_structure} & 64.95 & 65.28 & 0.244910 \\
+scaffold & \path{qwen_rag_42_condition} & 66.25 & 64.82 & 0.237162 \\
+scaffold & \path{qwen_sft_2026_none} & 64.63 & 64.00 & 0.245929 \\
+scaffold & \path{qwen_rag_2026_structure} & 65.27 & 62.58 & 0.246671 \\
+scaffold & \path{qwen_rag_2026_condition} & 66.40 & 64.86 & 0.222525 \\
+scaffold & \path{qwen_base_17_none} & 38.60 & 27.52 & 0.841935 \\
+scaffold & \path{qwen_base_17_text} & 41.48 & 32.21 & 0.682668 \\
+scaffold & \path{qwen_base_17_structure} & 44.00 & 31.28 & 0.759542 \\
+scaffold & \path{qwen_base_17_condition} & 46.75 & 36.06 & 0.623897 \\
+scaffold & \path{evidence_text} & 34.73 & 43.64 & 0.531897 \\
+scaffold & \path{evidence_structure} & 34.60 & 40.16 & 0.569751 \\
+scaffold & \path{evidence_condition} & 59.63 & 60.92 & 0.306746 \\
+scaffold & \path{evidence_no_temperature} & 59.63 & 58.76 & 0.328543 \\
+scaffold & \path{evidence_no_solvent} & 35.71 & 42.79 & 0.534157 \\
+\bottomrule
+\end{longtable}
+\endgroup

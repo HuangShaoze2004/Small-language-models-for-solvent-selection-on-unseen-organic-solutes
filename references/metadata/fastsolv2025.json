@@ -1,0 +1,131 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1038/s41467-025-62717-7",
+  "retrieved_at_utc": "2026-10-25T05:43:41.464636+00:00",
+  "response_sha256": "052c9bc3fe6947cf307e35e85ba79b556d043dbaccaf10cf3044a9c9d71ea33c",
+  "metadata": {
+    "DOI": "10.1038/s41467-025-62717-7",
+    "title": [
+      "Data-driven organic solubility prediction at the limit of aleatoric uncertainty"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-9941-3846",
+        "authenticated-orcid": false,
+        "given": "Lucas",
+        "family": "Attia",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0657-9426",
+        "authenticated-orcid": false,
+        "given": "Jackson W.",
+        "family": "Burns",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2147-9172",
+        "authenticated-orcid": false,
+        "given": "Patrick S.",
+        "family": "Doyle",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2603-9694",
+        "authenticated-orcid": false,
+        "given": "William H.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Nature Communications"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          19
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          19
+        ]
+      ]
+    },
+    "published-print": null,
+    "volume": "16",
+    "issue": "1",
+    "page": null,
+    "article-number": "7497",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2025-08-19T00:00:00Z",
+          "timestamp": 1755561600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              19
+            ]
+          ],
+          "date-time": "2025-08-19T00:00:00Z",
+          "timestamp": 1755561600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "URL": "https://doi.org/10.1038/s41467-025-62717-7"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

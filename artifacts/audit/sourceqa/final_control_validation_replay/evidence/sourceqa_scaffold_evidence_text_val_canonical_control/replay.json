@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_scaffold_evidence_text_val_canonical_control",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 11.52203968912363,
+  "reference_sha256": {
+    "artifacts/runs_sourceqa/sourceqa_scaffold_evidence_text_val/predictions.jsonl": "6bf5824f5e77953088ca1812166b90fa14be234d8f327cd55f88816a1ed4b27d",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_evidence_text_val_canonical_control/predictions.jsonl": "6c50d61e8a68a3e87d4f59bd4def246320f681b0a5ad0b8404d5b53aa19106b1"
+  },
+  "cohort_manifest_sha256": "2ffa149700e9bb93d07962c706bf881f60ac95fa83000b43e54a2d6e65c82418"
+}

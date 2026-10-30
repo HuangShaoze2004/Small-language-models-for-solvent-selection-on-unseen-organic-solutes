@@ -1,0 +1,12 @@
+radius: 2
+fingerprint_bits: 2048
+include_chirality: true
+num_threads: 12
+n_estimators: 2000
+learning_rate: 0.03
+num_leaves: 31
+min_child_samples: 20
+subsample: 0.8
+colsample_bytree: 0.9
+reg_lambda: 1.0
+early_stopping_rounds: 100

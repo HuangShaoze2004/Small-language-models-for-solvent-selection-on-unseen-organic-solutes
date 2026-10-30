@@ -1,0 +1,12 @@
+dataset: BigSolDB2.0
+raw_sha256: 879f55f39db977e295c705e304d011d89d6e10da1daaa3f069181108c1de38b0
+target: log10_mole_fraction
+temperature_tolerance_k: 0.0
+pair_tie_dex: 0.1
+duplicate_quarantine_span_dex: 0.3
+organic_parent_max_molecular_weight: 1000.0
+organic_parent_max_heavy_atoms: 100
+split_seed: 20261025
+split_fractions: [0.8, 0.1, 0.1]
+max_candidates: 8
+acyclic_cluster_tanimoto_cutoff: 0.6

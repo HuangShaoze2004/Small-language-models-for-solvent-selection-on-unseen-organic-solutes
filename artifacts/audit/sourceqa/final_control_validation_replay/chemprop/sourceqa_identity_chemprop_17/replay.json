@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_identity_chemprop_17",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 4.306529119610786,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_chemprop_17/base_predictions.jsonl": "3014fca5dbce9b7395724ba5d42d80ce71879460ba480e89387806310504efb7",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_chemprop_17/transformed_predictions.jsonl": "473fd026d88e991644c8692c859eec0501d6a6648edf36a54fafba27b5409074"
+  },
+  "cohort_manifest_sha256": "7ff219ecd71b530f74ed8f0524fef958ce0beb8ce1ec59faa9437b66d7354255"
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp_utc": "2026-10-25T06:57:15.457020+00:00",
+  "execution_status": "PAUSED_BY_USER",
+  "readiness_status": "IN_PROGRESS",
+  "reason": "User requested pause after context compaction.",
+  "running_project_jobs": [],
+  "gpu_compute_processes": [],
+  "agents": "All child agents completed at pause check.",
+  "jobs_stopped": [],
+  "note": "Previously launched jobs had already completed; no signal or new checkpoint was needed. Series overall status is completed; its wrapper_status field retains a stale running value and does not indicate a live process.",
+  "completed_runs_verified": [
+    {
+      "run_id": "identity_chemprop_17",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_chemprop_17/experiment.json",
+      "metrics": "artifacts/runs/identity_chemprop_17/evaluation/metrics.json",
+      "metrics_sha256": "f52f5edfcb0adfab3a04b7aa26bd00d10354e7d59f8474293bf9a65129daf8fc",
+      "checkpoints": [
+        "artifacts/runs/identity_chemprop_17/checkpoints/last.ckpt",
+        "artifacts/runs/identity_chemprop_17/checkpoints/epoch=011-val=0.48926.ckpt"
+      ]
+    },
+    {
+      "run_id": "identity_chemprop_42",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_chemprop_42/experiment.json",
+      "metrics": "artifacts/runs/identity_chemprop_42/evaluation/metrics.json",
+      "metrics_sha256": "2b91cf5b463a70c4b116fd25423b318c9d416dcb8d187d93809674d004a519b0",
+      "checkpoints": [
+        "artifacts/runs/identity_chemprop_42/checkpoints/last.ckpt",
+        "artifacts/runs/identity_chemprop_42/checkpoints/epoch=005-val=0.50384.ckpt"
+      ]
+    },
+    {
+      "run_id": "identity_chemprop_2026",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_chemprop_2026/experiment.json",
+      "metrics": "artifacts/runs/identity_chemprop_2026/evaluation/metrics.json",
+      "metrics_sha256": "b2e345eae4337475353688052a4f5b2602c04731e92249b0f2e455422815f772",
+      "checkpoints": [
+        "artifacts/runs/identity_chemprop_2026/checkpoints/last.ckpt",
+        "artifacts/runs/identity_chemprop_2026/checkpoints/epoch=003-val=0.48779.ckpt"
+      ]
+    },
+    {
+      "run_id": "identity_evidence_text_val_view",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_evidence_text_val_view/experiment.json",
+      "metrics": "artifacts/runs/identity_evidence_text_val_view/evaluation/metrics.json",
+      "metrics_sha256": "e7835eb562aee89bd7310b7fb43f14d66e624631f81117b5174bb42e889d545c",
+      "checkpoints": []
+    },
+    {
+      "run_id": "identity_evidence_structure_val_view",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_evidence_structure_val_view/experiment.json",
+      "metrics": "artifacts/runs/identity_evidence_structure_val_view/evaluation/metrics.json",
+      "metrics_sha256": "17ff1a958c4857a2d4c37483cb703a97815859de521e393cf1b3dd7756da9c46",
+      "checkpoints": []
+    },
+    {
+      "run_id": "identity_evidence_condition_val_view",
+      "status": "completed",
+      "experiment": "artifacts/runs/identity_evidence_condition_val_view/experiment.json",
+      "metrics": "artifacts/runs/identity_evidence_condition_val_view/evaluation/metrics.json",
+      "metrics_sha256": "21598b7312d1fb6f5048530791b367a2209b3a397e187b776ab8ad500f8788e1",
+      "checkpoints": []
+    }
+  ],
+  "pilot_checkpoint": "artifacts/runs/qwen_pilot_seed17/checkpoint-200",
+  "error_analysis_evidence": "artifacts/reports/error_analysis_validation.json",
+  "test_status": "No final test evaluation performed.",
+  "resume_entry": "STATE.md; wait for an explicit user resume request."
+}

@@ -1,0 +1,507 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          6
+        ]
+      ],
+      "date-time": "2026-06-06T01:49:52Z",
+      "timestamp": 1780710592340,
+      "version": "3.54.1"
+    },
+    "reference-count": 25,
+    "publisher": "Wiley",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2022,
+              3,
+              24
+            ]
+          ],
+          "date-time": "2022-03-24T00:00:00Z",
+          "timestamp": 1648080000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "onlinelibrary.wiley.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "J Comput Chem"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          5,
+          5
+        ]
+      ]
+    },
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>The ThermoML Archive is a subset of Thermodynamics Research Center (TRC) data holdings corresponding to cooperation between NIST TRC and five journals: <jats:italic>Journal of Chemical Engineering and Data</jats:italic> (ISSN: 1520\u20105134), <jats:italic>The Journal of Chemical Thermodynamics</jats:italic> (ISSN: 1096\u20103626), <jats:italic>Fluid Phase Equilibria</jats:italic> (ISSN: 0378\u20103812), <jats:italic>Thermochimica Acta</jats:italic> (ISSN: 0040\u20106031), and <jats:italic>International Journal of Thermophysics</jats:italic> (ISSN: 1572\u20109567). Data from initial cooperation (around 2003) through the 2019 calendar year are included. The archive has undergone a major update with the goal of improving the FAIRness and user experience of the data provided by the service. The web application provides comprehensive property browsing and searching capabilities; searching relies on a RESTful API provided by the Cordra software for managing digital objects. JSON files with a schema derived from ThermoML are provided as an additional serialization to lower the barrier to programmatic consumption of the information, for stakeholders who may have a preference of JSON over XML. The ThermoML and JSON files for all available entries can be downloaded from <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"http://data.nist.gov\">data.nist.gov</jats:ext-link> (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://data.nist.gov/od/id/mds2-2422\">https://data.nist.gov/od/id/mds2-2422</jats:ext-link>).</jats:p>",
+    "DOI": "10.1002/jcc.26842",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ],
+      "date-time": "2022-03-24T23:35:52Z",
+      "timestamp": 1648164952000
+    },
+    "page": "879-887",
+    "update-policy": "https://doi.org/10.1002/crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 13,
+    "title": [
+      "Towards improved FAIRness of the ThermoML Archive"
+    ],
+    "prefix": "10.1002",
+    "volume": "43",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0001-8095-7803",
+        "authenticated-orcid": false,
+        "given": "Demian",
+        "family": "Riccardi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5929-0354",
+        "authenticated-orcid": false,
+        "given": "Zachary",
+        "family": "Trautt",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Materials for Energy and Sustainable Development Group, Materials Measurement Science Division National Institute of Standards and Technology  Gaithersburg MD USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3018-2020",
+        "authenticated-orcid": false,
+        "given": "Ala",
+        "family": "Bazyleva",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6441-8364",
+        "authenticated-orcid": false,
+        "given": "Eugene",
+        "family": "Paulechka",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3546-6559",
+        "authenticated-orcid": false,
+        "given": "Vladimir",
+        "family": "Diky",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9312-8593",
+        "authenticated-orcid": false,
+        "given": "Joseph W.",
+        "family": "Magee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrei F.",
+        "family": "Kazakov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5196-0891",
+        "authenticated-orcid": false,
+        "given": "Scott A.",
+        "family": "Townsend",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1153-983X",
+        "authenticated-orcid": false,
+        "given": "Chris D.",
+        "family": "Muzny",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Thermodynamics Research Center, Applied Chemicals and Materials Division National Institute of Standards and Technology  Boulder CO USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_7_2_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jct.2019.01.029"
+      },
+      {
+        "key": "e_1_2_7_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.calphad.2016.12.004"
+      },
+      {
+        "key": "e_1_2_7_4_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10765-011-1107-7"
+      },
+      {
+        "key": "e_1_2_7_5_1",
+        "unstructured": "V.Diky R. D.Chirico M.Frenkel A.Bazyleva J. W.Magee E.Paulechka A.Kazakov E. W.Lemmon C. D.Muzny&A. Y.Smolyanitsky.NIST Thermo Data Engine NIST Standard Reference Database 103b version 10.4.2 (2021) https://www.nist.gov/mml/acmd/trc/thermodata-engine/"
+      },
+      {
+        "key": "e_1_2_7_6_1",
+        "unstructured": "Project 2002\u2013055\u20133\u2010024: XML\u2010based IUPAC standard for experimental and critically evaluated thermodynamic property data storage and capture(2006) https://iupac.org/projects/project-details/?project_nr=2002-055-3-024."
+      },
+      {
+        "key": "e_1_2_7_7_1",
+        "unstructured": "Project 2007\u2013039\u20131\u2010024: Extension of ThermoML \u2010 the IUPAC standard for thermodynamic data communications(2011) https://iupac.org/projects/project-details/?project_nr=2007-039-1-024."
+      },
+      {
+        "key": "e_1_2_7_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1351/pac200678030541"
+      },
+      {
+        "key": "e_1_2_7_9_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1351/PAC-REC-11-05-01"
+      },
+      {
+        "key": "e_1_2_7_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je025645o"
+      },
+      {
+        "key": "e_1_2_7_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je034088i"
+      },
+      {
+        "key": "e_1_2_7_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je049890e"
+      },
+      {
+        "key": "e_1_2_7_13_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je900685d"
+      },
+      {
+        "key": "e_1_2_7_14_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je100999j"
+      },
+      {
+        "key": "e_1_2_7_15_1",
+        "unstructured": "D.Riccardi A.Bazyleva E.Paulechka V.Diky J. W.Magee A. F.Kazakov S. A.Townsend&C. D.Muzny.ThermoML/Data Archive (2021) https://data.nist.gov/od/id/mds2-2422."
+      },
+      {
+        "key": "e_1_2_7_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je400569s"
+      },
+      {
+        "key": "e_1_2_7_17_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1021/je030478t"
+      },
+      {
+        "key": "e_1_2_7_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.jct.2003.11.006"
+      },
+      {
+        "key": "e_1_2_7_19_1",
+        "first-page": "5",
+        "volume": "226",
+        "author": "Announcement",
+        "year": "2004",
+        "journal-title": "Fluid Phase Equilib."
+      },
+      {
+        "key": "e_1_2_7_20_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/S0040-6031(04)00416-2"
+      },
+      {
+        "key": "e_1_2_7_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/s10765-005-4500-2"
+      },
+      {
+        "key": "e_1_2_7_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/sdata.2016.18"
+      },
+      {
+        "key": "e_1_2_7_23_1",
+        "unstructured": "K.Kroenlein C. D.Muzny A. F.Kazakov V.Diky R. D.Chirico J. W.Magee I.Abdulagatov andM.Frenkel NIST Standard Reference Database 202 Web Thermo Tables (WTT)(2012) https://www.nist.gov/mml/acmd/trc/web-thermo-tables-wtt."
+      },
+      {
+        "key": "e_1_2_7_24_1",
+        "unstructured": "Vue.js the Progressive JavaScript Framework February 17 2022 https://vuejs.org."
+      },
+      {
+        "key": "e_1_2_7_25_1",
+        "volume-title": "The Semantic Web \u2013 ISWC 2020. ISWC 2020. Lecture Notes in Computer Science",
+        "author": "Benjelloun O.",
+        "year": "2020"
+      },
+      {
+        "key": "e_1_2_7_26_1",
+        "unstructured": "Cordra Highly configurable software for managing digital objects at scale February 17 2022 https://cordra.org."
+      }
+    ],
+    "container-title": [
+      "Journal of Computational Chemistry"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.26842",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1002/jcc.26842",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/jcc.26842",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          25
+        ]
+      ],
+      "date-time": "2023-08-25T22:19:22Z",
+      "timestamp": 1693001962000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://onlinelibrary.wiley.com/doi/10.1002/jcc.26842"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "issue": "12",
+      "published-print": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1002/jcc.26842"
+    ],
+    "URL": "https://doi.org/10.1002/jcc.26842",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0192-8651",
+      "1096-987X"
+    ],
+    "issn-type": [
+      {
+        "value": "0192-8651",
+        "type": "print"
+      },
+      {
+        "value": "1096-987X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          3,
+          24
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2021-11-29",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-02-28",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2022-03-24",
+        "order": 2,
+        "name": "published",
+        "label": "Published",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  }
+}

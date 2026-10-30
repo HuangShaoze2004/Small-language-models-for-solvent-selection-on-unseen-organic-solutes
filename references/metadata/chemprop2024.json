@@ -1,0 +1,240 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.3c01250",
+  "retrieved_at_utc": "2026-10-25T05:43:43.349984+00:00",
+  "response_sha256": "f541d8de2c850b1161bc286183cff73d30c2f4a23f615acfe7ab14801590657e",
+  "metadata": {
+    "DOI": "10.1021/acs.jcim.3c01250",
+    "title": [
+      "Chemprop: A Machine Learning Package for Chemical Property Prediction"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8404-6596",
+        "authenticated-orcid": true,
+        "given": "Esther",
+        "family": "Heid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Institute of Materials Chemistry, TU Wien, 1060 Vienna, Austria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6466-1401",
+        "authenticated-orcid": true,
+        "given": "Kevin P.",
+        "family": "Greenman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3097-010X",
+        "authenticated-orcid": true,
+        "given": "Yunsie",
+        "family": "Chung",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shih-Cheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemical Engineering, National Taiwan University, Taipei 10617, Taiwan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1250-3329",
+        "authenticated-orcid": true,
+        "given": "David E.",
+        "family": "Graff",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts 02138, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Florence H.",
+        "family": "Vermeire",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemical Engineering, KU Leuven, Celestijnenlaan 200F, B-3001 Leuven, Belgium"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0644-7554",
+        "authenticated-orcid": true,
+        "given": "Haoyang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2603-9694",
+        "authenticated-orcid": true,
+        "given": "William H.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2704-7717",
+        "authenticated-orcid": true,
+        "given": "Charles J.",
+        "family": "McGill",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemical and Life Science Engineering, Virginia Commonwealth University, Richmond, Virginia 23284, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          8
+        ]
+      ]
+    },
+    "volume": "64",
+    "issue": "1",
+    "page": "9-17",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2023-12-26T00:00:00Z",
+          "timestamp": 1703548800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "URL": "https://doi.org/10.1021/acs.jcim.3c01250"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

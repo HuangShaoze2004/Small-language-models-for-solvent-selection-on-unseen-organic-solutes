@@ -1,0 +1,42 @@
+{
+  "status": "COMPLETED_ENGINEERING_AND_DATA_REMEDIATION_MILESTONE",
+  "created_utc": "2026-10-26T05:18:41.996800+00:00",
+  "final_execution_units": "294registered task definitions including all primary/strict methods, controls,62error analyses and2paired comparisons;2proven zero-shot reuse operations. This v1definition still requires dual-data-path generalization for strictqa before any final release.",
+  "tests": "44targeted tests passed in main environment; no scientific test executed.",
+  "real_validation_replays": {
+    "classical": {
+      "runs": 8,
+      "all_statuses_passed": true
+    },
+    "chemprop": {
+      "runs": 12,
+      "all_statuses_passed": true
+    },
+    "evidence": {
+      "runs": 2,
+      "all_statuses_passed": true
+    }
+  },
+  "strictqa_data": "16strict-training-only DOIs/796training records removed;732train/93validation/144test;9scientific files reproduced byte-identically; shared4546test view byte-identical to primary.",
+  "new_classical_models": [
+    "strictqa_scaffold_nearest",
+    "strictqa_scaffold_lgbm_17",
+    "strictqa_scaffold_lgbm_42",
+    "strictqa_scaffold_lgbm_2026"
+  ],
+  "strictqa_remaining": "Three-seed Chemprop, all6SFT/RAG adapters and13validation modes, direct-evidence and consistency, then re-evaluate strict conclusions.",
+  "queue": {
+    "status": "running",
+    "queue_pid": 429521,
+    "child_pid": 432904,
+    "current_task": "sourceqa_identity_qwen_rag_17"
+  },
+  "test_predictions_generated": false,
+  "sources": {
+    "logs/tests_strictqa_and_final_pipeline.log": "1040f3516d3ade5b0e27249229ff5db9e0d3127b351ddce6e6504ad0a4aa32ba",
+    "artifacts/audit/sourceqa/partition_audit_erratum.json": "b901eff47e38afacdebbc8518cd60c4d770bafda6c053effa52193998afb9fa8",
+    "artifacts/audit/strictqa/data_audit.json": "90776125dfb9b78a32c4a4b44957be918b3f06a08be4261c292d3edec2d9def9",
+    "artifacts/audit/strictqa/reconstruction.json": "f0d2ca7d7333bba9ebe4e81fec0e0e67f43526e83f494dbf514971f115df27a7",
+    "configs/strict_quarantine_v1.json": "054842f52464cb9c0946f91cda47818f491f3b309cf45be6620d95c7004dcdc1"
+  }
+}

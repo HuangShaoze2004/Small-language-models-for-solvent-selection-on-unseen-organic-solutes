@@ -1,0 +1,10 @@
+{
+  "status": "METADATA_ONLY_NO_SCIENTIFIC_CHANGE",
+  "original_policy": "configs/source_quarantine_v1.json",
+  "original_sha256": "ae0e835ba8bafc03cd93562b970050b434531a44d44559b43b28e85a66010326",
+  "reproduction_policy": "configs/source_quarantine_v1_reproduce.json",
+  "reproduction_sha256": "6b80b1d1116ff94a9b5b7e928b84c47592388845852cc4ef26aca98b87b0734d",
+  "source_list_and_threshold_unchanged": true,
+  "numeric_evidence_sha256_unchanged": true,
+  "reason": "Only stable numerical CSV evidence is an execution gate. Original audit metadata contains installation-specific absolute paths and download timestamps; its decision-time hash remains preserved, and may differ on a clean rebuild. Source list,0.3dex threshold and every data decision are unchanged."
+}

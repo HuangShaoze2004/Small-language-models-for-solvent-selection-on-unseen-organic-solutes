@@ -1,0 +1,445 @@
+{
+  "status": "INCOMPLETE",
+  "created_utc": "2026-10-26T05:37:53.748300+00:00",
+  "queue_audits": [
+    {
+      "plan": "configs/development_queue_sourceqa_primary.json",
+      "state": "artifacts/development_queue_sourceqa_primary/state.json",
+      "plan_sha256": "d86f999ecacffa289295ef7199640d6ef5b3ea8a5df5c38836077ab3c79f3e1d",
+      "state_sha256": "1f3b2ebe01edad718aec9141c583776a71d5fe087cdbccfb584a5451e8e8c01a",
+      "tasks": 6,
+      "pending": [],
+      "errors": []
+    },
+    {
+      "plan": "configs/development_queue_identity_sourceqa_v2.json",
+      "state": "artifacts/development_queue_identity_sourceqa_v2/state.json",
+      "plan_sha256": "933f92c09c4b1a03450ed9a3471bcbaabc7a6430e7b9045964c812fefbd4fddb",
+      "state_sha256": "16fca0444ff8628801fcec7d5dfe28cf4e5c85e35c5bfd1ffdc7af1dc3996adc",
+      "tasks": 56,
+      "pending": [
+        {
+          "task": "sourceqa_identity_qwen_rag_17",
+          "status": "running"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_condition_val_evaluate",
+          "status": "not_started"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "plan": "configs/development_queue_scaffold_strictqa_v2.json",
+      "state": "artifacts/development_queue_scaffold_strictqa_v2/state.json",
+      "plan_sha256": "b663c96da8d916cc193a14a18fc23e972d9304287f72da4ec31bcfb676516c15",
+      "state_sha256": null,
+      "tasks": 38,
+      "pending": [
+        {
+          "task": "strictqa_scaffold_chemprop_17",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_chemprop_17_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_chemprop_42",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_chemprop_42_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_chemprop_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_chemprop_2026_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_17",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_17",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_42",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_42_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_42_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_42",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_42_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_42_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_2026_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_sft_2026_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_2026_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_2026_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_rag_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "strictqa_scaffold_qwen_base_17_condition_val_evaluate",
+          "status": "not_started"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "pending_tasks": 89,
+  "missing_consistency": [
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_17/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_42/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_2026/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_17_canonical_control/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_42_canonical_control/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_chemprop_2026_canonical_control/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_42_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_2026_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_sft_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_sft_42_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_42_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_sft_2026_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_2026_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_rag_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_base_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_base_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_base_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/strictqa/scaffold/strictqa_scaffold_qwen_base_17_condition_consistency_val/evaluation/metrics.json"
+  ],
+  "gaps": [
+    "Strict source-curation boundary remediation is not completed; see artifacts/audit/sourceqa/partition_audit_erratum.json",
+    "Missing artifacts/reports/dualqa/validation_decision.json",
+    "Missing artifacts/audit/dualqa/pretest_review.json",
+    "Incomplete property model: strictqa_scaffold_chemprop_17",
+    "Incomplete property model: strictqa_scaffold_chemprop_42",
+    "Incomplete property model: strictqa_scaffold_chemprop_2026"
+  ],
+  "decision_path": "artifacts/reports/dualqa/validation_decision.json",
+  "review_path": "artifacts/audit/dualqa/pretest_review.json",
+  "test_target_values_read": false,
+  "test_predictions_generated": false,
+  "code_sha256": "84058b99714c130239f820529d132acedb82facea756217b51da9fa036143fd3"
+}

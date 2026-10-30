@@ -1,0 +1,6035 @@
+{
+  "status": "VALIDATION_ONLY_REGISTERED",
+  "partition": "val",
+  "test_forbidden": true,
+  "protocol": "configs/development_protocol.json",
+  "input_sha256": {
+    "configs/baselines_chemprop.yaml": "e1f3b306da912f6fb9399a9fc3b4efa73c330bbbf11ab372868d425670750aa5",
+    "configs/development_protocol.json": "19850a57c7000ed16df55200a838f2b454a29e60316921b96eb7f18b089099c1",
+    "configs/llm_formal_rag.yaml": "d8a6dd8603e0fa6d8ad5553456a5f4a3d50c3fd73d2e8bded4ed0c3b3d032321",
+    "configs/llm_formal_sft.yaml": "a938f0d6b060cef877b2c9a7977f4ccdce90e2a9da93061e17abb2549fab22d4",
+    "data/processed/measurements.parquet": "9704e375234fd8c9728bceffb182d36557c725985b20ea1b462b136dbe6ece5d",
+    "data/processed/measurements_scaffold.parquet": "de592cccde3758a20aa876c28d91fdcc1aa18a6acbfe8a95d8a8041b341e1f58",
+    "data/splits/identity.csv": "8e7806677cd9c6e3dec1bed47fca24be04942cc0ac7061342baa920093d059eb",
+    "data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+    "data/views/identity/train_queries.jsonl": "d2ab992cc08d8e263af8768aefe5d9cf42134322f31dbea7a4c21454ed42bdf0",
+    "data/views/identity/train_targets.jsonl": "f42f05983c955e6dfd0d9be296009f2123ae8c47168f935bc30576e7c419c23c",
+    "data/views/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+    "data/views/identity/val_targets.jsonl": "1f4fbdef3f07654142faea5f116c560966928b99d8b04b71e08c9ebf0a7ab64a",
+    "data/views/identity/view_manifest.json": "fd749802bc0b4f7b0fe85c02b0b4b528470c769421d0e77f486f210e04ed8d3f",
+    "data/views/scaffold/train_queries.jsonl": "6433204f7834b867148f8f127aac57f1a822f54ff068e752d758bdb7d626d25e",
+    "data/views/scaffold/train_targets.jsonl": "245dbd6644ea4c353d512a67625fe7b256e7466a19bd58d23304c438c2b31c31",
+    "data/views/scaffold/val_queries.jsonl": "751cc5c4e20340d916a34199c1bd3b44b2dc50cffe0f1227d7c6f79dbf7b7249",
+    "data/views/scaffold/val_targets.jsonl": "027e53b012e806c63f161e9571708ab6c1c3f71e138be44380cd72aa72b730c6",
+    "data/views/scaffold/view_manifest.json": "fc85434f62ff38839544ace932cfbdcdf1c8cfad20163ccba1142155f75d4eb9",
+    "requirements-chemprop.lock": "3ab27ddfc82f242db6dac5592ce5a7a1ff389821db676ddf8cc556d25683ef04",
+    "requirements.lock": "1ccff5205879fd2048527f42156c8d961b7ce49104f385a4533b0f5fd63563e3",
+    "scripts/env.sh": "1a6f049b0ee110beaf6feeee3d328058cd2d75e740e27807f4b6bc858e9361b5",
+    "scripts/run_development_queue.py": "54007a531968f6c21d53c6c8f1b2ff8e50d41e20913dc933d25411ba376a2833",
+    "src/solvent_select/chemprop_runner.py": "624dc6169df3bf0af2b932ed93010a05a51b10282fbc1121c90322e869a77372",
+    "src/solvent_select/evaluate.py": "c2bfd1fdf8995afa7843089d4c682d446fb8ff0fe94c59f97487b180292caa81",
+    "src/solvent_select/llm.py": "e1750ebbf269e366d40e83749d3e54d3b2aed31b3aedfa4374dd7dd8e710d7fe",
+    "src/solvent_select/retrieval.py": "6d5bb906f1d55ba44fab8c44a17a1e7a94d16dde8236181fcd062ca767a96a65"
+  },
+  "tasks": [
+    {
+      "id": "scaffold_chemprop_17",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_17",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "17",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_17",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/metadata.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/predictions_val.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/checkpoints/last.ckpt"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_17",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "17",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_17",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu",
+        "--resume"
+      ]
+    },
+    {
+      "id": "scaffold_chemprop_17_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_17/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_17/evaluation_view10000",
+        "--property-predictions"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_17/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_17/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_17/evaluation_view10000",
+        "--property-predictions"
+      ]
+    },
+    {
+      "id": "scaffold_chemprop_42",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_42",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "42",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_42",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/metadata.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/predictions_val.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/checkpoints/last.ckpt"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_42",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "42",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_42",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu",
+        "--resume"
+      ]
+    },
+    {
+      "id": "scaffold_chemprop_42_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_42/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_42/evaluation_view10000",
+        "--property-predictions"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_42/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_42/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_42/evaluation_view10000",
+        "--property-predictions"
+      ]
+    },
+    {
+      "id": "scaffold_chemprop_2026",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_2026",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "2026",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_2026",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/metadata.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/predictions_val.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/checkpoints/last.ckpt"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_chemprop_2026",
+        "--kind",
+        "chemprop",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv-chemprop/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.chemprop_runner",
+        "train",
+        "--config",
+        "configs/baselines_chemprop.yaml",
+        "--data",
+        "data/processed/measurements_scaffold.parquet",
+        "--splits",
+        "data/splits/scaffold.csv",
+        "--seed",
+        "2026",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_2026",
+        "--purpose",
+        "formal",
+        "--accelerator",
+        "gpu",
+        "--resume"
+      ]
+    },
+    {
+      "id": "scaffold_chemprop_2026_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_2026/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_2026/evaluation_view10000",
+        "--property-predictions"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_chemprop_2026/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_chemprop_2026/predictions_val.parquet",
+        "--output",
+        "artifacts/runs/scaffold_chemprop_2026/evaluation_view10000",
+        "--property-predictions"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_17",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_17_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_17/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_17/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_17_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_17_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_17_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_17_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_17_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_text_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_text_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_text_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_text_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_text_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_text_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_text_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_no_temperature_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_no_temperature_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_temperature_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_temperature_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_temperature_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_temperature_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_no_solvent_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_17_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_17_no_solvent_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_solvent_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_solvent_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_17_no_solvent_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_17_no_solvent_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_42",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_42_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_42/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_42/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_42_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_42_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_42_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_42_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_42_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_42_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_text_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_text_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_text_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_text_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_text_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_text_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_text_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_no_temperature_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_no_temperature_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_temperature_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_temperature_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_temperature_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_temperature_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_no_solvent_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_42_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_42_no_solvent_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_solvent_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_solvent_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_42_no_solvent_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_42_no_solvent_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_2026",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_2026_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_2026/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_2026/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_2026_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_2026_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_sft_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_sft_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_sft_2026_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_sft_2026_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_sft_2026_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--train-queries",
+        "data/views/identity/train_queries.jsonl",
+        "--train-targets",
+        "data/views/identity/train_targets.jsonl",
+        "--val-queries",
+        "data/views/identity/val_queries.jsonl",
+        "--val-targets",
+        "data/views/identity/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_text_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_text_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_text_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_text_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_text_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_text_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_no_temperature_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_no_temperature_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "no_temperature",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_no_temperature_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_temperature_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_no_solvent_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_rag_2026_no_solvent_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "no_solvent",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/identity_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_rag_2026_no_solvent_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_rag_2026_no_solvent_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_text_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_text_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_text_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_text_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_text_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_text_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_text_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "identity_qwen_base_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "identity",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/identity.csv",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "identity_qwen_base_17_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/identity_qwen_base_17_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/identity/val_queries.jsonl",
+        "--targets",
+        "data/views/identity/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/identity_qwen_base_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/identity_qwen_base_17_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_17",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_17",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_17",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_17_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_17/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_17/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_17_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_17_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_17_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_17",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_17_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_17_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_17_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_17/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_17_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_17_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_17_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_42",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_42",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_42",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_42_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_42_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_42/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_42_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_42/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_42_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_42_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_42_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_42",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_42_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_42_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_42_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_42_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "42",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "42",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_42/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_42_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_42_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_42_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_2026",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_2026",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_2026",
+        "--kind",
+        "qlora_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_2026_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_2026_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_2026/adapter"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_sft_2026_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_sft_2026/adapter",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_sft_2026_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_sft_2026_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_sft_2026_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_2026",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026/run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026/adapter/adapter_model.safetensors"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026",
+        "--kind",
+        "qlora_rag_sft",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "train",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--train-queries",
+        "data/views/scaffold/train_queries.jsonl",
+        "--train-targets",
+        "data/views/scaffold/train_targets.jsonl",
+        "--val-queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--val-targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_2026_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_2026_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_2026_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_rag_2026_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "2026",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_rag.yaml",
+        "--seed",
+        "2026",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--adapter",
+        "artifacts/runs/scaffold_qwen_rag_2026/adapter",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_rag_2026_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_rag_2026_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_rag_2026_condition_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_none_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_none_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "none",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_none_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_none_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_none_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_none_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_none_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_text_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_text_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "text",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_text_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_text_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_text_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_text_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_text_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_structure_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_structure_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "structure",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_structure_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_structure_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_structure_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_structure_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_structure_val/evaluation_view10000"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_condition_val",
+      "command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl.run.json",
+          "status": "completed"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "scripts/run_experiment.py",
+        "--run-id",
+        "scaffold_qwen_base_17_condition_val",
+        "--kind",
+        "llm_validation",
+        "--protocol",
+        "scaffold",
+        "--seed",
+        "17",
+        "--resume",
+        "--",
+        ".venv/bin/python",
+        "-u",
+        "-m",
+        "solvent_select.llm",
+        "predict",
+        "--config",
+        "configs/llm_formal_sft.yaml",
+        "--seed",
+        "17",
+        "--retrieval-mode",
+        "condition",
+        "--manifest",
+        "data/splits/scaffold.csv",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl",
+        "--measurements",
+        "data/processed/measurements_scaffold.parquet",
+        "--resume",
+        "latest"
+      ]
+    },
+    {
+      "id": "scaffold_qwen_base_17_condition_val_evaluate",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/evaluation_view10000"
+      ],
+      "outputs": [
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_condition_val/evaluation_view10000/metrics.json"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_condition_val/evaluation_view10000/per_query.parquet"
+        },
+        {
+          "path": "artifacts/runs/scaffold_qwen_base_17_condition_val/evaluation_view10000/per_solute.csv"
+        }
+      ],
+      "resume_command": [
+        ".venv/bin/python",
+        "-m",
+        "solvent_select.evaluate",
+        "--queries",
+        "data/views/scaffold/val_queries.jsonl",
+        "--targets",
+        "data/views/scaffold/val_targets.jsonl",
+        "--predictions",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/predictions.jsonl",
+        "--output",
+        "artifacts/runs/scaffold_qwen_base_17_condition_val/evaluation_view10000"
+      ]
+    }
+  ]
+}

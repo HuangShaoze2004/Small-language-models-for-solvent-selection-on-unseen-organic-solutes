@@ -1,0 +1,11 @@
+{
+  "status": "PASSED_REFUSAL_CHECK",
+  "created_utc": "2026-10-26T04:23:34.887551+00:00",
+  "error": "Pre-test audit incomplete; no FROZEN manifest written",
+  "output_directory_created": false,
+  "pending_validation_tasks": 87,
+  "missing_consistency_results": 32,
+  "code_sha256": "209d3893724f62e17bb66535105bfbd44707bc6f5df9302d5bb75a6059cdd757",
+  "analysis_plan_sha256": "833f7d7374e54ded5646828423ad36e5cdd5e9822f2577256a2d24c9cc4270fd",
+  "test_target_values_read": false
+}

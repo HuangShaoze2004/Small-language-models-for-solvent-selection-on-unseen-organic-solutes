@@ -1,0 +1,155 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1038/s41597-025-05559-8",
+  "retrieved_at_utc": "2026-10-25T05:43:40.775031+00:00",
+  "response_sha256": "7171e04f435541daf36af0207a2b7c67f53f5a9f34ed4fb1c437302f1da3259f",
+  "metadata": {
+    "DOI": "10.1038/s41597-025-05559-8",
+    "title": [
+      "BigSolDB 2.0, dataset of solubility values for organic compounds in different solvents at various temperatures"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-3563-3839",
+        "authenticated-orcid": false,
+        "given": "Lev",
+        "family": "Krasnov",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dmitry",
+        "family": "Malikov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Marina",
+        "family": "Kiseleva",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1503-8189",
+        "authenticated-orcid": false,
+        "given": "Sergei",
+        "family": "Tatarin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3042-7369",
+        "authenticated-orcid": false,
+        "given": "Sergey",
+        "family": "Sosnin",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-2017-517X",
+        "authenticated-orcid": false,
+        "given": "Stanislav",
+        "family": "Bezzubov",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Scientific Data"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          15
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          15
+        ]
+      ]
+    },
+    "published-print": null,
+    "volume": "12",
+    "issue": "1",
+    "page": null,
+    "article-number": "1236",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2025-07-15T00:00:00Z",
+          "timestamp": 1752537600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2025-07-15T00:00:00Z",
+          "timestamp": 1752537600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "URL": "https://doi.org/10.1038/s41597-025-05559-8"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

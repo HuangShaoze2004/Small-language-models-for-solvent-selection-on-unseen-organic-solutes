@@ -1,0 +1,79 @@
+{
+  "status": "predicting",
+  "pid": 403708,
+  "fingerprint": {
+    "prediction_kind": "llm",
+    "config": {
+      "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+      "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+      "local_files_only": true,
+      "seed": 17,
+      "retrieval_mode": "condition",
+      "max_sequence_length": 3072,
+      "max_evidence_tokens": 1536,
+      "max_new_tokens": 256,
+      "inference_batch_size": 4,
+      "micro_batch_size": 4,
+      "gradient_accumulation_steps": 4,
+      "learning_rate": 0.0001,
+      "lora_rank": 16,
+      "lora_alpha": 32,
+      "lora_dropout": 0.05,
+      "num_train_epochs": 3,
+      "max_steps": 625,
+      "eval_steps": 125,
+      "save_steps": 125,
+      "logging_steps": 10,
+      "warmup_ratio": 0.03,
+      "weight_decay": 0.0,
+      "early_stopping_patience": 3,
+      "max_train_examples": 0,
+      "max_val_examples": 384,
+      "save_total_limit": 3,
+      "gradient_checkpointing": true,
+      "cpu_threads": 4
+    },
+    "query_sha256": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+    "adapter_sha256": "60e15a6a2345b914cdbda7fd35eada1ffe5edf59d5019524a02e20df26342ebb",
+    "manifest_sha256": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+    "measurements_sha256": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+    "implementation_sha256": {
+      "llm.py": "e1750ebbf269e366d40e83749d3e54d3b2aed31b3aedfa4374dd7dd8e710d7fe",
+      "retrieval.py": "6d5bb906f1d55ba44fab8c44a17a1e7a94d16dde8236181fcd062ca767a96a65"
+    },
+    "limit": null
+  },
+  "environment": {
+    "python": "3.11.16",
+    "packages": {
+      "torch": "2.8.0",
+      "transformers": "4.57.1",
+      "peft": "0.17.1",
+      "accelerate": "1.10.1",
+      "bitsandbytes": "0.48.1",
+      "rdkit": "2025.9.1",
+      "numpy": "2.2.6"
+    },
+    "torch_cuda": "12.8",
+    "device": "NVIDIA GeForce RTX 4090",
+    "locks": {
+      "requirements.lock": "1ccff5205879fd2048527f42156c8d961b7ce49104f385a4533b0f5fd63563e3"
+    },
+    "environment": {
+      "PYTORCH_CUDA_ALLOC_CONF": null,
+      "OMP_NUM_THREADS": "8",
+      "TORCHINDUCTOR_COMPILE_THREADS": "4"
+    }
+  },
+  "fingerprint_sha256": "004c84f3c96eeccff0805aa5484f6d0fa00229579cd5467f55783e5b8d55b4b9",
+  "freeze_manifest_sha256": null,
+  "started": 1792989017.7143462,
+  "already_complete": 0,
+  "configured_inference_batch_size": 4,
+  "final_inference_batch_size": 4,
+  "oom_events": [],
+  "batch_wall_seconds_total": 2395.6743483021855,
+  "batch_model_seconds_total": 2330.1370125487447,
+  "latency_definition": "Batch wall includes preparation, generation, decoding, and preceding OOM retries; excludes output persistence. Amortized latency divides batch wall by batch size; it is not single-query response latency.",
+  "completed": 4600
+}

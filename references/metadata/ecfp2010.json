@@ -1,0 +1,82 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/ci100050t",
+  "retrieved_at_utc": "2026-10-25T05:43:45.711718+00:00",
+  "response_sha256": "cd58eb6976dc5703e3093807e8ad872b8f58c4a0791018b365aebb1205aca8e9",
+  "metadata": {
+    "DOI": "10.1021/ci100050t",
+    "title": [
+      "Extended-Connectivity Fingerprints"
+    ],
+    "author": [
+      {
+        "given": "David",
+        "family": "Rogers",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "3429 North Mountain View Drive, San Diego, California 92116 and Accelrys, Incorporated, 10188 Telesis Court, Suite 100, San Diego, California 92121"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mathew",
+        "family": "Hahn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "3429 North Mountain View Drive, San Diego, California 92116 and Accelrys, Incorporated, 10188 Telesis Court, Suite 100, San Diego, California 92121"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          28
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          28
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          5,
+          24
+        ]
+      ]
+    },
+    "volume": "50",
+    "issue": "5",
+    "page": "742-754",
+    "article-number": null,
+    "license": null,
+    "URL": "https://doi.org/10.1021/ci100050t"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

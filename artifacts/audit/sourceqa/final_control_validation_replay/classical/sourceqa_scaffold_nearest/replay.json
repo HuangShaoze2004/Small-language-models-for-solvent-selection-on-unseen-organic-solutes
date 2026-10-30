@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_scaffold_nearest",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 0.9087279587984085,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_nearest/base_predictions.jsonl": "84a5e0bad6b3724ab409034c41611d748feb46e73a22f6ba98516eba0ece89fb",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_nearest/transformed_predictions.jsonl": "10d067a892fdc3efb5527b72d4b76251b2c2defe6d3213385a507c2958e70a24"
+  },
+  "cohort_manifest_sha256": "2ffa149700e9bb93d07962c706bf881f60ac95fa83000b43e54a2d6e65c82418"
+}

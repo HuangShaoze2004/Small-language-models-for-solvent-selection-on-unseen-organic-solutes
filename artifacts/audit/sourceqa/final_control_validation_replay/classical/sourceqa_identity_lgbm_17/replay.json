@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_identity_lgbm_17",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 4.565335877239704,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_17/base_predictions.jsonl": "d6c1827ca57987433d03809ceb29c11612aaf9cec9ab9da2df18647e0fb68fec",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_17/transformed_predictions.jsonl": "0331d4beb1a91ab31b61db8feb6729d3f7214972457ca41292ae6752fb4543e8"
+  },
+  "cohort_manifest_sha256": "7ff219ecd71b530f74ed8f0524fef958ce0beb8ce1ec59faa9437b66d7354255"
+}

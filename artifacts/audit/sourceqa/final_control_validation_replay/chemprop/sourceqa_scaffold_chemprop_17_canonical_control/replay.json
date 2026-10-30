@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_scaffold_chemprop_17_canonical_control",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 22,
+  "elapsed_seconds": 4.645407855510712,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_chemprop_17_canonical_control/base_predictions.jsonl": "2d7447e085cbe80992216a86737b9ea5a406a13f85caa07da630342e07cb4519",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_chemprop_17_canonical_control/transformed_predictions.jsonl": "76c485ee127789b3efde69395fbcafe317730b1484cef969225df8f11d76c5e7"
+  },
+  "cohort_manifest_sha256": "2ffa149700e9bb93d07962c706bf881f60ac95fa83000b43e54a2d6e65c82418"
+}

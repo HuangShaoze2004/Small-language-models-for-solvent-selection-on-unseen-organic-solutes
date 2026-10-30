@@ -1,0 +1,48 @@
+{
+  "status": "VALIDATION_ONLY_REGISTERED_SOURCE_QUARANTINE",
+  "created_utc": "2026-10-26T01:32:27.581526+00:00",
+  "primary_endpoint": "log10 original mole fraction",
+  "training_views": "data/views/sourceqa/{identity,scaffold}/train_queries.jsonl;10000 fixed questions each",
+  "training_record_access": "Property models fit all protocol training measurements; LM supervised exposure is budgeted to10000 derived questions; retrieval sees all and only protocol train measurements. Report different supervision exposures explicitly.",
+  "learning_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "max_optimizer_steps": 625,
+  "effective_batch": 16,
+  "early_stop": {
+    "metric": "teacher-forced validation loss",
+    "questions": 384,
+    "sampling_seed": 20261025,
+    "interval_steps": 125,
+    "patience": 3,
+    "best_adapter": true
+  },
+  "main_comparison": "Same mixed-retrieval-trained adapter: condition vs structure retrieval, same4-card1536-token budget; three fixed seeds.",
+  "hypothesis": {
+    "pair_macro_accuracy_minimum_difference": 0.02,
+    "ranking_regret_maximum_difference_dex": -0.05,
+    "uncertainty": "paired bootstrap10000 resamples of solutes, averaging seeds within solute;95%CI; report all seed directions",
+    "supported": "Both minimum effects met; CI excludes zero in beneficial direction; all three seed directions beneficial. Otherwise report unsupported/uncertain without tuning final test."
+  },
+  "secondary": "All ranking, coverage, costs, text/structure/condition contrasts, no_temperature/no_solvent ablations and chemistry slices descriptive; no selective high-score reporting.",
+  "strict_evaluation": "Original scaffold roles inherited for surviving identities:734train/91validation/144globaltest. Original grouping and global test were not refitted or rerandomized.",
+  "primary_validation_cohorts": {
+    "identity": 5133,
+    "scaffold": 3258
+  },
+  "final_test_policy": "No inference/scoring until method/config/checkpoint/prompt/analysis freeze. Candidate4546-query common test view fixed independently of labels; all ranking questions, pair cap32per solute. No tune after test.",
+  "consistency": "Fixed512 selected validation questions, equal pair/rank quotas, plus candidate-order/equivalent-isomeric-SMILES transformations; all invalids inconsistent. Final test counterpart selected by identical rule before freeze.",
+  "iteration": {
+    "round": 1,
+    "purpose": "Evaluate preregistered condition matching under bounded tuning, after actual200step pilot and resource probes. No scoring-based hyperparameter sweep.",
+    "prior_code_corrections": "artifacts/audit/smiles_matching_fix.json; callback_resume_fix.json; malformed choice schema rejection.",
+    "criterion": "If condition retrieval fails joint validation targets, record failure before considering at most three justified method changes. Costs/consistency/applicability can support an honest negative-result study.",
+    "data_amendment": "Source audit before any final test. The numerical threshold was the original0.3dex conflict tolerance, and no validation/test outcome influenced source selection."
+  },
+  "resource_evidence": "artifacts/audit/formal_resource_decision.json",
+  "dataset_version": "sourceqa",
+  "data_amendment": "configs/source_quarantine_v1.json;18training-only sources/919records quarantined; no measured value replaced; roles inherited; global test bytes unchanged",
+  "previous_runs": "All initial experiments preserved in artifacts/runs. Main amended experiments use artifacts/runs_sourceqa with sourceqa_ IDs; no old/new-bank pooling."
+}

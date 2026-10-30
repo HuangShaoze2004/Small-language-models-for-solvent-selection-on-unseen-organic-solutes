@@ -1,0 +1,19 @@
+{
+  "data/processed/sourceqa/measurements.parquet": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+  "data/processed/sourceqa/measurements_scaffold.parquet": "d32e950ac3fc893ba91d7b27ae90199aff29a81bf18b9dd7d04d2541699727df",
+  "data/processed/sourceqa/identity/train_queries.jsonl": "f5f2778cb752b92dc85c93dd9cbe818c5228237faddf0c4cfad9dd2ab71c58bd",
+  "data/processed/sourceqa/identity/val_queries.jsonl": "382ef6c29dd89829dd53ac61f979c5698e82abb25a861f8a417e6541fcac6656",
+  "data/processed/sourceqa/identity/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+  "data/processed/sourceqa/scaffold/train_queries.jsonl": "cfe3a471bb3bca5beacb1cb3d533d7f2493d4ed520a9686b73b878e56ce42fcf",
+  "data/processed/sourceqa/scaffold/val_queries.jsonl": "b5321ad5ee8e410a1fdd103de712975e259345f1b8f96bd39e56dfaa0ca453ea",
+  "data/processed/sourceqa/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+  "data/targets/sourceqa/identity/train.jsonl": "4005585bcadce670f9f767b6dca82e7b7a8977172219d2afce9d1ccc391ad72b",
+  "data/targets/sourceqa/identity/val.jsonl": "4cdf3bb7cea5f80f119b9a4167fc9ccc703c5d45ce45ddc3560519063a8c6620",
+  "data/targets/sourceqa/identity/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+  "data/targets/sourceqa/scaffold/train.jsonl": "f18a8a7db12e5d24da4dbeed7d1fe512ccfab15587ac0d1b298fb4198e2f79d4",
+  "data/targets/sourceqa/scaffold/val.jsonl": "97fe2ff24082d4283a3f798512d2de1de15ddb794ca8441ec544105a4deef1bc",
+  "data/targets/sourceqa/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+  "data/splits/sourceqa/identity.csv": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+  "data/splits/sourceqa/scaffold.csv": "14e7cdc285375898e10703367f5916409daeed2884c0778a39dbeac6694e5ccb",
+  "data/splits/sourceqa/scaffold_excluded.csv": "91b4f6ee73323d96e1254f2ca0cd002b9618deec2a8e6cb77991be079e54b02b"
+}

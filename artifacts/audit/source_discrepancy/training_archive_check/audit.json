@@ -1,0 +1,36 @@
+{
+  "status": "TRAINING_ARCHIVE_DISCREPANCY_AUDIT_NOT_LABEL_CORRECTION",
+  "training_records": 82284,
+  "downloaded_training_only_sources": 554,
+  "parsed_pure_solvent_equilibrium_points": 32546,
+  "exact_unambiguous_training_matches": 22557,
+  "matched_sources": 361,
+  "matched_training_solutes": 351,
+  "ambiguous_records_skipped": 102,
+  "threshold_dex": 0.3,
+  "flagged_records": 311,
+  "flagged_sources": 18,
+  "skip_reasons": {
+    "not_binary_solute_pure_solvent": 1209,
+    "solute_crystal_not_identified": 60,
+    "not_equilibrium_mole_fraction": 162,
+    "additional_unmatched_condition": 136,
+    "not_liquid_property": 22,
+    "calculated_property": 4
+  },
+  "test_target_values_read": false,
+  "data_mutations": false,
+  "selection_rule": "All NIST-available DOIs present only in primary training, fixed before numeric comparison.",
+  "interpretation": "This measures agreement between archives under recorded identity/temperature. NIST does not guarantee critically evaluated correctness. Unrecorded phase/pH/pressure and transcription differences require primary-source review; do not automatically replace labels.",
+  "inputs": {
+    "data/processed/measurements.parquet": "9704e375234fd8c9728bceffb182d36557c725985b20ea1b462b136dbe6ece5d",
+    "data/splits/identity.csv": "8e7806677cd9c6e3dec1bed47fca24be04942cc0ac7061342baa920093d059eb",
+    "artifacts/audit/source_discrepancy/nist_download_manifest.json": "70fc4c84cc4029f91e4a68caa34cd9043a99c73a436b5ebe55d87be52b6e81d3",
+    "/root/autodl-tmp/light_modeltune/src/solvent_select/source_audit.py": "f566bde1887f9c52938857fa231414990cc30764a76c15312b2a8b07f6811291"
+  },
+  "outputs": {
+    "all_training_matches.csv": "0351f4092f94b16d6f66816edf2d78cd1b415c8b0f382319827dddd498ae08a2",
+    "training_discrepancies.csv": "1c5c5dd83979ba8ad9a135ab39c52064f1bf8cfce96d61ea22f18c9bdd93aef1",
+    "source_summary.csv": "53905a7e1d5f6c98c9b0e50ee997830998a7f7b17147458b8501add9b88b71fa"
+  }
+}

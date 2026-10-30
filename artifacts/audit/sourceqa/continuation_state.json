@@ -1,0 +1,138 @@
+{
+  "created_utc": "2026-10-26T05:21:56.662935+00:00",
+  "status": "ACTIVE_PRIMARY_WITH_STRICT_REMEDIATION",
+  "previous_turn_classification": "progress: deliberate user pause with verified checkpoint and prediction preservation",
+  "queue": {
+    "status": "running",
+    "queue_pid": 429521,
+    "child_pid": 432904,
+    "current_task": "sourceqa_identity_qwen_rag_17"
+  },
+  "current_prediction_rows": null,
+  "major_gpu_jobs": 1,
+  "baseline_audit": "artifacts/audit/sourceqa/completed_baseline_audit_v1.json",
+  "completed_sourceqa_cpu_consistency_runs": 32,
+  "registered_analysis": "configs/final_analysis_plan.json",
+  "refusal_evidence": "artifacts/audit/sourceqa/freeze_refusal_check.json",
+  "integration_tests": "155passed2skipped before the inventory addition; targeted inventory2passed afterwards",
+  "test_predictions_generated": false,
+  "temperature_ablation_descriptive_validation_only": [
+    {
+      "protocol": "identity",
+      "comparison": "condition minus no_temperature",
+      "metrics": [
+        {
+          "metric": "pair_accuracy",
+          "task": "pair",
+          "difference_first_minus_second": -0.017480575649201767,
+          "ci95": [
+            -0.042207747372436794,
+            0.002781749019360798
+          ],
+          "solutes": 120,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            -0.017480575649201767
+          ]
+        },
+        {
+          "metric": "top1",
+          "task": "rank",
+          "difference_first_minus_second": -0.00617406750633896,
+          "ci95": [
+            -0.03465239279964718,
+            0.02297645475554563
+          ],
+          "solutes": 109,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            -0.00617406750633896
+          ]
+        },
+        {
+          "metric": "regret",
+          "task": "rank",
+          "difference_first_minus_second": 0.010487871964585596,
+          "ci95": [
+            -0.023642812917210963,
+            0.043606314878596765
+          ],
+          "solutes": 109,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            0.010487871964585596
+          ]
+        }
+      ]
+    },
+    {
+      "protocol": "scaffold",
+      "comparison": "condition minus no_temperature",
+      "metrics": [
+        {
+          "metric": "pair_accuracy",
+          "task": "pair",
+          "difference_first_minus_second": -0.0056658451263208644,
+          "ci95": [
+            -0.02640063092023801,
+            0.01325512228781898
+          ],
+          "solutes": 88,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            -0.0056658451263208644
+          ]
+        },
+        {
+          "metric": "top1",
+          "task": "rank",
+          "difference_first_minus_second": -0.024421065505908633,
+          "ci95": [
+            -0.07764957776916459,
+            0.021189661194356287
+          ],
+          "solutes": 73,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            -0.024421065505908633
+          ]
+        },
+        {
+          "metric": "regret",
+          "task": "rank",
+          "difference_first_minus_second": 0.010145636557745016,
+          "ci95": [
+            -0.053015836294791674,
+            0.06827801372975263
+          ],
+          "solutes": 73,
+          "bootstrap_repetitions": 10000,
+          "bootstrap_seed": 20261025,
+          "individual_seed_differences": [
+            0.010145636557745016
+          ]
+        }
+      ]
+    }
+  ],
+  "pending": [
+    "Finish registered94-task main validation queue.",
+    "After it completes: prepare_consistency_plan.py then serial64-task LM consistency queue.",
+    "Finalize frozen evaluation execution runner, register validation decision and complete pretest review before releasing any test.",
+    "Complete all frozen tests, final results, full manuscripts, reproducibility and final claim review."
+  ],
+  "first_validation_milestone": "artifacts/audit/sourceqa/first_qwen_validation_milestone.json",
+  "completed_main_queue_tasks": 9,
+  "first_qwen_validation_complete": true,
+  "queue_plan": "configs/development_queue_identity_sourceqa_v2.json",
+  "queue_state": "artifacts/development_queue_identity_sourceqa_v2/state.json",
+  "old94task_queue": "SUPERSEDED; DO NOT RESUME",
+  "strict_dataset": "strictqa",
+  "strict_remediation": "artifacts/audit/strictqa/milestone.json",
+  "sourceqa_sft17_condition_validation_completed": true
+}

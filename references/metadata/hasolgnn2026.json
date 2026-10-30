@@ -1,0 +1,163 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1039/D5DD00407A",
+  "retrieved_at_utc": "2026-10-26T04:12:17.613991+00:00",
+  "response_sha256": "beebf8940da686ed325473f84eae9c3a82c7c092ce8c0cf5281470120e8305ab",
+  "metadata": {
+    "DOI": "10.1039/d5dd00407a",
+    "title": [
+      "Hierarchical attention graph learning with LLM enhancement for molecular solubility prediction"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1728-9560",
+        "authenticated-orcid": false,
+        "given": "Yangxin",
+        "family": "Fan",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Case Western Reserve University, Cleveland, OH, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3991-5155",
+        "authenticated-orcid": false,
+        "given": "Yinghui",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Case Western Reserve University, Cleveland, OH, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6162-0532",
+        "authenticated-orcid": false,
+        "given": "Roger H.",
+        "family": "French",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Material Science, Case Western Reserve University, Cleveland, OH, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-3028-5249",
+        "authenticated-orcid": false,
+        "given": "Danny",
+        "family": "Perez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4327-2746",
+        "authenticated-orcid": false,
+        "given": "Michael G.",
+        "family": "Taylor",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4726-2860",
+        "authenticated-orcid": false,
+        "given": "Ping",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Theoretical Division, Los Alamos National Laboratory, Los Alamos, NM, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Digital Discovery"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "published-print": null,
+    "volume": "5",
+    "issue": "2",
+    "page": "603-616",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              15
+            ]
+          ],
+          "date-time": "2025-12-15T00:00:00Z",
+          "timestamp": 1765756800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+      }
+    ],
+    "URL": "https://doi.org/10.1039/d5dd00407a"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

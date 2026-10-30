@@ -1,0 +1,37 @@
+{
+  "timestamp_utc": "2026-10-26T03:47:13.619239+00:00",
+  "execution_status": "PAUSED_BY_USER",
+  "readiness_status": "IN_PROGRESS",
+  "reason": "User requested pause after context compaction.",
+  "running_project_jobs": [],
+  "gpu_compute_processes": [],
+  "queue_state": "artifacts/development_queue_sourceqa/state.json",
+  "interrupted_task": "sourceqa_identity_qwen_sft_17_none_val",
+  "completed_training": {
+    "run": "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17",
+    "global_step": 625,
+    "checkpoint": "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17/checkpoint-625",
+    "checkpoint_files_present": {
+      "optimizer.pt": true,
+      "scheduler.pt": true,
+      "rng_state.pth": true,
+      "trainer_state.json": true,
+      "adapter_model.safetensors": true
+    }
+  },
+  "partial_validation": {
+    "predictions": "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/predictions.jsonl",
+    "complete_json_rows": 832,
+    "metadata": "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/predictions.jsonl.run.json",
+    "pre_pause_metadata": "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/predictions.jsonl.run.json.before_pause_20261026T034713Z",
+    "prediction_sha256": "bda6569e268c4db5f2e742d45fe82667b4b51e610d1fcaac77170d2f4c9105f8"
+  },
+  "resume_command_after_explicit_user_resume": "source scripts/env.sh\n.venv/bin/python scripts/run_development_queue.py --plan configs/development_queue_sourceqa.json --state artifacts/development_queue_sourceqa/state.json --resume-task sourceqa_identity_qwen_sft_17_none_val",
+  "test_status": "No final test prediction or evaluation performed.",
+  "pending_work": [
+    "Complete validation inference and remaining registered model seeds/ablations.",
+    "Review completed CPU evidence/error-analysis/consistency outputs; raw consistency script v1 provenance snapshot still pending.",
+    "freeze.py was just drafted and remains unverified; no final freeze authorized or performed.",
+    "Final testing, full results, manuscript conclusions and readiness review remain incomplete."
+  ]
+}

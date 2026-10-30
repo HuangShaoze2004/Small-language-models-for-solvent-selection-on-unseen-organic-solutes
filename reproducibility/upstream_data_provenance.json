@@ -1,0 +1,22 @@
+[
+  {
+    "file": "data/raw/BigSolDBv2.0.csv",
+    "url": "https://zenodo.org/api/records/15094979/files/BigSolDBv2.0.csv/content",
+    "sha256": "879f55f39db977e295c705e304d011d89d6e10da1daaa3f069181108c1de38b0",
+    "md5": "1e6d8a510387746e9faab5f39dc46317",
+    "bytes": 18280116,
+    "license": "CC-BY-4.0",
+    "archive": "10.5281/zenodo.15094979",
+    "accessed_utc": "2026-10-25T05:47:17Z"
+  },
+  {
+    "file": "data/raw/BigSolDBv2.0_densities.csv",
+    "url": "https://zenodo.org/api/records/15094979/files/BigSolDBv2.0_densities.csv/content",
+    "sha256": "02226420d9fb3294cb32211dac7f6ff7fa067511924afdb9f1893af1e334aac6",
+    "md5": "059ae2deadb2ad1523fd4e24b2c88133",
+    "bytes": 120029,
+    "license": "CC-BY-4.0",
+    "archive": "10.5281/zenodo.15094979",
+    "accessed_utc": "2026-10-25T05:47:18Z"
+  }
+]

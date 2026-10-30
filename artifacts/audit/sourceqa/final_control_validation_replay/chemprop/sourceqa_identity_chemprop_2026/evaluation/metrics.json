@@ -1,0 +1,45 @@
+{
+  "partition": "val",
+  "queries": 1024,
+  "base_queries": 512,
+  "by_variant_task": {
+    "candidate_order/pair": {
+      "solutes": 120,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 0.0,
+      "changed_smiles_fraction": 0.0
+    },
+    "candidate_order/rank": {
+      "solutes": 109,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 0.0,
+      "changed_smiles_fraction": 0.0
+    },
+    "equivalent_smiles/pair": {
+      "solutes": 120,
+      "both_valid": 1.0,
+      "exact_agreement": 0.9930555555555555,
+      "top1_agreement": 0.9930555555555555,
+      "any_smiles_changed": 1.0,
+      "changed_smiles_fraction": 0.9393518518518519
+    },
+    "equivalent_smiles/rank": {
+      "solutes": 109,
+      "both_valid": 1.0,
+      "exact_agreement": 0.9755351681957187,
+      "top1_agreement": 0.9954128440366973,
+      "any_smiles_changed": 1.0,
+      "changed_smiles_fraction": 0.932693801271783
+    }
+  },
+  "inputs": {
+    "data/consistency/sourceqa/identity_val/manifest.json": "7ff219ecd71b530f74ed8f0524fef958ce0beb8ce1ec59faa9437b66d7354255",
+    "artifacts/audit/sourceqa/final_control_validation_replay/chemprop/sourceqa_identity_chemprop_2026/base_predictions.jsonl": "c5dc59a431a26d2080f2f7ae373bebab6ce69367f4e444125521fc353616c335",
+    "artifacts/audit/sourceqa/final_control_validation_replay/chemprop/sourceqa_identity_chemprop_2026/transformed_predictions.jsonl": "f989aa309bbed3c787e723c1e10990ab4d4c135756018ffde1f8d88a22c773b7"
+  },
+  "code_sha256": "1e06efc109cc314eefc5a9174324e3df78d5eb8e96215a9ddf93a7bb5c7f235a"
+}

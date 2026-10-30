@@ -1,0 +1,15 @@
+{
+  "status": "STRICT_TRAINING_ONLY_SOURCE_QUARANTINE_APPLIED",
+  "outputs": {
+    "data/processed/strictqa/measurements_scaffold.parquet": "5a5bc07f9396fa0a52c061c84126572cc96795eb73f0d9235d1796b1510a9040",
+    "data/processed/strictqa/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "data/processed/strictqa/scaffold/train_queries.jsonl": "cc7b24bd7e1c05782b833cab90836260a897fa3fd0702bc653240aa0048bb5a2",
+    "data/processed/strictqa/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+    "data/targets/strictqa/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+    "data/targets/strictqa/scaffold/train.jsonl": "134abee2104c7159dfcf72187abe58e96f982b0ffd129b04bccb77cee6e12b01",
+    "data/targets/strictqa/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+    "data/splits/strictqa/scaffold.csv": "ea9e0d49e8aa15e2fbcaa1f9f9a3bb42a2f207e6373903173b6f18db3c347cbd",
+    "data/splits/strictqa/scaffold_excluded.csv": "a99ffe85505a4674eba5a68cbdebb8ad036a9450c7ad6415f9f0c6ffeb68fdef"
+  },
+  "data_audit_sha256": "90776125dfb9b78a32c4a4b44957be918b3f06a08be4261c292d3edec2d9def9"
+}

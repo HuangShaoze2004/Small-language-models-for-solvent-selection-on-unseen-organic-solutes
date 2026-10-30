@@ -1,0 +1,14 @@
+{
+  "status": "REGISTERED_BEFORE_STRICT_FOLD_NUMERIC_AUDIT",
+  "created_utc": "2026-10-26T05:05:15.550911+00:00",
+  "measurement_path": "data/processed/measurements_scaffold.parquet",
+  "measurement_sha256": "de592cccde3758a20aa876c28d91fdcc1aa18a6acbfe8a95d8a8041b341e1f58",
+  "split_path": "data/splits/scaffold.csv",
+  "split_sha256": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+  "scope": "Only NIST-available DOI sources occurring exclusively in original strict training. No strict validation/test numeric values determine source flags.",
+  "threshold_dex": 0.3,
+  "quarantine": "All original strict-training records of a flagged DOI, with no value replacement. Original strict validation and global test records/queries/targets stay byte-identical.",
+  "split": "Keep original743/93/144 scaffold roles; remove training identities only if no retained record; never rerandomize.",
+  "model_policy": "Refit every affected strict model; same seeds/hyperparameters/budgets, same shared global final test. Main identity sourceqa bank and running job remain unchanged.",
+  "reason": "Correct source-curation boundary, independently of model scores. Historical primary-audit inspection of strict development data is disclosed; no final-test target was inspected."
+}

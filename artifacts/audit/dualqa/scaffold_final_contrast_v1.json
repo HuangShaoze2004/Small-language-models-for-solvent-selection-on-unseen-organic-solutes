@@ -1,0 +1,88 @@
+{
+  "status": "PASSED_INDEPENDENT_FINAL_CONTRAST",
+  "comparisons": [
+    {
+      "task": "pair",
+      "metric": "pair_accuracy",
+      "solutes": 124,
+      "difference_first_minus_second": 0.013061062658481384,
+      "ci95": [
+        -0.0006779373529831914,
+        0.027611092542235344
+      ],
+      "individual_seed_differences": [
+        0.014868929929236442,
+        0.012964089531259607,
+        0.0113501685149481
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 8.673617379884035e-18
+    },
+    {
+      "task": "rank",
+      "metric": "top1",
+      "solutes": 103,
+      "difference_first_minus_second": 0.017459728463466762,
+      "ci95": [
+        -0.007138128462307883,
+        0.04344499686495008
+      ],
+      "individual_seed_differences": [
+        0.03408366561223313,
+        -0.004529913366148825,
+        0.02282543314431598
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 1.0408340855860843e-17
+    },
+    {
+      "task": "rank",
+      "metric": "regret",
+      "solutes": 103,
+      "difference_first_minus_second": -0.01689776545739045,
+      "ci95": [
+        -0.04207153417719941,
+        0.0068423321490516924
+      ],
+      "individual_seed_differences": [
+        -0.018799269634362816,
+        -0.00774794094279258,
+        -0.02414608579501596
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 6.938893903907228e-18
+    }
+  ],
+  "hypothesis_joint_criteria_supported": false,
+  "seed_count": 3,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261025,
+  "bootstrap_unit": "solute",
+  "bootstrap_algorithm": "Count repeated sampled solutes with multinomial counts; independently interpolate sorted percentile endpoints.",
+  "test_targets_read": false,
+  "models_invoked": false,
+  "evidence_sha256": {
+    "/root/autodl-tmp/light_modeltune/scripts/audit_paired_final_contrast.py": "964444d2a03f58eb70ce3ee5e3dd36f42e7e91c66222f7bd4f2f8ed74eb78a6c",
+    "artifacts/reports/frozen_dualqa/scaffold_primary_condition_minus_structure.json": "9a1579caad6b10751689c971d773252428a85fd458f46fe4668c165425d1141e",
+    "artifacts/audit/dualqa/independent_final_scores_v1.json": "13b0d7885df9af9f2719e07c0f08bc308bc36e3660728aac9b014133d7795583",
+    "data/views/strictqa/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "data/splits/strictqa/scaffold.csv": "ea9e0d49e8aa15e2fbcaa1f9f9a3bb42a2f207e6373903173b6f18db3c347cbd",
+    "configs/final_analysis_plan_dualqa_v2.json": "fee009831b5de8b3d9d2ee583de2f995967fadff7671f803982b4dc138b7e986",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_condition_test/evaluation_test_view10000/metrics.json": "479fdef7481813a8286e62216a42db3e68cf70d0535a45b119324561d8b57a89",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_condition_test/evaluation_test_view10000/per_solute.csv": "b93e0c79f630db5365c38924a736da05a29fe0faa7e33b7e2af987757a6b83f3",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_condition_test/evaluation_test_view10000/per_query.parquet": "8c8e349fbb06b3433aa666180a7edc1a54bae12ec90efb0ce6fb2031c610b1f7",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_condition_test/evaluation_test_view10000/metrics.json": "ce18010aa7d54f0dcb6640bc829a92abee82cdc60e5611b60f6404b2ab4f3528",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_condition_test/evaluation_test_view10000/per_solute.csv": "b862df79133eba08f20db0c6173dfd42e0393b6a9bc4ddc30f51a42e09eff856",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_condition_test/evaluation_test_view10000/per_query.parquet": "287f5a1252421f1cb9b00604119bbcfc40450873dc7b44a0d9de359dddbf92d4",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_condition_test/evaluation_test_view10000/metrics.json": "28cf72ab374b4086a687d02aa10d3d5a286af052052ec8963d85c2ff95108d6e",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_condition_test/evaluation_test_view10000/per_solute.csv": "e18061806af6139f8c7b1bb3885fcd405eb0cd8a537e83c6f0a8403e79da49c6",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_condition_test/evaluation_test_view10000/per_query.parquet": "eef9d19208c8969325971d615b40d6ac6b9a2d4df04489759c83fa243249b311",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_structure_test/evaluation_test_view10000/metrics.json": "e205af4a6d7b18297961d1d282eadd144910cdfe3be7ba53eabf81e35c89158d",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_structure_test/evaluation_test_view10000/per_solute.csv": "b151534377bee7e4636c36b62d920a62cf5c01287dfa7621be83cb9dae4a46f8",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_structure_test/evaluation_test_view10000/per_query.parquet": "d5aa9202e82cba5f9be3f67d39095f422210c2c43e06b232f4b55b19baeb99ca",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_structure_test/evaluation_test_view10000/metrics.json": "e3d4e6b5ae4ee8bba1b331c566bb7efc9a803a16b4173a96d2c92304a98d5a40",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_structure_test/evaluation_test_view10000/per_solute.csv": "95ef8d52326bc7b067bc8eb0f17c3ccf3d133c881773423bee886ebbccd42612",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_structure_test/evaluation_test_view10000/per_query.parquet": "81c474437e5baaf5737336ad35b36643f8ef59f75fd245cb54f90a0ef0164aa5",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_structure_test/evaluation_test_view10000/metrics.json": "e19879ebd28bfe7321d9457910a0adb17b3ad86b7545c5092fe112b07fd384c9",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_structure_test/evaluation_test_view10000/per_solute.csv": "6374413aed6079a7624ee24dd465655d671a759fafe3b06bc79cd473546c8df1",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_structure_test/evaluation_test_view10000/per_query.parquet": "bf3d3cc05a8077e4379f3a7da43d980edf11848a323542faf98140043fb016d8"
+  },
+  "scope": "Independent arithmetic audit of fixed-checkpoint frozen-test estimates; no causal, equivalence or publication claim."
+}

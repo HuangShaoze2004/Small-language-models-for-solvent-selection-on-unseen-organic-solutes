@@ -1,0 +1,45 @@
+{
+  "partition": "val",
+  "queries": 1024,
+  "base_queries": 512,
+  "by_variant_task": {
+    "candidate_order/pair": {
+      "solutes": 88,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 0.0,
+      "changed_smiles_fraction": 0.0
+    },
+    "candidate_order/rank": {
+      "solutes": 73,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 0.0,
+      "changed_smiles_fraction": 0.0
+    },
+    "equivalent_smiles/pair": {
+      "solutes": 88,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 1.0,
+      "changed_smiles_fraction": 0.9078282828282828
+    },
+    "equivalent_smiles/rank": {
+      "solutes": 73,
+      "both_valid": 1.0,
+      "exact_agreement": 1.0,
+      "top1_agreement": 1.0,
+      "any_smiles_changed": 1.0,
+      "changed_smiles_fraction": 0.9231055664274842
+    }
+  },
+  "inputs": {
+    "data/consistency/sourceqa/scaffold_val/manifest.json": "2ffa149700e9bb93d07962c706bf881f60ac95fa83000b43e54a2d6e65c82418",
+    "artifacts/audit/sourceqa/final_control_validation_replay/evidence/sourceqa_scaffold_evidence_text_val_canonical_control/base_predictions.jsonl": "1d0e8d8a27cabe0b230499e72af90b5e32048e6054786dca7137f5234e83de0a",
+    "artifacts/audit/sourceqa/final_control_validation_replay/evidence/sourceqa_scaffold_evidence_text_val_canonical_control/transformed_predictions.jsonl": "6c50d61e8a68a3e87d4f59bd4def246320f681b0a5ad0b8404d5b53aa19106b1"
+  },
+  "code_sha256": "1e06efc109cc314eefc5a9174324e3df78d5eb8e96215a9ddf93a7bb5c7f235a"
+}

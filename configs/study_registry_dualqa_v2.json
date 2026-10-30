@@ -1,0 +1,56 @@
+{
+  "status": "REGISTERED_VALIDATION_ONLY_DUAL_QA",
+  "created_utc": "2026-10-26T05:29:12.067513+00:00",
+  "version": "dualqa_v2",
+  "protocols": {
+    "identity": {
+      "data_tag": "sourceqa",
+      "run_prefix": "sourceqa_",
+      "runs_root": "artifacts/runs_sourceqa",
+      "measurements": "data/processed/sourceqa/measurements.parquet",
+      "split": "data/splits/sourceqa/identity.csv",
+      "views": "data/views/sourceqa/identity",
+      "processed": "data/processed/sourceqa/identity",
+      "targets": "data/targets/sourceqa/identity",
+      "consistency_data_root": "data/consistency/sourceqa",
+      "consistency_runs_root": "artifacts/consistency/sourceqa",
+      "audit": "artifacts/audit/sourceqa/data_audit.json"
+    },
+    "scaffold": {
+      "data_tag": "strictqa",
+      "run_prefix": "strictqa_",
+      "runs_root": "artifacts/runs_strictqa",
+      "measurements": "data/processed/strictqa/measurements_scaffold.parquet",
+      "split": "data/splits/strictqa/scaffold.csv",
+      "views": "data/views/strictqa/scaffold",
+      "processed": "data/processed/strictqa/scaffold",
+      "targets": "data/targets/strictqa/scaffold",
+      "consistency_data_root": "data/consistency/strictqa",
+      "consistency_runs_root": "artifacts/consistency/strictqa",
+      "audit": "artifacts/audit/strictqa/data_audit.json"
+    }
+  },
+  "queues": [
+    {
+      "plan": "configs/development_queue_sourceqa_primary.json",
+      "state": "artifacts/development_queue_sourceqa_primary/state.json",
+      "role": "identity_chemprop"
+    },
+    {
+      "plan": "configs/development_queue_identity_sourceqa_v2.json",
+      "state": "artifacts/development_queue_identity_sourceqa_v2/state.json",
+      "role": "identity_lm"
+    },
+    {
+      "plan": "configs/development_queue_scaffold_strictqa_v2.json",
+      "state": "artifacts/development_queue_scaffold_strictqa_v2/state.json",
+      "role": "scaffold_models"
+    }
+  ],
+  "analysis_plan": "configs/final_analysis_plan_dualqa_v2.json",
+  "protocol_document": "configs/development_protocol_dualqa_v2.json",
+  "consistency_plan": "configs/consistency_queue_dualqa_v2.json",
+  "consistency_state": "artifacts/consistency_queue_dualqa_v2/state.json",
+  "validation_decision": "artifacts/reports/dualqa/validation_decision.json",
+  "pretest_review": "artifacts/audit/dualqa/pretest_review.json"
+}

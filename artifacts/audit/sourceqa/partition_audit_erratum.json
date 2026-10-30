@@ -1,0 +1,59 @@
+{
+  "status": "CONFIRMED_REQUIRES_STRICT_PROTOCOL_REMEDIATION",
+  "created_utc": "2026-10-26T05:05:15.539619+00:00",
+  "finding": "Primary-training-only source QA is not training-only under the separate scaffold assignment. It numerically examined1474original strict-validation records from28solutes and removed97records from2strict-validation solutes.",
+  "metadata_only_recount": {
+    "matches": [
+      {
+        "split": "excluded",
+        "records": 9205,
+        "solutes": 130,
+        "dois": 134
+      },
+      {
+        "split": "train",
+        "records": 11878,
+        "solutes": 193,
+        "dois": 211
+      },
+      {
+        "split": "val",
+        "records": 1474,
+        "solutes": 28,
+        "dois": 27
+      }
+    ],
+    "quarantine": [
+      {
+        "split": "excluded",
+        "records": 157,
+        "solutes": 5,
+        "dois": 5
+      },
+      {
+        "split": "train",
+        "records": 665,
+        "solutes": 12,
+        "dois": 13
+      },
+      {
+        "split": "val",
+        "records": 97,
+        "solutes": 2,
+        "dois": 2
+      }
+    ]
+  },
+  "primary_protocol_affected": false,
+  "global_final_test_affected": false,
+  "test_target_values_read_for_this_check": false,
+  "required_remediation": "Rebuild strict source QA using only DOI sources exclusive to strict training, with the original0.3dex rule. Preserve original strict validation/test measurements and query bytes without source-based pruning. Keep original scaffold assignments; do not rerandomize or choose based on scores. Rerun all affected strict baselines/adapters/evaluations under a new namespace. Existing sourceqa strict results remain diagnostics, not final independent evidence.",
+  "resolution_status": "PENDING",
+  "current_identity_gpu_job": "May continue: its data boundary is unaffected. Do not promote existing sourceqa strict results or freeze final tests until remediation is verified.",
+  "evidence_sha256": {
+    "data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+    "artifacts/audit/sourceqa/quarantined_records.csv": "855afa52026178589560a34007fc8ec14dc8d2b0603413efb74b4450d3797257",
+    "artifacts/audit/source_discrepancy/training_archive_check/all_training_matches.csv": "0351f4092f94b16d6f66816edf2d78cd1b415c8b0f382319827dddd498ae08a2",
+    "configs/source_quarantine_v1.json": "ae0e835ba8bafc03cd93562b970050b434531a44d44559b43b28e85a66010326"
+  }
+}

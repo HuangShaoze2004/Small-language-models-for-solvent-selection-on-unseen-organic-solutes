@@ -1,0 +1,105 @@
+{
+  "status": "PASSED_CURRENT_METADATA_QUERY_AND_PROMPT_LABEL_ISOLATION",
+  "protocols": [
+    {
+      "protocol": "identity",
+      "measurements": 102596,
+      "solute_identities": 1429,
+      "metadata_derived_questions": 218069,
+      "partitions": [
+        {
+          "split": "train",
+          "full_questions": 173494,
+          "view_questions": 10000,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 10000
+        },
+        {
+          "split": "val",
+          "full_questions": 23818,
+          "view_questions": 5133,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 5133
+        },
+        {
+          "split": "test",
+          "full_questions": 20757,
+          "view_questions": 4546,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 4546
+        }
+      ]
+    },
+    {
+      "protocol": "scaffold",
+      "measurements": 68829,
+      "solute_identities": 969,
+      "metadata_derived_questions": 146712,
+      "partitions": [
+        {
+          "split": "train",
+          "full_questions": 113062,
+          "view_questions": 10000,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 10000
+        },
+        {
+          "split": "val",
+          "full_questions": 12893,
+          "view_questions": 3263,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 3263
+        },
+        {
+          "split": "test",
+          "full_questions": 20757,
+          "view_questions": 4546,
+          "metadata_only_view_replay_exact": true,
+          "prompt_sentinel_checks": 4546
+        }
+      ]
+    }
+  ],
+  "measurement_columns_read": [
+    "record_id",
+    "solute_id",
+    "solute_smiles",
+    "solvent_id",
+    "solvent_smiles",
+    "source_doi",
+    "temperature_k",
+    "leakage_group",
+    "scaffold_group"
+  ],
+  "target_files_read": [],
+  "test_public_metadata_read": true,
+  "test_predictions_generated": false,
+  "model_invoked": false,
+  "evidence_sha256": {
+    "/root/autodl-tmp/light_modeltune/scripts/audit_query_label_isolation.py": "7bb4f13fe3e9ff7f69982fee456ec3e383dc0577b8ba635317a5e75f8547b1ef",
+    "configs/study_registry_dualqa_v2.json": "33fa308b9b00f3525ceb4aa833463a75072fd3be2b2ebb1617a55bfab86560a4",
+    "data/processed/sourceqa/identity/train_queries.jsonl": "f5f2778cb752b92dc85c93dd9cbe818c5228237faddf0c4cfad9dd2ab71c58bd",
+    "data/views/sourceqa/identity/train_queries.jsonl": "cfa2abc238dc74cdc0c1fd9dcd061447028fab28bc5afd0d45cd8496e5531404",
+    "data/processed/sourceqa/identity/val_queries.jsonl": "382ef6c29dd89829dd53ac61f979c5698e82abb25a861f8a417e6541fcac6656",
+    "data/views/sourceqa/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+    "data/processed/sourceqa/identity/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "data/views/sourceqa/identity/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "data/processed/sourceqa/measurements.parquet": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+    "data/splits/sourceqa/identity.csv": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+    "data/splits/identity.csv": "8e7806677cd9c6e3dec1bed47fca24be04942cc0ac7061342baa920093d059eb",
+    "data/processed/strictqa/scaffold/train_queries.jsonl": "cc7b24bd7e1c05782b833cab90836260a897fa3fd0702bc653240aa0048bb5a2",
+    "data/views/strictqa/scaffold/train_queries.jsonl": "3093f64c8ffc16a121eaa4340e891b008c8a6a2c143474b479d33f23b60e7902",
+    "data/processed/strictqa/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+    "data/views/strictqa/scaffold/val_queries.jsonl": "751cc5c4e20340d916a34199c1bd3b44b2dc50cffe0f1227d7c6f79dbf7b7249",
+    "data/processed/strictqa/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "data/views/strictqa/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "data/processed/strictqa/measurements_scaffold.parquet": "5a5bc07f9396fa0a52c061c84126572cc96795eb73f0d9235d1796b1510a9040",
+    "data/splits/strictqa/scaffold.csv": "ea9e0d49e8aa15e2fbcaa1f9f9a3bb42a2f207e6373903173b6f18db3c347cbd",
+    "data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+    "src/solvent_select/data.py": "9ecafaade9016a914b31bf4e2ac4668ca785642edb65ba2cbcec931181098e96",
+    "src/solvent_select/views.py": "949e68ac1ed3f9e1714c115bd37c1d1f5dbf5c86909187793feb9205e2d0038c",
+    "src/solvent_select/retrieval.py": "6d5bb906f1d55ba44fab8c44a17a1e7a94d16dde8236181fcd062ca767a96a65",
+    "src/solvent_select/llm.py": "e1750ebbf269e366d40e83749d3e54d3b2aed31b3aedfa4374dd7dd8e710d7fe"
+  },
+  "scope": "All question IDs, blocks, candidate orders and roles independently reconstructed from metadata. View selectors replayed with query metadata only. Synthetic forbidden-field injection cannot change message serialization on any published query view. Training retrieval cards have separate membership/budget audits; foundation pretraining contamination cannot be excluded."
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASSED_ACTUAL_NUMERICAL_RECONSTRUCTION",
+  "files": [
+    {
+      "file": "all_training_matches.csv",
+      "expected_sha256": "0351f4092f94b16d6f66816edf2d78cd1b415c8b0f382319827dddd498ae08a2",
+      "actual_sha256": "0351f4092f94b16d6f66816edf2d78cd1b415c8b0f382319827dddd498ae08a2",
+      "identical": true
+    },
+    {
+      "file": "training_discrepancies.csv",
+      "expected_sha256": "1c5c5dd83979ba8ad9a135ab39c52064f1bf8cfce96d61ea22f18c9bdd93aef1",
+      "actual_sha256": "1c5c5dd83979ba8ad9a135ab39c52064f1bf8cfce96d61ea22f18c9bdd93aef1",
+      "identical": true
+    }
+  ],
+  "staging_root": ".tmp/source_audit_rebuild_et8ts7t6/audit",
+  "metadata_paths_timestamps_may_differ": true,
+  "test_target_values_read": false,
+  "code_sha256": "463f12b73e4c695d58b9e9b7bd29a3a5cff9be9dddca33189771a4976932c102"
+}

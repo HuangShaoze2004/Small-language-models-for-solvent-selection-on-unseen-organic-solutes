@@ -1,0 +1,59 @@
+{
+  "status": "REGISTERED_TRAINING_ONLY_DESCRIPTIVE_ANALYSIS",
+  "created_utc": "2026-10-26T07:49:24.935016+00:00",
+  "question": "Describe how observed relative solvent solubilities vary with temperature within the same training solute, recorded DOI and solvent pair. No primary LM hypothesis or causal mechanism is evaluated.",
+  "registry": "configs/study_registry_dualqa_v2.json",
+  "registry_sha256": "33fa308b9b00f3525ceb4aa833463a75072fd3be2b2ebb1617a55bfab86560a4",
+  "allowed_partition": "train",
+  "endpoint": "log10 native mole fraction",
+  "tie_dex": 0.1,
+  "tie_float_epsilon": 1e-12,
+  "source_eligibility": "Only explicit DOI strings matching ^10\\.\\d{4,9}/\\S+$; report excluded missing/malformed DOI records. No source labels are corrected.",
+  "series": "Full retained solute identity + exact recorded DOI + two ordered full solvent identities. Compare only temperatures where both solvents were measured; never interpolate or fabricate a measurement.",
+  "temperature_relations": [
+    "all_observed_temperature_pairs",
+    "adjacent_shared_temperatures"
+  ],
+  "temperature_gap_upper_edges_kelvin": [
+    5.0,
+    10.0,
+    20.0
+  ],
+  "temperature_gap_labels": [
+    "(0,5]",
+    "(5,10]",
+    "(10,20]",
+    ">20"
+  ],
+  "gap_float_epsilon": 1e-09,
+  "additional_summary": "ALL temperature gaps; every bin and both relations retained including empty/insufficient groups.",
+  "metrics": [
+    "label_changed",
+    "decisive_reversal",
+    "near_tie_transition",
+    "both_near_ties",
+    "both_decisive",
+    "raw_sign_reversal",
+    "absolute_delta_change_dex",
+    "delta_change_exceeds_tie_band",
+    "reversal_given_both_decisive"
+  ],
+  "conditional_metric": "reversal_given_both_decisive is defined only when both measured differences exceed the preset near-tie band; report its support separately.",
+  "aggregation": "Average temperature comparisons within each solute/DOI/solvent-pair series; average series within DOI; average DOIs within solute; macro mean over supported solutes, separately per relation/gap bin. Conditional metric skips undefined series/DOIs/solutes and reports support.",
+  "bootstrap": {
+    "unit": "solute",
+    "repetitions": 10000,
+    "seed": 20261025,
+    "interval": "percentile95%; descriptive conditional cohort uncertainty, not chemistry-wide or experimental noise uncertainty"
+  },
+  "minimum_independent_solutes_for_interpretation": 10,
+  "resource_preflight": "artifacts/audit/dualqa/temperature_analysis_resource_preflight.json",
+  "strict_policy": "Training predicate applied in Parquet before numerical labels are deserialized. No validation/test labels, LM predictions or scores used.",
+  "decision_policy": "No retrieval-weight, threshold, prompt, candidate, method or checkpoint changes from this diagnostic. No stable/unstable classification threshold or hypothesis-support flag; retain all observed estimates.",
+  "limits": [
+    "Temperature sampling and same-source pairs select a training-only subset.",
+    "pH, solid form, pressure and experimental-protocol differences can be unrecorded even within a DOI.",
+    "Within-solute order stability does not imply reliable transfer between different solutes.",
+    "Primary/strict training cohorts overlap and are not independent replications."
+  ]
+}

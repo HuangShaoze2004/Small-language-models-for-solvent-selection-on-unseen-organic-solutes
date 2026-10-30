@@ -1,0 +1,52 @@
+{
+  "status": "EXPLORATORY_VALIDATION_DIAGNOSTIC",
+  "recorded_utc": "2026-10-26T10:32:26.485672+00:00",
+  "timing": "Recorded after inspecting seed17 text/structure/condition validation results, before calculating input-overlap diagnostics. Not a preregistered efficacy hypothesis.",
+  "mode_pairs": [
+    [
+      "condition",
+      "structure"
+    ],
+    [
+      "condition",
+      "no_temperature"
+    ],
+    [
+      "condition",
+      "no_solvent"
+    ],
+    [
+      "structure",
+      "text"
+    ]
+  ],
+  "learning_seeds": [
+    17,
+    42,
+    2026
+  ],
+  "partitions": [
+    "val"
+  ],
+  "groups": [
+    "ALL",
+    "same_payload",
+    "different_payload"
+  ],
+  "input_identity": "Ordered training card IDs and ordered record IDs, with immutable bank and identical public queries; numerical retrieval scores are audit-only and are absent from the model prompt.",
+  "metrics": [
+    "answer_changed",
+    "first_ranked_candidate_changed",
+    "pair_accuracy_difference",
+    "top1_difference",
+    "regret_difference"
+  ],
+  "weighting": "Average queries within physical condition, then conditions within solute, then solutes. Conditional subsets report their own support and are not causal estimates.",
+  "constraints": [
+    "No test access",
+    "No retuning or method exclusion",
+    "Retain every registered comparison including unfavorable outcomes",
+    "Pending or incomplete modes stay pending",
+    "Identical inputs do not guarantee identical output across different batched numerical contexts"
+  ]
+}

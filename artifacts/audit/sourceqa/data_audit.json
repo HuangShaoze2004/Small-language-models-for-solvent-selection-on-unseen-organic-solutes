@@ -1,0 +1,192 @@
+{
+  "raw_sha256": "879f55f39db977e295c705e304d011d89d6e10da1daaa3f069181108c1de38b0",
+  "raw_rows": 103944,
+  "pre_duplicate_rows": 103516,
+  "target": "log10_mole_fraction",
+  "temperature_tolerance_k": 0.0,
+  "missing_conditions": [
+    "pH",
+    "polymorph",
+    "equilibration_protocol"
+  ],
+  "status": "SOURCE_QUARANTINE_APPLIED",
+  "dataset_version": "sourceqa",
+  "post_duplicate_measurements": 103515,
+  "final_measurements": 102596,
+  "source_quarantined_records": 919,
+  "source_quarantined_dois": 18,
+  "canonical_solutes": 1429,
+  "canonical_solvents": 206,
+  "leakage_groups": 1383,
+  "scaffold_groups": 684,
+  "multifragment_solutes_preserved": 174,
+  "splits": {
+    "identity": {
+      "train": {
+        "solutes": 1140,
+        "records": 81365,
+        "queries": {
+          "pair": 161354,
+          "rank": 12140
+        }
+      },
+      "val": {
+        "solutes": 145,
+        "records": 10576,
+        "queries": {
+          "pair": 22125,
+          "rank": 1693
+        }
+      },
+      "test": {
+        "solutes": 144,
+        "records": 10655,
+        "queries": {
+          "pair": 19300,
+          "rank": 1457
+        }
+      }
+    },
+    "scaffold": {
+      "train": {
+        "solutes": 734,
+        "records": 52062,
+        "queries": {
+          "pair": 105347,
+          "rank": 8036
+        }
+      },
+      "val": {
+        "solutes": 91,
+        "records": 6146,
+        "queries": {
+          "pair": 11932,
+          "rank": 956
+        }
+      },
+      "test": {
+        "solutes": 144,
+        "records": 10655,
+        "queries": {
+          "pair": 19300,
+          "rank": 1457
+        }
+      }
+    }
+  },
+  "strict_scaffold_development_exclusions": {
+    "solutes": 460,
+    "records": 33733
+  },
+  "excluded_entire_solutes": [
+    "11bb7020c6e4f14bda75c195",
+    "22dba4a620fee2fcee4872ce",
+    "3e42bf3d8ac56aaf47134abc",
+    "4ca7d040bc9662181aebe41b",
+    "5041c47b43bc5bcd243aa990",
+    "5415b71c1028d39b6acd6e71",
+    "6b68cf0a24f0734dc1079c7a",
+    "79c37aced0c69d028f7db5b0",
+    "88b2545ef716ed56cf936e6e",
+    "91cdc4411eb4918cd1e197b3",
+    "b408947445dd19170595fa2c",
+    "bc39333a3baf30a253c44f97",
+    "d6b34e24632d0b084dec6c07",
+    "ff5e325946f51a40f03459a5"
+  ],
+  "source_dois": [
+    "10.1016/j.fluid.2018.03.021",
+    "10.1016/j.jct.2012.11.021",
+    "10.1016/j.jct.2014.08.012",
+    "10.1016/j.jct.2014.11.011",
+    "10.1016/j.tca.2019.178431",
+    "10.1021/acs.jced.5b00565",
+    "10.1021/acs.jced.9b00286",
+    "10.1021/acs.jced.9b00406",
+    "10.1021/je100964a",
+    "10.1021/je101168w",
+    "10.1021/je400246s",
+    "10.1021/je4011097",
+    "10.1021/je500068b",
+    "10.1021/je5001654",
+    "10.1021/je500437m",
+    "10.1021/je700404u",
+    "10.1021/je900401z",
+    "10.1021/je9008427"
+  ],
+  "policy_path": "configs/source_quarantine_v1.json",
+  "policy_sha256": "ae0e835ba8bafc03cd93562b970050b434531a44d44559b43b28e85a66010326",
+  "grouping": "Original full-identity/parent/scaffold groups and partition assignments inherited, never refitted.",
+  "labels_replaced": 0,
+  "global_test_query_target_bytes_identical": true,
+  "primary_validation_query_target_bytes_identical": true,
+  "task_filter_counts": {
+    "identity": {
+      "train": {
+        "retained_by_task": {
+          "pair": 161354,
+          "rank": 12140
+        },
+        "excluded_queries": 1717
+      },
+      "val": {
+        "retained_by_task": {
+          "pair": 22125,
+          "rank": 1693
+        },
+        "excluded_queries": 0
+      },
+      "test": {
+        "retained_by_task": {
+          "pair": 19300,
+          "rank": 1457
+        },
+        "excluded_queries": 0
+      }
+    },
+    "scaffold": {
+      "train": {
+        "retained_by_task": {
+          "pair": 105347,
+          "rank": 8036
+        },
+        "excluded_queries": 1408
+      },
+      "val": {
+        "retained_by_task": {
+          "pair": 11932,
+          "rank": 956
+        },
+        "excluded_queries": 5
+      },
+      "test": {
+        "retained_by_task": {
+          "pair": 19300,
+          "rank": 1457
+        },
+        "excluded_queries": 0
+      }
+    }
+  },
+  "original_artifact_sha256": {
+    "/root/autodl-tmp/light_modeltune/data/processed/measurements.parquet": "9704e375234fd8c9728bceffb182d36557c725985b20ea1b462b136dbe6ece5d",
+    "/root/autodl-tmp/light_modeltune/data/processed/measurements_scaffold.parquet": "de592cccde3758a20aa876c28d91fdcc1aa18a6acbfe8a95d8a8041b341e1f58",
+    "/root/autodl-tmp/light_modeltune/data/splits/identity.csv": "8e7806677cd9c6e3dec1bed47fca24be04942cc0ac7061342baa920093d059eb",
+    "/root/autodl-tmp/light_modeltune/data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+    "/root/autodl-tmp/light_modeltune/data/splits/scaffold_excluded.csv": "a99ffe85505a4674eba5a68cbdebb8ad036a9450c7ad6415f9f0c6ffeb68fdef",
+    "/root/autodl-tmp/light_modeltune/data/processed/identity/train_queries.jsonl": "66a104098e1e090e093b269427245b293dca192426b72ca5132f87598b19eff8",
+    "/root/autodl-tmp/light_modeltune/data/targets/identity/train.jsonl": "cc3310211180401f1a167c1e8e91b04b09597ed8c44812a73ca78c45d021d95d",
+    "/root/autodl-tmp/light_modeltune/data/processed/identity/val_queries.jsonl": "382ef6c29dd89829dd53ac61f979c5698e82abb25a861f8a417e6541fcac6656",
+    "/root/autodl-tmp/light_modeltune/data/targets/identity/val.jsonl": "4cdf3bb7cea5f80f119b9a4167fc9ccc703c5d45ce45ddc3560519063a8c6620",
+    "/root/autodl-tmp/light_modeltune/data/processed/identity/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "/root/autodl-tmp/light_modeltune/data/targets/identity/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+    "/root/autodl-tmp/light_modeltune/data/processed/scaffold/train_queries.jsonl": "abf5ab3a9e6ccc0a5fb7cc632f7a04d180ff44bd1800512f99a8c2f191544678",
+    "/root/autodl-tmp/light_modeltune/data/targets/scaffold/train.jsonl": "5f24850f5114f3683a9eeaaec27c189dbb90f361e5e2648b074f4f09a051eee5",
+    "/root/autodl-tmp/light_modeltune/data/processed/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+    "/root/autodl-tmp/light_modeltune/data/targets/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+    "/root/autodl-tmp/light_modeltune/data/processed/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "/root/autodl-tmp/light_modeltune/data/targets/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952"
+  },
+  "code_sha256": "2c4f9d9e768fa5a219911ec50b7c621ba6541e5589102dcb09390d97243683a6",
+  "scope": "Conservative quarantine of unresolved training-source discrepancies; not universal validation of remaining experimental values."
+}

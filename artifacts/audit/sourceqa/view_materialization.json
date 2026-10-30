@@ -1,0 +1,57 @@
+{
+  "status": "PASSED_ACTUAL_VIEW_MATERIALIZATION",
+  "restored_files": 12,
+  "checked_files": [
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/train_queries.jsonl",
+      "sha256": "cfa2abc238dc74cdc0c1fd9dcd061447028fab28bc5afd0d45cd8496e5531404"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/train_targets.jsonl",
+      "sha256": "ba71ba7c247fbe82ccd742e5b3e36b601c121a8ff8b03d5cf10279cf55b406f2"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/val_queries.jsonl",
+      "sha256": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/val_targets.jsonl",
+      "sha256": "1f4fbdef3f07654142faea5f116c560966928b99d8b04b71e08c9ebf0a7ab64a"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/test_queries.jsonl",
+      "sha256": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/identity/test_targets.jsonl",
+      "sha256": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/train_queries.jsonl",
+      "sha256": "b685be1273458b04069ad3e86f3ff421726c0824ba604d30c18720fc81b86077"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/train_targets.jsonl",
+      "sha256": "99e46f72e6bc80872265c6c3ed96e8594a52b34f0fda2dcc57d192cb2a60eadf"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/val_queries.jsonl",
+      "sha256": "4ae538ae40fcce2fe9557b92df7851b4b4fdb58dbea40080cdf4b280362bdefe"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/val_targets.jsonl",
+      "sha256": "82b9435c27516b5eda04c272067a58e81d314581ad911ac6bf5b44b261bcfded"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/test_queries.jsonl",
+      "sha256": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d"
+    },
+    {
+      "path": ".tmp/sourceqa_views_reproduction/scaffold/test_targets.jsonl",
+      "sha256": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204"
+    }
+  ],
+  "code_sha256": "0abb0395309458be6f66e259bc51c26a12d6478b8da759c90ae82ffc27517002",
+  "selection_changed": false,
+  "test_outcomes_evaluated": false
+}

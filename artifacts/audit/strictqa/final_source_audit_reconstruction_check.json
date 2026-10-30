@@ -1,0 +1,35 @@
+{
+  "status": "PASSED_ACTUAL_STRICT_TRAINING_SOURCE_AUDIT_RECONSTRUCTION",
+  "files": [
+    {
+      "file": "all_training_matches.csv",
+      "original": "artifacts/audit/strictqa/training_sources/numeric/all_training_matches.csv",
+      "reproduced": "artifacts/audit/strictqa/final_source_audit_reconstruction/all_training_matches.csv",
+      "sha256": "500d33c69008c1286588a2ae018ac79b089fee29cd7b7139fec13544ccfa7a30",
+      "byte_identical": true
+    },
+    {
+      "file": "training_discrepancies.csv",
+      "original": "artifacts/audit/strictqa/training_sources/numeric/training_discrepancies.csv",
+      "reproduced": "artifacts/audit/strictqa/final_source_audit_reconstruction/training_discrepancies.csv",
+      "sha256": "713c3b0f3ec9753681e7f45d0dc2ec2ab7420f6f1d5eccaba55716a64659b49d",
+      "byte_identical": true
+    },
+    {
+      "file": "source_summary.csv",
+      "original": "artifacts/audit/strictqa/training_sources/numeric/source_summary.csv",
+      "reproduced": "artifacts/audit/strictqa/final_source_audit_reconstruction/source_summary.csv",
+      "sha256": "142abf5f2141a378185601aa9542b5c813eac9a71978db699226673534e920d2",
+      "byte_identical": true
+    },
+    {
+      "file": "audit.json",
+      "original": "artifacts/audit/strictqa/training_sources/numeric/audit.json",
+      "reproduced": "artifacts/audit/strictqa/final_source_audit_reconstruction/audit.json",
+      "sha256": "6d0d59d0d2beda1a23ee45c5518d4cc1063bb64f3cef560799d9d15eccd7ba88",
+      "byte_identical": true
+    }
+  ],
+  "test_target_values_read": false,
+  "data_mutations": false
+}

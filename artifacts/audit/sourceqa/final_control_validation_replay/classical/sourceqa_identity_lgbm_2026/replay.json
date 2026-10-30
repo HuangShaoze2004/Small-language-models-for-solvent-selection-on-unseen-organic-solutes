@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_identity_lgbm_2026",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 4.130910597741604,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_2026/base_predictions.jsonl": "bc4f20cc72163018def2e6c5945cdee48717c02e1404e71d3956d3305e9a382c",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_lgbm_2026/transformed_predictions.jsonl": "94268cc7ea7179027701c4394e65d36c21fd85da660b5fec66d874bc99ab183e"
+  },
+  "cohort_manifest_sha256": "7ff219ecd71b530f74ed8f0524fef958ce0beb8ce1ec59faa9437b66d7354255"
+}

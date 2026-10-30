@@ -1,0 +1,81 @@
+[
+  {
+    "id": "zenodo_bigsoldb_2_0",
+    "url": "https://zenodo.org/api/records/15094979",
+    "checked_at_utc": "2026-10-25T05:44:06.955362+00:00",
+    "error": null,
+    "response_sha256": "56ffd17f0f4c0433216c473d22dd7ca5e78e633d6306741fd6c25d72df19667d",
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "version": null,
+    "files": [
+      {
+        "id": "2d08e399-a3ca-4521-84f1-d602a75c6a0a",
+        "key": "BigSolDBv2.0_densities.csv",
+        "size": 120029,
+        "checksum": "md5:059ae2deadb2ad1523fd4e24b2c88133",
+        "links": {
+          "self": "https://zenodo.org/api/records/15094979/files/BigSolDBv2.0_densities.csv/content"
+        }
+      },
+      {
+        "id": "54a866a1-410c-4311-875c-30c421a7f21a",
+        "key": "BigSolDBv2.0.csv",
+        "size": 18280116,
+        "checksum": "md5:1e6d8a510387746e9faab5f39dc46317",
+        "links": {
+          "self": "https://zenodo.org/api/records/15094979/files/BigSolDBv2.0.csv/content"
+        }
+      }
+    ],
+    "doi": "10.5281/zenodo.15094979"
+  },
+  {
+    "id": "qwen3_4b_model",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen3-4B-Instruct-2507",
+    "checked_at_utc": "2026-10-25T05:44:06.955629+00:00",
+    "error": null,
+    "response_sha256": "595ecfa5f45d8dc58627e68cc728aa09531c087575b4f6fc85ab7afbccf37917",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "license": "apache-2.0",
+    "gated": false,
+    "last_modified": "2025-09-17T06:56:53.000Z"
+  },
+  {
+    "id": "fastsolv_license",
+    "url": "https://raw.githubusercontent.com/JacksonBurns/fastsolv/821cdda8ba5398ecb7a75104baac33195de1b413/LICENSE",
+    "checked_at_utc": "2026-10-25T05:44:06.955768+00:00",
+    "error": null,
+    "response_sha256": "4805a364f265109322ded61c3b95437b63ec4cf5fe3881d7e22d4419b34b6b67",
+    "snapshot": "references/licenses/fastsolv_license.txt"
+  },
+  {
+    "id": "solvmate_license",
+    "url": "https://raw.githubusercontent.com/Bayer-Group/solvmate/7c74ff094caa1f9d4de2bb135d8e36cd94196911/LICENSE",
+    "checked_at_utc": "2026-10-25T05:44:06.967271+00:00",
+    "error": null,
+    "response_sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+    "snapshot": "references/licenses/solvmate_license.txt"
+  },
+  {
+    "id": "solubench_readme",
+    "url": "https://raw.githubusercontent.com/levakrasnovs/SoluBench/00ad03f584a1764a8aeaf30aec66b3e584aa45c6/README.md",
+    "checked_at_utc": "2026-10-25T05:44:06.996905+00:00",
+    "error": null,
+    "response_sha256": "bc8099092cc4e6fe9049e9e684c2223bdc470025ce131e90ff9ae92eaf10b999",
+    "license_lines": [
+      "## License",
+      "This benchmark is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license."
+    ],
+    "split_note": "README checked; task data is evaluation-only and must not be used as SFT examples."
+  },
+  {
+    "id": "chemprop_citations",
+    "url": "https://raw.githubusercontent.com/chemprop/chemprop/main/CITATIONS.bib",
+    "checked_at_utc": "2026-10-25T05:44:07.427882+00:00",
+    "error": null,
+    "response_sha256": "8eff17e23e11395d057e94198f635184c5fc80505506886325743663845627ae",
+    "contains_v2_doi": true
+  }
+]

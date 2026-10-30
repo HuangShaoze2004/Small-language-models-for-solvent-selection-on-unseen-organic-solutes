@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-10-26T04:14:08.390650+00:00",
+  "doi": "10.1039/D5DD00407A",
+  "publisher_url": "https://pubs.rsc.org/en/content/articlehtml/2026/dd/d5dd00407a",
+  "metadata": "references/metadata/hasolgnn2026.json",
+  "verification": "Primary publisher text available through web search index; a prior direct HTML request returned403. Bibliographic fields independently fetched from Crossref.",
+  "claims_checked": [
+    "Section2.3 describes LLM-enriched representations and auxiliary estimations.",
+    "Section3.1.1 specifies natural-log solubility.",
+    "Section3.1.2 says splits group unique solute-solvent pairs across temperatures."
+  ],
+  "limits": [
+    "No independent reproduction or source-unit reconstruction.",
+    "Pair grouping permits the same solute in different pairs; it is not evidence of whole-solute holdout.",
+    "Repository availability is reported by paper; it was not downloaded in this bounded literature check."
+  ]
+}

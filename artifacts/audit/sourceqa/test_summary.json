@@ -1,0 +1,27 @@
+{
+  "status": "PASSED_CURRENT_INTEGRATION",
+  "tests_passed": 146,
+  "tests_skipped": 2,
+  "log": "logs/pytest_sourceqa_integration.log",
+  "log_sha256": "1ebdb2776035a38488a2f89048ef7daedbe158419a982c716478d53da865d72e",
+  "code_snapshot": {
+    "src/solvent_select/__init__.py": "77d7a505dcc2e04682deca65042a212640a2ee5e5f75646640fb1752516da473",
+    "src/solvent_select/baselines.py": "b36eb8b0ef5daef4b36519ed904d1615016e97ad28dfa2417b5b3e93bdf1af1e",
+    "src/solvent_select/chemprop_runner.py": "624dc6169df3bf0af2b932ed93010a05a51b10282fbc1121c90322e869a77372",
+    "src/solvent_select/compare.py": "93c3bbce62397a2cd7fa1b150d680cee7e5213be7264257665ff475f5e2b3b22",
+    "src/solvent_select/consistency.py": "1e06efc109cc314eefc5a9174324e3df78d5eb8e96215a9ddf93a7bb5c7f235a",
+    "src/solvent_select/data.py": "9ecafaade9016a914b31bf4e2ac4668ca785642edb65ba2cbcec931181098e96",
+    "src/solvent_select/error_analysis.py": "8cb02d0b7aeaec7841b44b0d1ab1de0e3aa86e37067d9df2c0b582115b05dd56",
+    "src/solvent_select/evaluate.py": "c2bfd1fdf8995afa7843089d4c682d446fb8ff0fe94c59f97487b180292caa81",
+    "src/solvent_select/llm.py": "e1750ebbf269e366d40e83749d3e54d3b2aed31b3aedfa4374dd7dd8e710d7fe",
+    "src/solvent_select/report.py": "065b3c8b95ad1793ec890ed8bdb9785b89a20797799391ced3519d703a8c55fe",
+    "src/solvent_select/retrieval.py": "6d5bb906f1d55ba44fab8c44a17a1e7a94d16dde8236181fcd062ca767a96a65",
+    "src/solvent_select/solubench_audit.py": "60f5c312a9b9a6b928ce18839461385dab20a38650e8347e6c9ece262a2e0cfd",
+    "src/solvent_select/source_audit.py": "f566bde1887f9c52938857fa231414990cc30764a76c15312b2a8b07f6811291",
+    "src/solvent_select/source_quarantine.py": "6fe57ae963624e431eb67423bd659ab1655eb84e687d702ca94c2304f4672be0",
+    "src/solvent_select/strict_split.py": "f887b09dd77dbca012c8266a5cf5c4262f2ac01311550b752f0d2600ffc61568",
+    "src/solvent_select/views.py": "949e68ac1ed3f9e1714c115bd37c1d1f5dbf5c86909187793feb9205e2d0038c"
+  },
+  "model_snapshot_recheck": "artifacts/audit/model_snapshot_recheck.json",
+  "scope": "Software/real-data checks, not evidence that final scientific results or manuscript are complete."
+}

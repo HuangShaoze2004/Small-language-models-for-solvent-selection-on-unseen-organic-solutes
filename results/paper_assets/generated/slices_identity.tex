@@ -1,0 +1,52 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lrrrrr}
+\caption{Primary protocol: all predefined descriptive slices for condition-retrieval SFT. Accuracy and best hit are percentages; regret is in dex. Values average the three fixed learning seeds. $n_P$ and $n_R$ are independent pair-eligible and ranking-eligible solutes, respectively. Superscript $a$ marks fewer than ten eligible solutes; zero-support metrics are undefined. Functional and solvent classes overlap. No slice was removed on the basis of its result.}\label{tab:si-slices-primary}\\
+\toprule
+Slice & $n_P$ & Accuracy & $n_R$ & Best hit & Regret \\
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\textit{Continued}} \\
+\toprule
+Slice & $n_P$ & Accuracy & $n_R$ & Best hit & Regret \\
+\midrule
+\endhead
+\multicolumn{6}{l}{\textit{All eligible questions}} \\
+all & 124 & 69.4 & 103 & 73.3 & 0.166 \\
+\multicolumn{6}{l}{\textit{Temperature (K)}} \\
+$<283.15$ & 51 & 76.9 & 45 & 76.5 & 0.170 \\
+$[283.15,303.15)$ & 118 & 68.9 & 98 & 71.9 & 0.195 \\
+$[303.15,323.15)$ & 115 & 69.5 & 95 & 72.4 & 0.149 \\
+$\geq 323.15$ & 75 & 63.7 & 60 & 70.9 & 0.148 \\
+\multicolumn{6}{l}{\textit{Maximum training-solute Tanimoto}} \\
+$[0,0.2)$ & 6$^{a}$ & 69.9 & 6$^{a}$ & 71.4 & 0.145 \\
+$[0.2,0.4)$ & 36 & 70.4 & 29 & 72.7 & 0.171 \\
+$[0.4,0.6)$ & 49 & 68.9 & 41 & 75.3 & 0.162 \\
+$[0.6,0.8)$ & 28 & 73.3 & 24 & 67.8 & 0.188 \\
+$[0.8,1]$ & 5$^{a}$ & 45.5 & 3$^{a}$ & 100.0 & 0.012 \\
+\multicolumn{6}{l}{\textit{Solute functional group}} \\
+carboxylic acid & 37 & 63.7 & 33 & 73.2 & 0.167 \\
+ester & 11 & 68.7 & 9$^{a}$ & 72.4 & 0.212 \\
+amide & 17 & 69.7 & 16 & 76.9 & 0.122 \\
+amine & 42 & 72.3 & 35 & 68.3 & 0.219 \\
+alcohol & 22 & 71.5 & 16 & 66.9 & 0.174 \\
+phenol & 22 & 66.4 & 19 & 70.8 & 0.241 \\
+nitrile & 5$^{a}$ & 84.9 & 3$^{a}$ & 84.8 & 0.105 \\
+halogen & 33 & 78.7 & 26 & 78.8 & 0.110 \\
+aromatic & 93 & 71.1 & 79 & 74.3 & 0.162 \\
+sulfonyl & 15 & 75.5 & 13 & 80.6 & 0.087 \\
+\multicolumn{6}{l}{\textit{Candidate-solvent class}} \\
+water & 60 & 85.0 & 46 & 70.8 & 0.219 \\
+alcohol & 113 & 69.1 & 98 & 73.4 & 0.181 \\
+amide & 35 & 82.6 & 32 & 79.2 & 0.103 \\
+nitrile & 50 & 67.8 & 45 & 65.4 & 0.163 \\
+ester & 64 & 64.5 & 61 & 72.0 & 0.193 \\
+ketone & 57 & 69.9 & 52 & 76.6 & 0.122 \\
+ether & 45 & 67.3 & 41 & 67.4 & 0.254 \\
+aromatic & 29 & 63.4 & 24 & 62.8 & 0.264 \\
+halogenated & 20 & 50.0 & 17 & 58.0 & 0.517 \\
+hydrocarbon & 40 & 74.1 & 32 & 70.7 & 0.213 \\
+other & 20 & 71.7 & 20 & 58.4 & 0.179 \\
+\bottomrule
+\end{longtable}
+\endgroup

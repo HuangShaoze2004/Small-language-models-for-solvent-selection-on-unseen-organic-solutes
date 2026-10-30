@@ -1,0 +1,237 @@
+{
+  "data": {
+    "id": "10.18434/mds2-2422",
+    "type": "dois",
+    "attributes": {
+      "doi": "10.18434/mds2-2422",
+      "prefix": "10.18434",
+      "suffix": "mds2-2422",
+      "identifiers": [
+        {
+          "identifier": "ark:/88434/mds2-2422",
+          "identifierType": "data.gov POD identifier"
+        }
+      ],
+      "alternateIdentifiers": [
+        {
+          "alternateIdentifierType": "data.gov POD identifier",
+          "alternateIdentifier": "ark:/88434/mds2-2422"
+        }
+      ],
+      "creators": [
+        {
+          "name": "Riccardi, Demian ",
+          "nameType": "Personal",
+          "givenName": "Demian ",
+          "familyName": "Riccardi",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": " Bazyleva, Ala ",
+          "nameType": "Personal",
+          "givenName": "Ala ",
+          "familyName": " Bazyleva",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Paulechka, Eugene ",
+          "nameType": "Personal",
+          "givenName": "Eugene ",
+          "familyName": "Paulechka",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Diky, Vladimir ",
+          "nameType": "Personal",
+          "givenName": "Vladimir ",
+          "familyName": "Diky",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Magee, Josepha W",
+          "nameType": "Personal",
+          "givenName": "Josepha W",
+          "familyName": "Magee",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Kazakov, Andrei F",
+          "nameType": "Personal",
+          "givenName": "Andrei F",
+          "familyName": "Kazakov",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Townsend, Scott A",
+          "nameType": "Personal",
+          "givenName": "Scott A",
+          "familyName": "Townsend",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        },
+        {
+          "name": "Muzny, Chris D",
+          "nameType": "Personal",
+          "givenName": "Chris D",
+          "familyName": "Muzny",
+          "affiliation": [
+            "National Institute of Standards and Technology"
+          ],
+          "nameIdentifiers": []
+        }
+      ],
+      "titles": [
+        {
+          "title": "ThermoML/Data Archive"
+        }
+      ],
+      "publisher": "National Institute of Standards and Technology",
+      "container": {},
+      "publicationYear": 2021,
+      "subjects": [],
+      "contributors": [
+        {
+          "name": "Demian Riccardi",
+          "nameType": "Personal",
+          "contributorType": "ContactPerson",
+          "affiliation": [],
+          "nameIdentifiers": []
+        }
+      ],
+      "dates": [
+        {
+          "date": "2021-08-05T14:07:19",
+          "dateType": "Issued"
+        },
+        {
+          "date": "2021-03-05",
+          "dateType": "Updated"
+        }
+      ],
+      "language": "en",
+      "types": {
+        "ris": "DATA",
+        "bibtex": "misc",
+        "citeproc": "dataset",
+        "schemaOrg": "Dataset",
+        "resourceType": "nrdp:DataPublication",
+        "resourceTypeGeneral": "Dataset"
+      },
+      "relatedIdentifiers": [],
+      "relatedItems": [],
+      "sizes": [
+        "2 files",
+        "189.6 MB"
+      ],
+      "formats": [
+        "application/gzip",
+        "application/octet-stream"
+      ],
+      "version": "1.2.6",
+      "rightsList": [],
+      "descriptions": [],
+      "geoLocations": [],
+      "fundingReferences": [],
+      "xml": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHJlc291cmNlIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCIgeHNpOnNjaGVtYUxvY2F0aW9uPSJodHRwOi8vZGF0YWNpdGUub3JnL3NjaGVtYS9rZXJuZWwtNCBodHRwOi8vc2NoZW1hLmRhdGFjaXRlLm9yZy9tZXRhL2tlcm5lbC00L21ldGFkYXRhLnhzZCI+CiAgPGlkZW50aWZpZXIgaWRlbnRpZmllclR5cGU9IkRPSSI+MTAuMTg0MzQvTURTMi0yNDIyPC9pZGVudGlmaWVyPgogIDxjcmVhdG9ycz4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5SaWNjYXJkaSwgRGVtaWFuIDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+RGVtaWFuIDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5SaWNjYXJkaTwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1eHB2azQxNiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFuZGFyZHMgYW5kIFRlY2hub2xvZ3k8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPiBCYXp5bGV2YSwgQWxhIDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+QWxhIDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT4gQmF6eWxldmE8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wNXhwdms0MTYiIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIj5OYXRpb25hbCBJbnN0aXR1dGUgb2YgU3RhbmRhcmRzIGFuZCBUZWNobm9sb2d5PC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5QYXVsZWNoa2EsIEV1Z2VuZSA8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkV1Z2VuZSA8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+UGF1bGVjaGthPC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDV4cHZrNDE2IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiI+TmF0aW9uYWwgSW5zdGl0dXRlIG9mIFN0YW5kYXJkcyBhbmQgVGVjaG5vbG9neTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+RGlreSwgVmxhZGltaXIgPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5WbGFkaW1pciA8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+RGlreTwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1eHB2azQxNiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFuZGFyZHMgYW5kIFRlY2hub2xvZ3k8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPk1hZ2VlLCBKb3NlcGhhIFc8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPkpvc2VwaGEgVzwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5NYWdlZTwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1eHB2azQxNiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFuZGFyZHMgYW5kIFRlY2hub2xvZ3k8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogICAgPGNyZWF0b3I+CiAgICAgIDxjcmVhdG9yTmFtZSBuYW1lVHlwZT0iUGVyc29uYWwiPkthemFrb3YsIEFuZHJlaSBGPC9jcmVhdG9yTmFtZT4KICAgICAgPGdpdmVuTmFtZT5BbmRyZWkgRjwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5LYXpha292PC9mYW1pbHlOYW1lPgogICAgICA8YWZmaWxpYXRpb24gYWZmaWxpYXRpb25JZGVudGlmaWVyPSJodHRwczovL3Jvci5vcmcvMDV4cHZrNDE2IiBhZmZpbGlhdGlvbklkZW50aWZpZXJTY2hlbWU9IlJPUiI+TmF0aW9uYWwgSW5zdGl0dXRlIG9mIFN0YW5kYXJkcyBhbmQgVGVjaG5vbG9neTwvYWZmaWxpYXRpb24+CiAgICA8L2NyZWF0b3I+CiAgICA8Y3JlYXRvcj4KICAgICAgPGNyZWF0b3JOYW1lIG5hbWVUeXBlPSJQZXJzb25hbCI+VG93bnNlbmQsIFNjb3R0IEE8L2NyZWF0b3JOYW1lPgogICAgICA8Z2l2ZW5OYW1lPlNjb3R0IEE8L2dpdmVuTmFtZT4KICAgICAgPGZhbWlseU5hbWU+VG93bnNlbmQ8L2ZhbWlseU5hbWU+CiAgICAgIDxhZmZpbGlhdGlvbiBhZmZpbGlhdGlvbklkZW50aWZpZXI9Imh0dHBzOi8vcm9yLm9yZy8wNXhwdms0MTYiIGFmZmlsaWF0aW9uSWRlbnRpZmllclNjaGVtZT0iUk9SIj5OYXRpb25hbCBJbnN0aXR1dGUgb2YgU3RhbmRhcmRzIGFuZCBUZWNobm9sb2d5PC9hZmZpbGlhdGlvbj4KICAgIDwvY3JlYXRvcj4KICAgIDxjcmVhdG9yPgogICAgICA8Y3JlYXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5NdXpueSwgQ2hyaXMgRDwvY3JlYXRvck5hbWU+CiAgICAgIDxnaXZlbk5hbWU+Q2hyaXMgRDwvZ2l2ZW5OYW1lPgogICAgICA8ZmFtaWx5TmFtZT5NdXpueTwvZmFtaWx5TmFtZT4KICAgICAgPGFmZmlsaWF0aW9uIGFmZmlsaWF0aW9uSWRlbnRpZmllcj0iaHR0cHM6Ly9yb3Iub3JnLzA1eHB2azQxNiIgYWZmaWxpYXRpb25JZGVudGlmaWVyU2NoZW1lPSJST1IiPk5hdGlvbmFsIEluc3RpdHV0ZSBvZiBTdGFuZGFyZHMgYW5kIFRlY2hub2xvZ3k8L2FmZmlsaWF0aW9uPgogICAgPC9jcmVhdG9yPgogIDwvY3JlYXRvcnM+CiAgPHRpdGxlcz4KICAgIDx0aXRsZT5UaGVybW9NTC9EYXRhIEFyY2hpdmU8L3RpdGxlPgogIDwvdGl0bGVzPgogIDxwdWJsaXNoZXI+TmF0aW9uYWwgSW5zdGl0dXRlIG9mIFN0YW5kYXJkcyBhbmQgVGVjaG5vbG9neTwvcHVibGlzaGVyPgogIDxwdWJsaWNhdGlvblllYXI+MjAyMTwvcHVibGljYXRpb25ZZWFyPgogIDxyZXNvdXJjZVR5cGUgcmVzb3VyY2VUeXBlR2VuZXJhbD0iRGF0YXNldCI+bnJkcDpEYXRhUHVibGljYXRpb248L3Jlc291cmNlVHlwZT4KICA8Y29udHJpYnV0b3JzPgogICAgPGNvbnRyaWJ1dG9yIGNvbnRyaWJ1dG9yVHlwZT0iQ29udGFjdFBlcnNvbiI+CiAgICAgIDxjb250cmlidXRvck5hbWUgbmFtZVR5cGU9IlBlcnNvbmFsIj5EZW1pYW4gUmljY2FyZGk8L2NvbnRyaWJ1dG9yTmFtZT4KICAgIDwvY29udHJpYnV0b3I+CiAgPC9jb250cmlidXRvcnM+CiAgPGRhdGVzPgogICAgPGRhdGUgZGF0ZVR5cGU9Iklzc3VlZCI+MjAyMS0wOC0wNVQxNDowNzoxOTwvZGF0ZT4KICAgIDxkYXRlIGRhdGVUeXBlPSJVcGRhdGVkIj4yMDIxLTAzLTA1PC9kYXRlPgogIDwvZGF0ZXM+CiAgPGxhbmd1YWdlPmVuLVVTPC9sYW5ndWFnZT4KICA8YWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgICA8YWx0ZXJuYXRlSWRlbnRpZmllciBhbHRlcm5hdGVJZGVudGlmaWVyVHlwZT0iZGF0YS5nb3YgUE9EIGlkZW50aWZpZXIiPmFyazovODg0MzQvbWRzMi0yNDIyPC9hbHRlcm5hdGVJZGVudGlmaWVyPgogIDwvYWx0ZXJuYXRlSWRlbnRpZmllcnM+CiAgPHNpemVzPgogICAgPHNpemU+MiBmaWxlczwvc2l6ZT4KICAgIDxzaXplPjE4OS42IE1CPC9zaXplPgogIDwvc2l6ZXM+CiAgPGZvcm1hdHM+CiAgICA8Zm9ybWF0PmFwcGxpY2F0aW9uL2d6aXA8L2Zvcm1hdD4KICAgIDxmb3JtYXQ+YXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtPC9mb3JtYXQ+CiAgPC9mb3JtYXRzPgogIDx2ZXJzaW9uPjEuMi42PC92ZXJzaW9uPgo8L3Jlc291cmNlPgo=",
+      "url": "https://data.nist.gov/od/id/mds2-2422",
+      "contentUrl": null,
+      "metadataVersion": 12,
+      "schemaVersion": "http://datacite.org/schema/kernel-4",
+      "source": "api",
+      "isActive": true,
+      "state": "findable",
+      "reason": null,
+      "viewCount": 0,
+      "viewsOverTime": [],
+      "downloadCount": 0,
+      "downloadsOverTime": [],
+      "referenceCount": 0,
+      "citationCount": 2,
+      "citationsOverTime": [
+        {
+          "year": "2023",
+          "total": 1
+        },
+        {
+          "year": "2025",
+          "total": 1
+        }
+      ],
+      "partCount": 0,
+      "partOfCount": 0,
+      "versionCount": 0,
+      "versionOfCount": 0,
+      "created": "2021-08-05T18:07:42.000Z",
+      "registered": "2021-08-05T18:07:42.000Z",
+      "published": "2021",
+      "updated": "2023-06-14T08:56:25.000Z"
+    },
+    "relationships": {
+      "client": {
+        "data": {
+          "id": "nist.admin",
+          "type": "clients"
+        }
+      },
+      "provider": {
+        "data": {
+          "id": "nist",
+          "type": "providers"
+        }
+      },
+      "media": {
+        "data": {
+          "id": "10.18434/mds2-2422",
+          "type": "media"
+        }
+      },
+      "references": {
+        "data": []
+      },
+      "citations": {
+        "data": [
+          {
+            "id": "10.1016/j.ces.2025.122170",
+            "type": "dois"
+          },
+          {
+            "id": "10.1021/acs.jctc.3c00039",
+            "type": "dois"
+          }
+        ]
+      },
+      "parts": {
+        "data": []
+      },
+      "partOf": {
+        "data": []
+      },
+      "versions": {
+        "data": []
+      },
+      "versionOf": {
+        "data": []
+      }
+    }
+  }
+}

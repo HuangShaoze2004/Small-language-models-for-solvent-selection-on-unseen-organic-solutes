@@ -1,0 +1,186 @@
+{
+  "status": "GENERATED_FROM_AUDITED_FROZEN_RESULTS",
+  "sources": {
+    "scripts/build_chemical_papers_assets.py": "fc6fafe2a00730d8d8563151843423e2fe8c3201398192f9a1026cceba3c77d1",
+    "artifacts/reports/dualqa/final_figures_v1/manifest.json": "251f28d6a6c05f36b85c39dbfbdd1a327b2205f34f5fa9250a0c323b9054c601",
+    "artifacts/reports/dualqa/final_consistency_figures_v1/manifest.json": "943515c67a4f68847b307dceb67cfd5a791a803d989a57d395dfe56337b2c7ae",
+    "artifacts/reports/dualqa/final_resources_v1/manifest.json": "451f397cf235d6e35d3ea55ba3ef7b83f39eeb3bfcea1039a2e6752c930b41ec",
+    "artifacts/reports/dualqa/final_figures_v1/summary.csv": "d05b5f8021681935d73a633d6b3992ce5574cda42c494b7607810d78137f8d54",
+    "artifacts/reports/dualqa/final_consistency_figures_v1/summary.csv": "406da8aa0a341e5e0b4bc79e9f169a2c94ec0944b78e12eeac749d9e2190a73f",
+    "artifacts/reports/dualqa/final_resources_v1/latency_observations.csv": "64a250f84ca7996d43623252670e214efc4567bf5dcde9c59a85fae63d376d76",
+    "artifacts/audit/dualqa/independent_final_scores_v1.json": "13b0d7885df9af9f2719e07c0f08bc308bc36e3660728aac9b014133d7795583",
+    "artifacts/audit/sourceqa/data_audit.json": "82166e425f67c7015da133497b6efe6391bf152ceabf5318b178179f7c2ce6a6",
+    "artifacts/audit/strictqa/data_audit.json": "90776125dfb9b78a32c4a4b44957be918b3f06a08be4261c292d3edec2d9def9",
+    "configs/study_registry_dualqa_v2.json": "33fa308b9b00f3525ceb4aa833463a75072fd3be2b2ebb1617a55bfab86560a4",
+    "artifacts/reports/frozen_dualqa/identity_primary_condition_minus_structure.json": "1a2fd6a1e9d2aa0ebbc90e0a8cb85d3fbe20cdc84ebd6ff915f7493d2b1bc580",
+    "artifacts/reports/frozen_dualqa/scaffold_primary_condition_minus_structure.json": "9a1579caad6b10751689c971d773252428a85fd458f46fe4668c165425d1141e",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/error_analysis_test_v1/failure_cases.jsonl": "b9eac60ddc58018d9d887e5a1e414c18ca0ba02d388636413123eecccfe72cb7",
+    "data/processed/sourceqa/measurements.parquet": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/predictions.jsonl": "a59e014b04eab9ca1d3028dee842929c0a509e2bce9ae5cc949f257f1cdb4d3e",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/evaluation_test_view10000/per_query.parquet": "5a9daf96d1d5854bfe0a03b5999e928047d0d6a97e05f46b7acfd0df322d0c2d",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/predictions.jsonl": "22ef6a00af98219b2bf382b082247b97b598614e714485016f85ed64b191dce0",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/evaluation_test_view10000/per_query.parquet": "631ffdf70b995deb1df4836cfb3bb31949523387849fc6878acea0ec9f194c97",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/predictions.jsonl": "cceaf0049d17a160468743ec2a1a194808c5b0412fa0c19ec3dc0a84dcb32723",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/evaluation_test_view10000/per_query.parquet": "0748f232637167ed84fdb656323637c8c8da057d3d38719f2507bd21e361df86",
+    "data/views/sourceqa/identity/train_queries.jsonl": "cfa2abc238dc74cdc0c1fd9dcd061447028fab28bc5afd0d45cd8496e5531404",
+    "data/views/sourceqa/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+    "data/views/sourceqa/identity/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "data/views/strictqa/scaffold/train_queries.jsonl": "3093f64c8ffc16a121eaa4340e891b008c8a6a2c143474b479d33f23b60e7902",
+    "data/views/strictqa/scaffold/val_queries.jsonl": "751cc5c4e20340d916a34199c1bd3b44b2dc50cffe0f1227d7c6f79dbf7b7249",
+    "data/views/strictqa/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "artifacts/reports/dualqa/final_resources_v1/evidence_support.csv": "f8aeee856c643211d34413ec3067fe128fb768383319b18992665a552291a29d",
+    "configs/error_analysis.yaml": "ebe28158c58924e29d70013b6bbaad206c01188c48777bb39ac9c90e5a02946e",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/error_analysis_test_v1/slice_metrics.csv": "ec8eecf80b37eb1c9c87f57767e05e773c474cebd47ccf29d35ae9c53bac803f",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/error_analysis_test_v1/slice_metrics.csv": "b90116dc31d126979cc9de84fc75937301e6d69ce9e0d99eade76e531ae3d79c",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/error_analysis_test_v1/slice_metrics.csv": "ba6d10d458ca19aac63ab758a4d381026a61e03b82bb4c8f2306f6b65c777b27",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_17_condition_test/error_analysis_test_v1/slice_metrics.csv": "aecde40ac27dd857bc2a02a359c9991a93016f715896047451615a20f3e54a86",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_42_condition_test/error_analysis_test_v1/slice_metrics.csv": "8fb0727a365dd41354b44821727a2a87d24f56208d321305f8facd7ced7882fa",
+    "artifacts/runs_strictqa/strictqa_scaffold_qwen_rag_2026_condition_test/error_analysis_test_v1/slice_metrics.csv": "a0c83e04579d5eb303be6646ba4da2652a1611aa9859469d80dee9a29ddeb774"
+  },
+  "figure_width_mm": 174,
+  "graphical_abstract_mm": [
+    80,
+    30
+  ],
+  "png_dpi": 600,
+  "core_methods": [
+    "Nearest neighbor",
+    "LightGBM",
+    "Chemprop",
+    "Base LM / no retrieval",
+    "Ordinary SFT / no retrieval",
+    "Retrieval SFT / structure",
+    "Retrieval SFT / condition"
+  ],
+  "all_method_groups": 34,
+  "all_consistency_groups": 36,
+  "case_selection": {
+    "rule": "First greatest_regret case (selection_rank == 1) of each task in frozen primary identity condition-retrieval SFT seed 17 results",
+    "queries": [
+      "4874e6a3f396293061c1b927",
+      "4081bbcdf42d9bfff4f12b36"
+    ],
+    "unique_solutes": 1,
+    "across_seed_checks": [
+      {
+        "task": "pair",
+        "seed": 17,
+        "query_id": "4874e6a3f396293061c1b927",
+        "choice": "A",
+        "regret": 4.150644136843201,
+        "raw_prediction": {
+          "choice": "A"
+        }
+      },
+      {
+        "task": "pair",
+        "seed": 42,
+        "query_id": "4874e6a3f396293061c1b927",
+        "choice": "B",
+        "regret": 0.0,
+        "raw_prediction": {
+          "choice": "B"
+        }
+      },
+      {
+        "task": "pair",
+        "seed": 2026,
+        "query_id": "4874e6a3f396293061c1b927",
+        "choice": "A",
+        "regret": 4.150644136843201,
+        "raw_prediction": {
+          "choice": "A"
+        }
+      },
+      {
+        "task": "rank",
+        "seed": 17,
+        "query_id": "4081bbcdf42d9bfff4f12b36",
+        "choice": "S4",
+        "regret": 4.236430749489354,
+        "raw_prediction": {
+          "ranking": [
+            "S4",
+            "S0",
+            "S1",
+            "S3",
+            "S2"
+          ]
+        }
+      },
+      {
+        "task": "rank",
+        "seed": 42,
+        "query_id": "4081bbcdf42d9bfff4f12b36",
+        "choice": "S4",
+        "regret": 4.236430749489354,
+        "raw_prediction": {
+          "ranking": [
+            "S4",
+            "S0",
+            "S1",
+            "S3",
+            "S2"
+          ]
+        }
+      },
+      {
+        "task": "rank",
+        "seed": 2026,
+        "query_id": "4081bbcdf42d9bfff4f12b36",
+        "choice": "S4",
+        "regret": 4.236430749489354,
+        "raw_prediction": {
+          "ranking": [
+            "S4",
+            "S0",
+            "S1",
+            "S3",
+            "S2"
+          ]
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "figures/captions_notes.json": "3bc0e47f459e94a8c3c67a0ed41a5c06ba2c08fa2b104d03596329942c128795",
+    "figures/fig1_workflow.pdf": "f1717b273c9f8d31fd0e297fc930e678eaca92638bd9492b1bbac9aa9e701213",
+    "figures/fig1_workflow.png": "d89ef83be2ca9ab4912f0c8e8e5b62222dad1128c662c666d1578c041aa16e6f",
+    "figures/fig2_performance.pdf": "e6285844469dc7da17b0bf7234e24a22d9ea3e1131294fb22ce277afad0ccc8d",
+    "figures/fig2_performance.png": "028b061999dbde2dee93c11fdae6b64f9ba8849a463178fc50ad01fd760c2867",
+    "figures/fig3_contrasts.pdf": "3a192c38a28e98feb074bfb48814cc06d177b38a4522769f966280ab87d501da",
+    "figures/fig3_contrasts.png": "2b0a2d2f4f90abd2cc6bd90b5f7afe179cc69a2a3bbad7cb5efab4606a47a2cb",
+    "figures/fig4_consistency.pdf": "1e1265460c9b1428bf376196634c6e5055fdfafd4c638cd033d92579c654fd7c",
+    "figures/fig4_consistency.png": "ce7b8f93fd2fa985962d756663bab385ed077a3b2995b1650e15324a6de75005",
+    "figures/fig5_cases.pdf": "b6f092a2a041c539462ef2e9507572682c496ff8a645b39bebc96a49796e7ad9",
+    "figures/fig5_cases.png": "216957b353f4090a00425ca1c6f33a92c61385a4cf1d70336b38bdd3436162af",
+    "figures/graphical_abstract.pdf": "e8a3220baca092ed0a22827766072351d1ccc1b0fc2baa8d5c40526a1f7d4783",
+    "figures/graphical_abstract.png": "ce024455ede0d8982d10abdb045fd2f6e06d81596d29f399923add9b6140f80d",
+    "generated/all_methods.tex": "68921db0f54903ad291fd3d0f82d5f59008b97577b0baf6e282011d791e0bc85",
+    "generated/cases.tex": "632459e28e720922664555089ccca2dd072427d3821c41973be704f1bb549065",
+    "generated/cohorts.tex": "8c33a28e197fcbefaba84346e653f0b3b450fbc7fd7cc53cdc1c93703ba51e00",
+    "generated/consistency.tex": "0bf9bc24c46349247c4faf4fd127b1bcd332d94ee1006a399915407d5a380652",
+    "generated/consistency_identity_candidate_order.tex": "3649de1b48c5897bcca28f958622e66d4385f828ac7ed37013622063e9c63ebc",
+    "generated/consistency_identity_equivalent_smiles.tex": "6822ef8bf6f70c50fb10c8de443092f8d6346a0c9580be707134722c2c800a7c",
+    "generated/consistency_scaffold_candidate_order.tex": "47cc752ef60f11bc2d2a760b3a58c6a301d098958cb17488664c12e49d31136e",
+    "generated/consistency_scaffold_equivalent_smiles.tex": "f6789e8d8fad85323cda7069711250397831f9cfe9e6e415682ac23bda297d2d",
+    "generated/contrasts.tex": "59ba096b882db865914a1785ec7d0ecbbf8d86cc7d369c7298a8483482bc9628",
+    "generated/evidence_support.tex": "9635f3832675c9ffe26309d4a461615c66336db82d9cf2347c27d7816503c032",
+    "generated/main_performance.tex": "e3f43488a786c651e422ee6f9ebbf265db95ea58763ab88b6c83abf98ce854a9",
+    "generated/per_seed.tex": "789d3d9ef245f6b41020041552729221e2d8ee9588792463844da75ca5fe150b",
+    "generated/resources.tex": "63de96739f07de20c7d72cc9f7d0fd6f610f5816807c14701b4a8c8adf9561c3",
+    "generated/slices_identity.tex": "c6faaf6896d573742779ce8eae1523487486442b6c8f9642bab2096f4942bf83",
+    "generated/slices_scaffold.tex": "bc73cd104b87f16644682622385d8178ad5b0ad78b70ad914853bfe43efe665e",
+    "generated/supplemental_metrics.tex": "64466b080a5fb516416f1a194172541d86578039475ad7ed8598e3be150a0e7d"
+  },
+  "models_invoked": false,
+  "new_scientific_tests": false,
+  "notes": {
+    "fig1_workflow": "Real executed protocol. Training banks and the shared test have distinct roles; arrows are conceptual data flow, not chronological audit gates. Property baselines do not use language-model retrieval.",
+    "fig2_performance": "Seven fixed core groups, both protocols, all three principal metrics. All 34 groups and 62 runs remain in all_methods and per_seed. Confidence intervals resample solutes after averaging complete learning-seed groups; they do not quantify training or experimental noise.",
+    "fig3_contrasts": "Condition minus structure on the same seed-specific adapter. Accuracy differences are in percentage points; regret is in dex. Solid vertical line: zero; dashed lines: the prespecified 2 pp pair-accuracy and -0.05 dex regret meaningful thresholds. Top-1 is supplemental. Neither protocol supports both prespecified criteria jointly.",
+    "fig4_consistency": "The main figure shows the primary identity protocol; scaffold and all 36 groups remain in the supplement. Rows: option-order then equivalent-SMILES transforms. Columns: pair mapped-answer, ranking first-choice, and complete-ranking agreement. Invalid outputs retain penalties; consistency does not establish correctness.",
+    "fig5_cases": "Original frozen greatest-regret seed 17 pair and rank queries: both concern the SAME resveratrol solute at 283.15 K, DOI 10.1016/j.molliq.2020.113363. The dataset lacks pH, polymorph and equilibration metadata. Descriptive extreme-case selection is not a representative error rate or causal mechanism. All three seed outcomes are verified against saved per-query scores. RDKit black-and-white SVG paths are copied without geometric approximation into vector PDF; unsupported path commands fail.",
+    "graphical_abstract": "80 x 30 mm vector conceptual workflow; no efficacy or chemical mechanism assertion."
+  }
+}

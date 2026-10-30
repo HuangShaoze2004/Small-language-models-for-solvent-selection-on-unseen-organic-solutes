@@ -1,0 +1,12 @@
+{
+  "name": "sourceqa_scaffold_lgbm_17",
+  "status": "PASSED_REAL_VALIDATION_REPLAY",
+  "max_property_prediction_difference_dex": 0.0,
+  "base_structure_fields_changed": 0,
+  "elapsed_seconds": 5.095468766987324,
+  "reference_sha256": {
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_lgbm_17/base_predictions.jsonl": "c25a975f344ae3d96fa2187c12cee67031c74fadfe794696986eb0ddaa863ca7",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_lgbm_17/transformed_predictions.jsonl": "c15db996d590aa3b6e34bcf75bda97602a5ffb302211d0a3163c25b2e27b6b5d"
+  },
+  "cohort_manifest_sha256": "2ffa149700e9bb93d07962c706bf881f60ac95fa83000b43e54a2d6e65c82418"
+}

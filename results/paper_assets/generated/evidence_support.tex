@@ -1,0 +1,26 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{llrrrrrrr}
+\caption{Complete final direct-evidence coverage: both task rows for all ten protocol/retrieval groups. $N_P$ and $N_R$ count pair and ranking questions; $n_P$ and $n_R$ count their eligible solutes. Support fractions use the registered condition-then-solute macro average. Pair support means that at least one retrieved card contains both exact candidate solvents. Rank pairs is the supported fraction of candidate pairs; rank full means every candidate pair is supported. All twenty source task rows have 100\% valid output, which does not establish supported or correct decisions. These are coverage measurements, not additional model accuracy experiments.}\label{tab:evidence-support}\\
+\toprule
+Protocol & Retrieval & $N_P$ & $n_P$ & \shortstack{Pair support\\(\%)} & $N_R$ & $n_R$ & \shortstack{Rank pairs\\(\%)} & \shortstack{Rank full\\(\%)} \\
+\midrule
+\endfirsthead
+\multicolumn{9}{l}{\textit{Continued}} \\
+\toprule
+Protocol & Retrieval & $N_P$ & $n_P$ & \shortstack{Pair support\\(\%)} & $N_R$ & $n_R$ & \shortstack{Rank pairs\\(\%)} & \shortstack{Rank full\\(\%)} \\
+\midrule
+\endhead
+Identity & Text & 3089 & 124 & 48.8 & 1457 & 103 & 61.0 & 34.4 \\
+Identity & Structure & 3089 & 124 & 46.7 & 1457 & 103 & 43.4 & 15.9 \\
+Identity & Condition & 3089 & 124 & 94.5 & 1457 & 103 & 88.6 & 72.1 \\
+Identity & No temperature & 3089 & 124 & 94.6 & 1457 & 103 & 89.3 & 74.7 \\
+Identity & No solvent & 3089 & 124 & 49.3 & 1457 & 103 & 47.3 & 19.3 \\
+Scaffold & Text & 3089 & 124 & 46.2 & 1457 & 103 & 55.3 & 27.6 \\
+Scaffold & Structure & 3089 & 124 & 39.9 & 1457 & 103 & 34.9 & 10.8 \\
+Scaffold & Condition & 3089 & 124 & 94.6 & 1457 & 103 & 87.7 & 68.8 \\
+Scaffold & No temperature & 3089 & 124 & 94.5 & 1457 & 103 & 88.1 & 69.3 \\
+Scaffold & No solvent & 3089 & 124 & 43.6 & 1457 & 103 & 40.4 & 13.7 \\
+\bottomrule
+\end{longtable}
+\endgroup

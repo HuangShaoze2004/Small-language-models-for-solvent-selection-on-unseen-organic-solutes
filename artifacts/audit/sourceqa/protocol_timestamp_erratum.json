@@ -1,0 +1,10 @@
+{
+  "status": "METADATA_ERRATUM_ONLY",
+  "file": "configs/development_protocol_sourceqa.json",
+  "file_sha256": "23777c263a052dcfaa952b353be2903e22868a3a8aa784c31b60f2b4ef5750df",
+  "inherited_created_utc": "2026-10-26T01:32:27.581526+00:00",
+  "explanation": "The created_utc field was copied from the initial development protocol, not the time the sourceqa derivative was written. It must not be used as the sourceqa registration timestamp. The original immutable file is retained because running queues pin its hash. Source-quarantine decision timestamps, experiment start times, Git history and sourceqa queue receipts provide the actual chronology. Method hyperparameters and meaningful-effect thresholds were inherited unchanged; final test has not been evaluated.",
+  "source_policy_created_utc": "2026-10-26T02:39:01.270569+00:00",
+  "discovered_utc": "2026-10-26T03:37:51.892911+00:00",
+  "data_method_or_test_changes": false
+}

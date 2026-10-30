@@ -1,0 +1,1870 @@
+{
+  "status": "DOWNLOADED_STRICT_TRAINING_SOURCE_AUDIT_ONLY",
+  "files": {
+    "10.1016/j.fluid.2007.11.001": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f5b06bad1fdaced70e42e77678cd32973421f89dafc8cb0a238a0e2b27e44d93.json",
+      "sha256": "802dbab0bf809c92368876d5535682f0c659ea211c82949e75f0aeadaab8e093",
+      "archive_member": "10.1016/j.fluid.2007.11.001.json"
+    },
+    "10.1016/j.fluid.2009.03.006": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/99e84ceb8b0e0da78f15b528ea8a72763cf3a611f6c280d70f9811db9529c9c7.json",
+      "sha256": "5d7a164bb884fa415bd04b1e622d1994e92377496791be2a62056b612a381330",
+      "archive_member": "10.1016/j.fluid.2009.03.006.json"
+    },
+    "10.1016/j.fluid.2009.04.007": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5e35237a036b8846b93ea82d2a88425c7aabb5e7d53e36da017ba54c1531d0c4.json",
+      "sha256": "a0c9ef11cd99aff376ba662b30d7516183a7d78da00e9ca5498c52a1f8fba68e",
+      "archive_member": "10.1016/j.fluid.2009.04.007.json"
+    },
+    "10.1016/j.fluid.2010.10.020": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a1a064d0529c4b5f522f47cb26df6ceef225a7fb29ed9dca090feb9bf851425d.json",
+      "sha256": "c5bb93d5b5bf6e948399326f623d6978e1f9cc2988f0c35d4df9230691ac95b9",
+      "archive_member": "10.1016/j.fluid.2010.10.020.json"
+    },
+    "10.1016/j.fluid.2011.09.027": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1ab63307582664d08b1ea0ea1ab3c63b0a1063a2ee9711425dda844ed29a05bd.json",
+      "sha256": "3d3d248c59b774c69f7eb19d3d74da4bda7fa743925c5e64825f77b32060eaab",
+      "archive_member": "10.1016/j.fluid.2011.09.027.json"
+    },
+    "10.1016/j.fluid.2011.09.033": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7ec98e73c0db230688a5e9970f9c618e028dadab845b2c841fb101f076a525f4.json",
+      "sha256": "fefe8a4aad3c70ef1f04e5f6a080e54b7945330d91a49118430c365dfd4ee4eb",
+      "archive_member": "10.1016/j.fluid.2011.09.033.json"
+    },
+    "10.1016/j.fluid.2012.01.019": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7dcf024627e84aef995e133846275a84d322d9351efeec8f14fb85598e26f3d4.json",
+      "sha256": "a494e5b7734580ec6ebc5988707bf34a39cb0a87f569b96bee4ad4a84cd26528",
+      "archive_member": "10.1016/j.fluid.2012.01.019.json"
+    },
+    "10.1016/j.fluid.2012.05.027": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9ad00cb1eb0beaba380f4afb9eb3d0922fe62890fb2332ca54dbab2373113c13.json",
+      "sha256": "a4f381420a147658c08f3ca439db03a884224fc36929264bb71bc220b18a6110",
+      "archive_member": "10.1016/j.fluid.2012.05.027.json"
+    },
+    "10.1016/j.fluid.2012.06.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/51b1fe2801a92c005fcb45ef62de72b6695d14be7a97ca132d7650f3f8dbd0b9.json",
+      "sha256": "dc07d2c928a68968e860e983785518b8005c48858b1c81e30414efc032c72c36",
+      "archive_member": "10.1016/j.fluid.2012.06.011.json"
+    },
+    "10.1016/j.fluid.2012.09.027": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b8018f15abc638ff260a466d47ad376182951536479a2cb3e683b1e64092a8b7.json",
+      "sha256": "f25beb17d3c302c36f71b2a4007de7fc1e70b259190b966e9d0ba350e886936a",
+      "archive_member": "10.1016/j.fluid.2012.09.027.json"
+    },
+    "10.1016/j.fluid.2012.11.035": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/20f3436f2f6fc0f6132cab8e12a3a6c5ba61067f73f82b2865ed37999dd8c6bb.json",
+      "sha256": "7e7f9d8e0eac69b89e365919124a7a8da0cd46c4f0d034b4721d89e34916ff94",
+      "archive_member": "10.1016/j.fluid.2012.11.035.json"
+    },
+    "10.1016/j.fluid.2013.05.002": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0262779c55140c2c33df613e49f1ad9c529edcfae5ee49337c9060389cd8e049.json",
+      "sha256": "1ccdeeb7f2b7691323fa6c66b63c94fa987f635ddd49e5c4cd047acfe80d435e",
+      "archive_member": "10.1016/j.fluid.2013.05.002.json"
+    },
+    "10.1016/j.fluid.2013.05.014": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5fdf57473e11789e76f18780979bcb583a319cc571dd31da992d8d6842802f42.json",
+      "sha256": "6d2176297347ac8f730f2b95bb47d1963c6987c16cf4cf8202a16f9d449f54ff",
+      "archive_member": "10.1016/j.fluid.2013.05.014.json"
+    },
+    "10.1016/j.fluid.2013.06.037": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/83111e5ada8ff2fc9e4e9654d9059f9ad07330cae4dbe08f2ad987920e004189.json",
+      "sha256": "8b573090b84bbd6c1c389e0da302b240ade2d332ff9efdae2053c4014d0d76b6",
+      "archive_member": "10.1016/j.fluid.2013.06.037.json"
+    },
+    "10.1016/j.fluid.2013.06.038": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2f890bb4153b26f991550296bdd105e4c78cf7a23c36a1f9a31cf64edf4b9e44.json",
+      "sha256": "56d3ec5e338ab25ef6fd50b59874245aba87290d879d0eb8cd02305d0cf90310",
+      "archive_member": "10.1016/j.fluid.2013.06.038.json"
+    },
+    "10.1016/j.fluid.2013.07.010": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ee74940d35def0fc1f894cc30983cc55c7d1d49589a8ba92099eecef788b159b.json",
+      "sha256": "b0eb9dcbdb92008cd3bc500bfb3a53ecc0f23680ca6abae8b4a54739f467108a",
+      "archive_member": "10.1016/j.fluid.2013.07.010.json"
+    },
+    "10.1016/j.fluid.2013.09.013": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9b46259ff84626b37501d654745497ac2a68a6101eaeaf84b5982812abb5411b.json",
+      "sha256": "c8b505da83a89462f7672fef8ed0a821b3f8bb40e9fdd3c2cde28a7bd9b3615d",
+      "archive_member": "10.1016/j.fluid.2013.09.013.json"
+    },
+    "10.1016/j.fluid.2013.09.018": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7c20520e07bf4d69ae7d9fbffa2729a98b105e4f8386498f1e9724775c2e99a4.json",
+      "sha256": "80d9dbb9c8e3fc0cb384eb2080df1a10d9eae090d6493a3e65aff9b150cfa5c4",
+      "archive_member": "10.1016/j.fluid.2013.09.018.json"
+    },
+    "10.1016/j.fluid.2013.09.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5e6f19c0b7fec6e1cf612f13e888ba5c0f1849c901be464447cb5af693948664.json",
+      "sha256": "7c39203be611d5c8a2a935be2f2583e0d6ecbf53fd8f859719b00b1c442e9dbf",
+      "archive_member": "10.1016/j.fluid.2013.09.023.json"
+    },
+    "10.1016/j.fluid.2013.10.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5cd939b8e64e2b74d7ae8fdc6b44a85aca745f0c5d0c37cd112a829fee32fb3a.json",
+      "sha256": "09cdd5d36ce464c625c5dd3cf86625f9fb7b13473de4eac605d92d5abc34ef51",
+      "archive_member": "10.1016/j.fluid.2013.10.011.json"
+    },
+    "10.1016/j.fluid.2013.11.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fe8aac830a86d842b469df9917183bf0b5c70e6038b1cd35658438f6b0bbeb24.json",
+      "sha256": "6733710fc19c12cb61f80a086b68630ab6eaa9b3f950a2389373a8b56ee22b3a",
+      "archive_member": "10.1016/j.fluid.2013.11.005.json"
+    },
+    "10.1016/j.fluid.2013.11.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fe09c0cec580608ca03f5f391f46cd87517d226ee22bdd4467979142f4d0a739.json",
+      "sha256": "e41ac6cf89e841735d6247e080560360a27ceabde9891cef102c54d659d490fb",
+      "archive_member": "10.1016/j.fluid.2013.11.023.json"
+    },
+    "10.1016/j.fluid.2013.11.045": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/08e8def291483c6f7e643aa89ce571ff77cec2d0c95f92348fb34ccfc5dd9175.json",
+      "sha256": "7cfd9fcb9cf191f2b82193903197a2876dbee2f4995ef6636b07cef8895ecc69",
+      "archive_member": "10.1016/j.fluid.2013.11.045.json"
+    },
+    "10.1016/j.fluid.2014.01.008": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/11e482f39906bf63882447a009642dd090310e3b0148af06bdb69f19653bcb74.json",
+      "sha256": "b78ad594e93dc8686f5b6a3329ef7c1d555cd3faedc3b9c56fedc4b82515d08d",
+      "archive_member": "10.1016/j.fluid.2014.01.008.json"
+    },
+    "10.1016/j.fluid.2014.03.022": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/70c04010e4424b51b26fcf195c1b01d9b096c0d07e4bbe0381e8e003a9267bd7.json",
+      "sha256": "289abcb9f61beaf081af6093ae9ec4496b0d9f8cc269aa63062e9e0bfc1cd039",
+      "archive_member": "10.1016/j.fluid.2014.03.022.json"
+    },
+    "10.1016/j.fluid.2014.04.008": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/02e4a66e5c557c987dbf98b3068d7ac55b324804d0973601266d61b4f58b08bc.json",
+      "sha256": "eb2fc998ab2d2b36ab9a2b52d402f5c523ad91a5172974b81e92f4e2d9f22ac4",
+      "archive_member": "10.1016/j.fluid.2014.04.008.json"
+    },
+    "10.1016/j.fluid.2014.04.012": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9c736d9751a183fe45feda8efe858cca55ee88a1ebb08d5146fc17b67486323f.json",
+      "sha256": "f49af6e2a8800404f211ac5ae7a273187a1b09e6847fbe4aa16bdf8d1266bcb6",
+      "archive_member": "10.1016/j.fluid.2014.04.012.json"
+    },
+    "10.1016/j.fluid.2014.04.028": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/de8826af89625c4fb567c77920243b4583e69ce5ea961eb3a000b302b14510f9.json",
+      "sha256": "90c249d9b4e28b6213d7f3c5218a82dc6639569aeb2d1214825c3aa9ead42dcb",
+      "archive_member": "10.1016/j.fluid.2014.04.028.json"
+    },
+    "10.1016/j.fluid.2014.06.017": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/dc3c5c443a48ab0a664069fe1e8f3b1447b30683c90e9074459033ea3b6e0d26.json",
+      "sha256": "cc6a8b5d8209b74f99ad66857d31fa556d875502872dc3237db3296a5ac34d2f",
+      "archive_member": "10.1016/j.fluid.2014.06.017.json"
+    },
+    "10.1016/j.fluid.2014.06.030": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/46db91adab8ea1287179e9f784cd60947638e5d83f315e8d899695db703fdbe0.json",
+      "sha256": "dfe2b703179d6366a196a5b163e0f6083a567d21d76504559605b8ff5ca71f23",
+      "archive_member": "10.1016/j.fluid.2014.06.030.json"
+    },
+    "10.1016/j.fluid.2014.10.031": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1fd6bd3d3567e36e05ae7a0dcbcddbd8c52a3c6d0ca6f9aa36126f34681bad18.json",
+      "sha256": "b04c1173a72ff767d760827c0631c015ba79faa5f08c211f9d32e7d36263000e",
+      "archive_member": "10.1016/j.fluid.2014.10.031.json"
+    },
+    "10.1016/j.fluid.2014.12.037": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/77b9ee0d1b1c97f25111aab1f087561a7ba449b898d1de2fcdc99e4ddac8b96c.json",
+      "sha256": "8a61c3ea3c34ec8f632ee0413ee928d9b9ebc9013676814d85d60cd1e95aab8d",
+      "archive_member": "10.1016/j.fluid.2014.12.037.json"
+    },
+    "10.1016/j.fluid.2015.01.001": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2f83431040fce7f3461822079ad0ff5e80977f04db7185782b8e9bac06a8206c.json",
+      "sha256": "9308ec4f318a16876e9fff299fa2d33bf5e59138d43dd2317ea3bb1e1abe21ae",
+      "archive_member": "10.1016/j.fluid.2015.01.001.json"
+    },
+    "10.1016/j.fluid.2015.01.008": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4091a8d24b1effa51e7113f5652c03ad2834a7c9d5439123bbf82ba3832e4622.json",
+      "sha256": "e54dc164869c18e5007f33893491c5ecdcfdcd17a1434a0c8abf32e037f414db",
+      "archive_member": "10.1016/j.fluid.2015.01.008.json"
+    },
+    "10.1016/j.fluid.2015.01.009": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/70bac5304bda31e558c79f8bfd4806f82928c188a45da8f2c26be9cd53927c55.json",
+      "sha256": "e7b6eeaf5bb25c321d2a0df23458d85d4d4135590bce8da0e8738610c76c0c2b",
+      "archive_member": "10.1016/j.fluid.2015.01.009.json"
+    },
+    "10.1016/j.fluid.2015.01.012": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a44303c2dfcb4a17ec8ae99ba48d134cf8bb42e46f1d3ce2745906ef0607e46e.json",
+      "sha256": "d12cb6ef46fc39389dfe726805dd6da2d373549a01a41035c3378e826565c94a",
+      "archive_member": "10.1016/j.fluid.2015.01.012.json"
+    },
+    "10.1016/j.fluid.2015.04.014": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/cd5c7b65c76ccfe0177f93d242461ade143c7fd90a2d90be5d723c806dff632e.json",
+      "sha256": "f17a48cdf8fbcc9947d76a9fb24ef3c13e50148d8a906e00ee06bbcbf5930714",
+      "archive_member": "10.1016/j.fluid.2015.04.014.json"
+    },
+    "10.1016/j.fluid.2015.07.032": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/75dbb7c4c0e371780bd08e66d575465d2f0a92f1bdd162606d38d0b678702f71.json",
+      "sha256": "d23f06d8480a8afb73dcd6fb1f11c7039043f0e9a8b6f5f038051e168fe142d3",
+      "archive_member": "10.1016/j.fluid.2015.07.032.json"
+    },
+    "10.1016/j.fluid.2015.07.038": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/24f82f527454b02dd9420a74c29564468e9c6cdb93a61ff7e28df500b453d41d.json",
+      "sha256": "eb58f0021bab04987741758f502f407505fc0b2fcc6e27b3434f11df2f070ef1",
+      "archive_member": "10.1016/j.fluid.2015.07.038.json"
+    },
+    "10.1016/j.fluid.2015.10.024": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/11980fcec2e0cabe5f0704194a1676ca1f1b74d727de978451f3cbdcded8531e.json",
+      "sha256": "42e0a6bc1f7d44998109e0db59acb3b0ba96840189454168e4e64274386bb5ab",
+      "archive_member": "10.1016/j.fluid.2015.10.024.json"
+    },
+    "10.1016/j.fluid.2015.10.047": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/250ce0a35e89c66aa3aa37e217a6795be3aad2929647e0b3ecab54322275a53e.json",
+      "sha256": "752b89561d8e444884888a4a22ccfd1055eb4a7461c163743e17072311284f98",
+      "archive_member": "10.1016/j.fluid.2015.10.047.json"
+    },
+    "10.1016/j.fluid.2016.10.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/68515dac36de7c09b626ebbd283a4ffeb2a738426bae220f4f532a976b672003.json",
+      "sha256": "2ed45214cb665412a8efa3294f4e0d2944ae8d9d76a5dc3e30667be9cb7cf536",
+      "archive_member": "10.1016/j.fluid.2016.10.021.json"
+    },
+    "10.1016/j.fluid.2016.12.002": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b291d723805ea6eaaeb4a561280b8e286d07811d24c10166bdb0e0dbf160396b.json",
+      "sha256": "49c161849e0bc30b23688bf2c07717e98e757273f7f81fecf1790ded90fe1e6b",
+      "archive_member": "10.1016/j.fluid.2016.12.002.json"
+    },
+    "10.1016/j.fluid.2017.09.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/46ac444df05346b8821f2d42154c785507c581c0bc47c182af552e7524f5b142.json",
+      "sha256": "6578fb9e1a4f0b68e904561eb6bb706040c0ef61c286270e4df2c995164f0c89",
+      "archive_member": "10.1016/j.fluid.2017.09.021.json"
+    },
+    "10.1016/j.fluid.2017.12.035": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0cb01662d362959a8b1bbf4c7cebae2ea4c3deba5a2ae1d30eb0318e2e2852b5.json",
+      "sha256": "00b8e8a220c830c62da677b0fb3d0d8d24ff1b6bbd1eaa95f70b1b3863b6ac48",
+      "archive_member": "10.1016/j.fluid.2017.12.035.json"
+    },
+    "10.1016/j.fluid.2018.01.015": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/cbab89d37dff64f5edfe9082ef75f210169ac456531eb1fe2a76df617893623b.json",
+      "sha256": "7fa7f1a4978dab1c39fc49adb928e8e6a6797c6561f06e57d568b8f95dc27e49",
+      "archive_member": "10.1016/j.fluid.2018.01.015.json"
+    },
+    "10.1016/j.fluid.2018.03.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4d131d079ab1dade8c25fcb175e53d3cf502a170769732a100fe7454d8fcf864.json",
+      "sha256": "f5f1bd44de05bfdd138c2285eacae7e9544e312b0dcc15ef2613adb509a6a5cd",
+      "archive_member": "10.1016/j.fluid.2018.03.021.json"
+    },
+    "10.1016/j.fluid.2018.05.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2dcd9387cf2bb27f03db3f783f5c8f2ce241b877fd25e87b4a0f20e0780170a5.json",
+      "sha256": "02c7efcc6ebc3431dcdacbcc58d69d5da0953b63ecac0984a0043142d9dab9fb",
+      "archive_member": "10.1016/j.fluid.2018.05.023.json"
+    },
+    "10.1016/j.fluid.2018.07.024": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f58d948ff9be446a10f666301e02df7cfe2b279f11c4eeb58e9ca2de70b718ff.json",
+      "sha256": "d7ce6324e5760219f12d1282ea79e4c0ac4ba7dbd9e08adf2da9a08860dcda70",
+      "archive_member": "10.1016/j.fluid.2018.07.024.json"
+    },
+    "10.1016/j.fluid.2019.06.004": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0c27825feed7f18124ca7222aa656f3164bf51dcfd7f789edd34b0a018094f74.json",
+      "sha256": "5239abb5db1458ea44caf33348f1299c702ccf53a85e396786fe0f1af38312f1",
+      "archive_member": "10.1016/j.fluid.2019.06.004.json"
+    },
+    "10.1016/j.jct.2008.01.019": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/395b9bf512926820319d17cfa09b185733911cea58e93ad71df9ae715667991d.json",
+      "sha256": "6ff5829e88e463df0f2bc6bdd5e8e053eea9b489e6af58ee205a21554ef3ea0c",
+      "archive_member": "10.1016/j.jct.2008.01.019.json"
+    },
+    "10.1016/j.jct.2010.09.013": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/eebb7fc3a9a4741e9abd188b67b22dde23ccfb5d682b4f0bdaa27963b404b4e9.json",
+      "sha256": "63ebe5728768d83a06af2920eb8aecff28e528d31d1f097836b9f8ed9c72be56",
+      "archive_member": "10.1016/j.jct.2010.09.013.json"
+    },
+    "10.1016/j.jct.2011.11.009": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6af26278f079058a32988532fd58a5b37d8c84da80d0b0ab3dd90df3a46064b5.json",
+      "sha256": "334f73eb6f4cadb96bf9d6e87367f42d7c4306594965965fd8c4a22645551369",
+      "archive_member": "10.1016/j.jct.2011.11.009.json"
+    },
+    "10.1016/j.jct.2012.02.002": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e5af3cfe9bc78a802439aba3dd4786ed3a61ee9010178c1b07700e542e3d2782.json",
+      "sha256": "5e114f88191b15551244fa6f40dd500244fdbfa66ea92420f53b0efb4d21e818",
+      "archive_member": "10.1016/j.jct.2012.02.002.json"
+    },
+    "10.1016/j.jct.2012.06.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/138e5102d947b1d345607017bb8c56a4d9d682745ddc8623ffff892f426e8dbd.json",
+      "sha256": "85c5fd1755c639bc71d8ec54ee1847b508fd64689e6c41a4c57dbb6ad7abebeb",
+      "archive_member": "10.1016/j.jct.2012.06.005.json"
+    },
+    "10.1016/j.jct.2012.08.007": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7ff63350052669b196ee346cff08d440f85629eb3af1ee9721a26aae2ba9c649.json",
+      "sha256": "ccf25e76a2ef709cc1808e71d11f0d4069d52c4ffe3ef00b453967c9c3833e0f",
+      "archive_member": "10.1016/j.jct.2012.08.007.json"
+    },
+    "10.1016/j.jct.2012.11.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d5fbc99f3ebfc52373cddfff23424c1d6449c744656a4fa5ce71acd514a0aa06.json",
+      "sha256": "43b0a19a6dd47b2f6349b21f1c923a81f883ab28f6c0cf27f7765ea9234a661d",
+      "archive_member": "10.1016/j.jct.2012.11.021.json"
+    },
+    "10.1016/j.jct.2013.05.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/98ada8072c04bc1f3c5e29773c2c1d835162169c29ed6f29fda2e7c1c3571ddf.json",
+      "sha256": "c1bfc509254adbcab27457d114ddb76374d9f285672e8de4cee10c37f6d13941",
+      "archive_member": "10.1016/j.jct.2013.05.023.json"
+    },
+    "10.1016/j.jct.2013.07.015": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/32845f9116229d742279dbc1a769670c327cfbf37510d2a9586019ad734ad137.json",
+      "sha256": "f50584ba12a17265f72918e3a2646ca3e929da51754a160efc8486de28865b4e",
+      "archive_member": "10.1016/j.jct.2013.07.015.json"
+    },
+    "10.1016/j.jct.2013.07.025": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/40bb1a5db766b280ef2aa81c18e552a46f46480f72eb321c1ba0029a83b0af7e.json",
+      "sha256": "750f5c1c19044f6fe076e51e156a67641f02aabbd9905ea1c6d594141df1879a",
+      "archive_member": "10.1016/j.jct.2013.07.025.json"
+    },
+    "10.1016/j.jct.2013.12.020": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8284e2e402b7b7b9a347c7d4ad7f86d2d9607afa3366a7cc8e44c3ea3ac79bd3.json",
+      "sha256": "1e1afcc2d2e4d0ddc4fe866f8173d72d87edc65ef56ab125cfcb7e35c2fdea3e",
+      "archive_member": "10.1016/j.jct.2013.12.020.json"
+    },
+    "10.1016/j.jct.2014.04.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3f2d7a0b19295539cb4d5217fa7b3895155173bfe9b26aa9470b0ba71062cec6.json",
+      "sha256": "204ea04acff0860e5f55ed5149e63ecf498ea5d5b250074914477c98e18331e6",
+      "archive_member": "10.1016/j.jct.2014.04.011.json"
+    },
+    "10.1016/j.jct.2014.04.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/87aa63bd8a5ef93fc4fb7f3dae6ffa072aeed8ea570ee3b41bf3ce4281704559.json",
+      "sha256": "bbce5b063ab478647b042b34819f955dd1d298e7c7f8762bb4b862436603cbdb",
+      "archive_member": "10.1016/j.jct.2014.04.023.json"
+    },
+    "10.1016/j.jct.2014.05.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c9705ed28d81243d74938f474bfc2a664747c47858d213bef5407d6f0272b526.json",
+      "sha256": "f6e56006bcd6cf1f171e07e9bb099344a8843cb38e2639e7fc241ca940b06618",
+      "archive_member": "10.1016/j.jct.2014.05.005.json"
+    },
+    "10.1016/j.jct.2014.07.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6b719d4e037c5c6dd5659a0892edced3c01bc487bedbc1c54299032201420a8f.json",
+      "sha256": "7e661d34457d1ba1615d94c6cf32a7f85e6ee926e079f9874664c9f1d6a2d0b0",
+      "archive_member": "10.1016/j.jct.2014.07.011.json"
+    },
+    "10.1016/j.jct.2014.08.012": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/92bb6453f6f9aa64bd384dc1097bf1849437b17ea233fa4a2863a8358da611b3.json",
+      "sha256": "6d5268ba9b6ee4d093531046d35e4649d59511221337426a08c1f772bbd89cf9",
+      "archive_member": "10.1016/j.jct.2014.08.012.json"
+    },
+    "10.1016/j.jct.2015.02.004": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/211f5e85e6a4f8e9fd68bada327d5ecbe96b2b533bfd85397c394beca1d54758.json",
+      "sha256": "20cc907141207cfe2dc5554ef49831c6c8dbff09740fd404b987bfcd0b59ea59",
+      "archive_member": "10.1016/j.jct.2015.02.004.json"
+    },
+    "10.1016/j.jct.2015.04.009": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/cac6945c429daf259d757569297c497970b46c25538b6f2ff0ea504c0d1348c8.json",
+      "sha256": "77775d530d3c66bca276ead79f5f44adbc24e660ed10e067a7120c994329221c",
+      "archive_member": "10.1016/j.jct.2015.04.009.json"
+    },
+    "10.1016/j.jct.2015.04.014": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9e7b3995e1ed4d7ff4061cac18b0adbb88e62edc494d4dd10c0956878c32c433.json",
+      "sha256": "a1dca2a53aa0d6f00ca779da363a7cda7f4dddd45671333458ebb4c1c27baa66",
+      "archive_member": "10.1016/j.jct.2015.04.014.json"
+    },
+    "10.1016/j.jct.2015.04.025": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/cb1e74b87b72b133c95693ca20c87d75d8bcb4256c4bbd959b1b82ed25432f0b.json",
+      "sha256": "8390fc8933c0cb799115db146f8c1f6ece91656c34adc6a73277035f7769e96d",
+      "archive_member": "10.1016/j.jct.2015.04.025.json"
+    },
+    "10.1016/j.jct.2015.05.019": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9cbd2c3bd2d56b11d97810e6bd1d34c7208cc8f63fc2d5318f6274b7bb62edae.json",
+      "sha256": "e625c6d96f2cb5343715c33a464f4a7efd20fc51b33d03294ced6b69b0fd4492",
+      "archive_member": "10.1016/j.jct.2015.05.019.json"
+    },
+    "10.1016/j.jct.2015.06.003": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/396ab13e04bcd3ec0df8b3387a78b3f86913835ea7e787c817f3f3b5cf31bbe1.json",
+      "sha256": "73aebbe4ed0c3c3c88a5ddeaae38a5796dff9c2f70cbd11b4c007db4b1411c79",
+      "archive_member": "10.1016/j.jct.2015.06.003.json"
+    },
+    "10.1016/j.jct.2015.08.028": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/06b35444adfbb93a6469284c3f720fa2542977825c6039e6842475f8181b4b15.json",
+      "sha256": "68dc161cfbaee21897ec6209243ab9282cb4e2ed511f57f83baf467d48b7fa9a",
+      "archive_member": "10.1016/j.jct.2015.08.028.json"
+    },
+    "10.1016/j.jct.2015.09.032": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8945c03155c562b041358186957864c17dab18fcb6de84327dc90d114bf705d8.json",
+      "sha256": "463408f839bad080f33a2ca279bd72a442e8abf75acbcd31b0a7974c6955e7e2",
+      "archive_member": "10.1016/j.jct.2015.09.032.json"
+    },
+    "10.1016/j.jct.2015.10.016": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5748eb87eeeddfa1f89794f1ecb7bf7475bf2c968e21b640a685e776391c93c4.json",
+      "sha256": "273ee1b0b9ce75ca01ea960517fdd19de4c886781f5717dfe31a822d409b5b9d",
+      "archive_member": "10.1016/j.jct.2015.10.016.json"
+    },
+    "10.1016/j.jct.2015.10.024": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/149c8448ae9319761ca1a0b165994f1fd1a6c67e1848287165fd82c94b285f2b.json",
+      "sha256": "2afefda8e93e64897f17b8e45ddfabad3ad5dbbf9daf7b46f16c041cf504600e",
+      "archive_member": "10.1016/j.jct.2015.10.024.json"
+    },
+    "10.1016/j.jct.2015.11.004": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a7b7f0b22a904169445ca9221a2c442ad010c0668f77e30cf834bd21b1a01722.json",
+      "sha256": "f425b42dd1e6ff89e0e7769202b8ff7a27e0a95df6b4d0dcd4685b408ce65887",
+      "archive_member": "10.1016/j.jct.2015.11.004.json"
+    },
+    "10.1016/j.jct.2015.11.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/00c5f81819fdf6bda363725147e30633e67d42059b0d66078f6a8d91b1130274.json",
+      "sha256": "f24c530b26f220b89a8b0901331f880ec9cc6a00ee8d439771677cc431cda9da",
+      "archive_member": "10.1016/j.jct.2015.11.005.json"
+    },
+    "10.1016/j.jct.2015.11.024": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7bf661a9197e0ced7e719680703f3e26ee53a637e47b0ab502ec58d1100e3f74.json",
+      "sha256": "6db2e9b020ff249bb8f08ad1088cc66a8c71c0bedc12b1240e297f82bacd7a90",
+      "archive_member": "10.1016/j.jct.2015.11.024.json"
+    },
+    "10.1016/j.jct.2015.11.025": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0be50d6a98040abc9027b7134c9d76ca26b762e10297f727a2122eb06ba6a347.json",
+      "sha256": "11da5753355f3a382ae2a4af9e03316ee9bb67d72ab3c4cf0a3fd1b1df70dc72",
+      "archive_member": "10.1016/j.jct.2015.11.025.json"
+    },
+    "10.1016/j.jct.2015.12.022": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/10249d105506a893db6cdbf063547e8c9e26090f0a566ad4433a5518ddd490e4.json",
+      "sha256": "2d450927151588c48633f4358f3071ab67dddf23cc7da9b0fea6eb6b71340b02",
+      "archive_member": "10.1016/j.jct.2015.12.022.json"
+    },
+    "10.1016/j.jct.2015.12.032": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f425fa2da88bae42eb188dd62fcf6214c1b1dd5682de3b22fd9b67bac99feeac.json",
+      "sha256": "289b879ede996d2bc6fe21500207aac2a2887d0bcdc34e88379438c28560e330",
+      "archive_member": "10.1016/j.jct.2015.12.032.json"
+    },
+    "10.1016/j.jct.2016.01.003": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3f63f3b78327fe00c35208d8c5e57366e6879da31044e5668a1ed842f8630df3.json",
+      "sha256": "2a8c4a83f1ea92f00809c373c0ba7e5b3821c87c9d280b4f979a19a8cf80d051",
+      "archive_member": "10.1016/j.jct.2016.01.003.json"
+    },
+    "10.1016/j.jct.2016.01.022": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/998bec189a4b77d28785f264170bd2ced3f60eac0c9beaec5b17ba69e201121e.json",
+      "sha256": "e46a4d11c1eab08e5c9695867a533269a26e53e5e684c0cff2a612963e4755ea",
+      "archive_member": "10.1016/j.jct.2016.01.022.json"
+    },
+    "10.1016/j.jct.2016.01.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bc5337f8511c971e98027e143c5db10f4c62d3055b86fb23fb5233761582c3d5.json",
+      "sha256": "ec63ac416eae02aeff20ff158ce430f05eb16f982fe8a32799a364fc3bfd8e3e",
+      "archive_member": "10.1016/j.jct.2016.01.023.json"
+    },
+    "10.1016/j.jct.2016.02.006": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bca74b90c22e967d245cea0b0da0253687ff887d89c8607af129b0ba275ccdbd.json",
+      "sha256": "d3e264af11c3f81be826d38c31ab91b84dc0c457eef7b3df837d0d66082bd7d5",
+      "archive_member": "10.1016/j.jct.2016.02.006.json"
+    },
+    "10.1016/j.jct.2016.02.020": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/298c1e596e7eeab7e687fd3e0acdd2f9533706e2a74613157ebd32719cd84034.json",
+      "sha256": "7e8c64021ae182210e7bee6355d286a773df2cba971618a3cea74e1ec1b19215",
+      "archive_member": "10.1016/j.jct.2016.02.020.json"
+    },
+    "10.1016/j.jct.2016.03.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/35c444c0fedf7c17d936b73b65c8a880ac41833cb2407d1a7859b4293b79a502.json",
+      "sha256": "7507116480ee52592b629f003963bdceb6580ab9f48555a873534277d2da8d52",
+      "archive_member": "10.1016/j.jct.2016.03.011.json"
+    },
+    "10.1016/j.jct.2016.03.037": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/78a11afa5d14a5e0350c8c8c70607db29b3e94d4ef180e1e154613b3fb46423d.json",
+      "sha256": "92650b88a52ef6d19cd602a0f60f0a0973ad8430b15e9165f7409e8408261dfe",
+      "archive_member": "10.1016/j.jct.2016.03.037.json"
+    },
+    "10.1016/j.jct.2016.05.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/64b57fc9fdca2de07f10466057f0a49dc641bd185cd967541d93cbc84472571e.json",
+      "sha256": "3614f1fe8a929ed98074d1e4ab2d14a493778733d0c864ca407249b009773a1e",
+      "archive_member": "10.1016/j.jct.2016.05.005.json"
+    },
+    "10.1016/j.jct.2016.07.048": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bbc55d3e98daddd7490170c721583cb49c2120a05d4d2c0374afbdbde022c68e.json",
+      "sha256": "8a3dfbc1a10465b74fc1a27cf3e36f35ebaef366bd945567855c89a9f5df8757",
+      "archive_member": "10.1016/j.jct.2016.07.048.json"
+    },
+    "10.1016/j.jct.2016.08.007": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fb13d46f146ee9377d399f6e592f38887212fd25da7a45ed4a2ae196ef67c317.json",
+      "sha256": "249e493c89e5b2c9b6f18a53e4a0137497da3f94240d5a28e05092fa13838c50",
+      "archive_member": "10.1016/j.jct.2016.08.007.json"
+    },
+    "10.1016/j.jct.2016.08.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9c8ced0906ba5a2ad7bc8372e02c471adb8326dfafabe42bfa3e318088e963ef.json",
+      "sha256": "8dc3e794425c90812cc34555e041a1c088816b9bec76a69cd8cf75721c89b6bd",
+      "archive_member": "10.1016/j.jct.2016.08.023.json"
+    },
+    "10.1016/j.jct.2016.08.034": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6ae3b5bb9945c5c40472026a5f9e0ef5de22d20891def37de08ab0cde130f384.json",
+      "sha256": "fe6dff2e82774fe8b47c633b4e104f4935bed66ffa4733a38a776c3b4a3aa9e9",
+      "archive_member": "10.1016/j.jct.2016.08.034.json"
+    },
+    "10.1016/j.jct.2016.08.035": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/917d64db1d7770d5e43cbb7d31fd01edae50afde5c16e08130e7b2b06ff45f61.json",
+      "sha256": "6177a1f57ef3d19f7b253565876fe2678a7eefdcbce0dcddd31edd55c05b8580",
+      "archive_member": "10.1016/j.jct.2016.08.035.json"
+    },
+    "10.1016/j.jct.2016.09.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/985e47ad83a0e6ccf0c65fe8815779fcc3ed210c380a189ec8f64da4ac2eebc7.json",
+      "sha256": "e90a12b7e9c850c71aad90c99f158b58d41fbaececb33eaf7f9f60162b952683",
+      "archive_member": "10.1016/j.jct.2016.09.011.json"
+    },
+    "10.1016/j.jct.2016.09.025": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fc4f824bde8c68dd132e6dc8c2a0f0031e804c618aeb9dd052ae71b8a465e793.json",
+      "sha256": "7caba30d06f424afa74e261bcd5b64399c3c147751ed50ac6e95ce50a3c1acae",
+      "archive_member": "10.1016/j.jct.2016.09.025.json"
+    },
+    "10.1016/j.jct.2016.09.033": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8deee5c07d7d06e7bb8e4ad9ed0fb1dc25e8f3c4050cd2adc96aaef82ec188de.json",
+      "sha256": "315493837b0a5b08fdbe4b4bf677d9ee1dbe1da7e16049a9fd41d110a2261c2c",
+      "archive_member": "10.1016/j.jct.2016.09.033.json"
+    },
+    "10.1016/j.jct.2016.09.036": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/51563915ac3671a011a0c55f8233cb2f046c7d9c1da79e1b3e80064105412f8d.json",
+      "sha256": "fe78ebf5e9c6e9f193891b7fe16dc9010b0e1aff142e8465a5f30f4f0becbce2",
+      "archive_member": "10.1016/j.jct.2016.09.036.json"
+    },
+    "10.1016/j.jct.2016.09.038": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e09fc4e254b3851f3f14d5ee72ac0d5891731272ed38407d7e4e8cbf8cccab6f.json",
+      "sha256": "5d06e1bc47b260ec1e16942d9fd474f710af96756e5e248aefeca66d5a717626",
+      "archive_member": "10.1016/j.jct.2016.09.038.json"
+    },
+    "10.1016/j.jct.2016.09.039": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/095d297088fe0ea01bddcaa787811dbd56bdca4e7342f8186a7c30da96d5c385.json",
+      "sha256": "3cf66c5e83804d0af66b5cadbe0ac83538d10e237545a4c7e07f8c827316c672",
+      "archive_member": "10.1016/j.jct.2016.09.039.json"
+    },
+    "10.1016/j.jct.2016.10.006": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/302ec6c6ff0861290ec591e5295c7811ce636e34529f5859ed9b9aaad24374f0.json",
+      "sha256": "c8706839bce8047188249455d54f72006148546457cb87254cedec367a446615",
+      "archive_member": "10.1016/j.jct.2016.10.006.json"
+    },
+    "10.1016/j.jct.2016.10.046": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7c3a4613ed59cf973d88ad8d6343e9448b69b0b39a8aed13896a2574f275a34a.json",
+      "sha256": "60220275ba129d5cf94be4e43a38731fec9d9fe4e403f28661af97663ba87aac",
+      "archive_member": "10.1016/j.jct.2016.10.046.json"
+    },
+    "10.1016/j.jct.2016.11.017": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8303a09f9a1e70667535fd907cd87ee8de453c6780f59153d38394dfc9505f30.json",
+      "sha256": "656dd8a48e3ddf060141d53ccdf0432bd7d00d9978a5b07239a20fe1f03e2440",
+      "archive_member": "10.1016/j.jct.2016.11.017.json"
+    },
+    "10.1016/j.jct.2016.11.032": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5e4f764928e45dd073e87d233abb41e28ec12a451d8a54c8fb50fb1e9c633126.json",
+      "sha256": "fa06f6c4302c89ef849d1ea6efa5d3701b1f7eb30da76c417ddf4acc0ec9dad4",
+      "archive_member": "10.1016/j.jct.2016.11.032.json"
+    },
+    "10.1016/j.jct.2016.12.028": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ccb1ca9bb7f1bdd1e3ac99ffa87d6a9cab4cfc17c2f825448deddde56d7bc464.json",
+      "sha256": "a75761fc7d0740c0be88c184e398d7324f33fd63aa0dabe1d47a17ae363d71d4",
+      "archive_member": "10.1016/j.jct.2016.12.028.json"
+    },
+    "10.1016/j.jct.2017.02.011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a6bd88fbcf12a1e10a13956e3533f3deccccbe25f36e0557e72bf2f4874a63b9.json",
+      "sha256": "400af36a8ec821b9cb3efac504dc7cf08fb19da4c0ce190dd0cb3d113f78df6a",
+      "archive_member": "10.1016/j.jct.2017.02.011.json"
+    },
+    "10.1016/j.jct.2017.03.038": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e6dd96faec7b699c541a0a558f5d08ca2faff30c5a459d5188724679423d39d2.json",
+      "sha256": "1ca9b917ab4373dcfc0cd7f4883733bde8cac2b8fd058b5b46c9c228c094abe1",
+      "archive_member": "10.1016/j.jct.2017.03.038.json"
+    },
+    "10.1016/j.jct.2017.04.014": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/821b147f4b6a8fec46b7ad6f16de7dc89f7d4dff5dc6032d5b4c3bccfdda3db8.json",
+      "sha256": "106bbf182158f23300e8070e558da671e104eed6e1d419f6ef0b2c82c2646f28",
+      "archive_member": "10.1016/j.jct.2017.04.014.json"
+    },
+    "10.1016/j.jct.2017.04.017": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b295060296e145a255d6838cc053d3b715ed68858d3ca1fdc13447210efcfb8d.json",
+      "sha256": "dfafbd89c4d7cfbf3b39be8adb20adf8ea43ab05bd5787978086f6aa3e245d66",
+      "archive_member": "10.1016/j.jct.2017.04.017.json"
+    },
+    "10.1016/j.jct.2017.04.019": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ad6b28c3588c4b751dd545ced3cbf0c5fcbc0367404d9b89ab4debc0a8070838.json",
+      "sha256": "bb6cd7bf46157726a47003a01376d4327fb76744b124c5637a47ad0961cfb096",
+      "archive_member": "10.1016/j.jct.2017.04.019.json"
+    },
+    "10.1016/j.jct.2017.05.004": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2b2a8d9fc5c57c24f28511b5330b9488a32368b5854278ccd98822d6dce271af.json",
+      "sha256": "92f4659fe6a9440171ce1ad68118a893ba0f24d0800116b4fb0abcd17dd0365c",
+      "archive_member": "10.1016/j.jct.2017.05.004.json"
+    },
+    "10.1016/j.jct.2017.05.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/65a28cd3d976a236fb9c25b221e55be3a4391e2deeb4ad8995850b09c7cc5cb3.json",
+      "sha256": "ece2811a82ae9f6113f79383e6a9e8f3de215846b1fe13c9532c1b1e9ff53837",
+      "archive_member": "10.1016/j.jct.2017.05.005.json"
+    },
+    "10.1016/j.jct.2017.05.013": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3110540c910d8821bf933e505b6512bf4ebf8aa33877c4386e30a8eff286ad5a.json",
+      "sha256": "a2d1515bebbc09c24842fd584dade2d0c23cb47031d849b7011c5a0cf6334089",
+      "archive_member": "10.1016/j.jct.2017.05.013.json"
+    },
+    "10.1016/j.jct.2017.05.041": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/eabd7a429beec4a2417929fcc8c760a186ea1a230b44f0f4cd4b66d80674882b.json",
+      "sha256": "8318a89c178794b1d0d2635aadf195edc46bb56d664624d897cd0268c3d3d555",
+      "archive_member": "10.1016/j.jct.2017.05.041.json"
+    },
+    "10.1016/j.jct.2017.07.023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/16804dfbde45c05c8fa910ba4e44d43750e354111cb3ef3374e8834f02e1c84c.json",
+      "sha256": "85f28192135ca1b5723fffef8fa925e0d4224efadf9d7237597a02096c6e92fe",
+      "archive_member": "10.1016/j.jct.2017.07.023.json"
+    },
+    "10.1016/j.jct.2017.07.027": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/027deb9f994827477322b799c6d313210a4055b73a729d75e4ff31525622ed42.json",
+      "sha256": "8a71c4636d98d55e3d2f396777658cac35f781f3e0b1fa537ec7a25ef34c5e5d",
+      "archive_member": "10.1016/j.jct.2017.07.027.json"
+    },
+    "10.1016/j.jct.2018.02.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0ac3755a4aa751fdd6e10b1a2ddec7d4cf0430c99351490d2a216e61cbf375ea.json",
+      "sha256": "1096ae54a4fc09f483bbc9bb78dc8e5ef99bda48787f39675dc1f62d7dd729c2",
+      "archive_member": "10.1016/j.jct.2018.02.005.json"
+    },
+    "10.1016/j.jct.2018.05.030": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e0fbd23f37cde9c54e4837924c2ace680122d4221db3fbe0ec07bcbc9a1e528c.json",
+      "sha256": "5aa3e966ea24d64faf8a2e73939858f3dc3e31c8c293949265449f46750b1d4c",
+      "archive_member": "10.1016/j.jct.2018.05.030.json"
+    },
+    "10.1016/j.jct.2018.07.028": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f56e888790456b39eb7e385dbbbb3c97f43ffb670a0cd773748018843f851d23.json",
+      "sha256": "06d07879042bf24e7249f9ce979eaffd6aeb3ba6540feed1005b560db3d4bb2e",
+      "archive_member": "10.1016/j.jct.2018.07.028.json"
+    },
+    "10.1016/j.jct.2018.07.030": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/73e60d52756d29998d61090ed3df02e5dfbac7176f5e8bb17f76361498357bbb.json",
+      "sha256": "5a60de03f8d68a59cb8fb251eeaa94086abf265584192ff6b54b1c81ae01ad80",
+      "archive_member": "10.1016/j.jct.2018.07.030.json"
+    },
+    "10.1016/j.jct.2018.08.001": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/54e544ad9c6480fa6aa4da40e2be10073e3422004eb6cedf03240744222c7139.json",
+      "sha256": "f030b0529a81fcd6a29e536cc02894e4636c432b2703e41cddae244f1769a778",
+      "archive_member": "10.1016/j.jct.2018.08.001.json"
+    },
+    "10.1016/j.jct.2018.08.018": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1d6e8430ee1df0b1357c79d95f0d745b79c307f1cb026d8fe7edb486fe2d28fa.json",
+      "sha256": "a40f02855f5c44d4802f93d073b138e3ce4ee5d6ada3dbd21091edfd0dff797b",
+      "archive_member": "10.1016/j.jct.2018.08.018.json"
+    },
+    "10.1016/j.jct.2018.09.008": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/241e88c12294c0f1bd610e36dbfe23658e81bd8bc3fa402a1afa817fc0a177c3.json",
+      "sha256": "ed7f86c6c4028c0ded81f0d1df47a8b7c4335b7e3c30210a16bef2119448eb3a",
+      "archive_member": "10.1016/j.jct.2018.09.008.json"
+    },
+    "10.1016/j.jct.2018.09.017": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1d4684c1f0df31bf629129572a0b01fb7c37554adcf59cca53a0b15aa9a7631d.json",
+      "sha256": "d53e4da61592371e7db1c9c708152bdd1e8e7a920a788b4c3b492a203a4bb53a",
+      "archive_member": "10.1016/j.jct.2018.09.017.json"
+    },
+    "10.1016/j.jct.2018.11.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bea7bf5de3a3f579acbb836e34192073ca9d763df2838630d83725e5d2109bb6.json",
+      "sha256": "67d631c27be099f38826bca2b8846c8d749261ebfe03ea74f7882d4cad80406e",
+      "archive_member": "10.1016/j.jct.2018.11.021.json"
+    },
+    "10.1016/j.jct.2018.12.035": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0a2d83eb34ef0d5d5f99dfda6741e1af79c458bca74cff8ff4bd58b722103866.json",
+      "sha256": "7d46f82ae4b0b8c1fd58fe6f31548c25f41e9c62be6363bdf458a62c151e9c78",
+      "archive_member": "10.1016/j.jct.2018.12.035.json"
+    },
+    "10.1016/j.jct.2019.01.015": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fb21a7c00aafceba4d831182369df33a41213b556145d4b2aff55f8a98311ec6.json",
+      "sha256": "65ff367d383cd93f04a818bbdd5989fd00de8dd4b0f92554c1f27c88de958954",
+      "archive_member": "10.1016/j.jct.2019.01.015.json"
+    },
+    "10.1016/j.jct.2019.01.026": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0acdf7c34564c2da19b8f5bca6d97c1bbe0c713b9a6e28113ac31d93b1757ca7.json",
+      "sha256": "996abe0578da7652da1bf587298637e33ed7bc33df489411786cdf453851816e",
+      "archive_member": "10.1016/j.jct.2019.01.026.json"
+    },
+    "10.1016/j.jct.2019.02.005": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/56d1dbb1b7b9a59dd1fe7a1b6f51b444da5f59246b4a5e745b78447f4fcaaa18.json",
+      "sha256": "542e8c72f9de011d239a5e6709ab017b849b96d7d4d982048c6bf099b86753db",
+      "archive_member": "10.1016/j.jct.2019.02.005.json"
+    },
+    "10.1016/j.jct.2019.03.015": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4d7714a8653e3a7f756889834649562ff94380715e89c7d1c88cdbdd3d3934e3.json",
+      "sha256": "4c096f1a16b1ab6f6c94a39a1e50f07fc9e23fbd989dddf6cde4b5d9c7049166",
+      "archive_member": "10.1016/j.jct.2019.03.015.json"
+    },
+    "10.1016/j.jct.2019.03.021": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1438c5fda10bf5be49e1d39dbf1d3e0d627e8bc612180d54bca3b2961f8330a0.json",
+      "sha256": "75ea2894714bb58dfa8a842dfdfcd969b9b02bdf0a01b64991a09b58f9a78116",
+      "archive_member": "10.1016/j.jct.2019.03.021.json"
+    },
+    "10.1016/j.jct.2019.07.017": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5ad2a57896c318e84efe418e9bc68871a65d88e34c470a215a165d23cc19ead2.json",
+      "sha256": "9657df6c4780b11f36d2fd7787a2c75665fafcb3968c6efed287c31e7e76b40f",
+      "archive_member": "10.1016/j.jct.2019.07.017.json"
+    },
+    "10.1016/j.tca.2016.01.009": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/da5b1da2f806c5286c44818a85a25133580991603707a90616655fd65793275d.json",
+      "sha256": "56d517471e5474ed10a32f8920fe35fe44f5f2258c0b9088887da0a1ee85ff99",
+      "archive_member": "10.1016/j.tca.2016.01.009.json"
+    },
+    "10.1016/j.tca.2017.09.010": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2f21033b676b419c4e338aaac986cb8aff1dc97c087baf2903eb796df849e8f3.json",
+      "sha256": "e33dc92d4123133b61fe91bfad4fb5a5aca78b5f439f347cfc27affcb077c397",
+      "archive_member": "10.1016/j.tca.2017.09.010.json"
+    },
+    "10.1016/j.tca.2017.12.007": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/addf4f2264ae10bf5bddd48c1e15af59787b16d96aaa1c029172a61f9aa61016.json",
+      "sha256": "bd6f85fc1bc822c89a581f1d7fd1a6cd3211ba05d46baab61d3d01847d62aef9",
+      "archive_member": "10.1016/j.tca.2017.12.007.json"
+    },
+    "10.1016/j.tca.2019.03.024": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a3a52e2ffefb6a1e33f98b84e9c1af568036f033a866955e46767b934efa4227.json",
+      "sha256": "89a17ee40e6dcd6244e769cd719c44334141c6f20b6be01021c27e9c565cd049",
+      "archive_member": "10.1016/j.tca.2019.03.024.json"
+    },
+    "10.1016/j.tca.2019.178431": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d1ca7ef777c90c04c330e99f41d8c3c39bea36d270dc371bbc80c645245d4ec7.json",
+      "sha256": "4eb6e03cdfc0a6ccee6f6579b29e5f7316e825c5de533c220e91e3b671a9dad6",
+      "archive_member": "10.1016/j.tca.2019.178431.json"
+    },
+    "10.1021/acs.jced.5b00007": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/afbbda6490a2dc9e7f2a47311ad82d7541a9d6d215db840af4a0b784831a4acc.json",
+      "sha256": "b869f717da43d70e7effdebd7d851e685a8b0e2b70ac4d188df854e1d6f0d28f",
+      "archive_member": "10.1021/acs.jced.5b00007.json"
+    },
+    "10.1021/acs.jced.5b00033": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/887c969bacabb073e077cfa9b4f58922e0fed9ab42a52679f64ae10d0087ed7d.json",
+      "sha256": "a591a82f2d2f7c3a09776b82dedccf611d26c2f8db93f0a997313af1ff78ab53",
+      "archive_member": "10.1021/acs.jced.5b00033.json"
+    },
+    "10.1021/acs.jced.5b00092": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/643aba863d9a5aa11a0a8f157421486c830b18c6b0fabf86eaa822f7460f7702.json",
+      "sha256": "601913892b9257004097ac9a40c7e867dbf627d06b94d428845629369210e076",
+      "archive_member": "10.1021/acs.jced.5b00092.json"
+    },
+    "10.1021/acs.jced.5b00098": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c4eb40845388973ad4a27442bdbceafd1996f4370d0b1c490948212bb98701d6.json",
+      "sha256": "d37c79a29ad2c8b0123477111651f5f6faf782201214173627ef2cc7767268c5",
+      "archive_member": "10.1021/acs.jced.5b00098.json"
+    },
+    "10.1021/acs.jced.5b00122": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/766ca8922c9404af9d936068a5c790d308839adc6f99feb8436f240180ebe19c.json",
+      "sha256": "3fee52605e0cbab080d4bfec47b9869f966922ae94aee5393c2068726dfd11b1",
+      "archive_member": "10.1021/acs.jced.5b00122.json"
+    },
+    "10.1021/acs.jced.5b00135": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/785b44b6a5fc93baaf334591b7cdf8bc00a4af36963630c22b33adc747e02981.json",
+      "sha256": "05174165c5196da18cd17588485c1f275a2a59df2f2750dafa2608454b9b1804",
+      "archive_member": "10.1021/acs.jced.5b00135.json"
+    },
+    "10.1021/acs.jced.5b00306": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8fb6adc34cea4ed96a00f48af9a8ce453f7c72bd29a0bed0d404d00002c39990.json",
+      "sha256": "8805a4d4487a836f7be4e7773e0e991dea85e083be3c5ca6aa292114c8a92502",
+      "archive_member": "10.1021/acs.jced.5b00306.json"
+    },
+    "10.1021/acs.jced.5b00382": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3b0854fad608fc44a2109dfa9051a4ef90472222eacb84c74ed7e4a905e86a21.json",
+      "sha256": "3ea1216425017028d84bd3f66fb36d6a9c755765fa06881ba7cc55d85e36780e",
+      "archive_member": "10.1021/acs.jced.5b00382.json"
+    },
+    "10.1021/acs.jced.5b00526": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/41ac48d9ee58e815b0c2274587dec0ef7dc674f0b8fc1b53d73b77e3832cc2ad.json",
+      "sha256": "af2dbb66529580698515ea0a9a572fa2e8ac807695f32b52c59c33507a0fa92f",
+      "archive_member": "10.1021/acs.jced.5b00526.json"
+    },
+    "10.1021/acs.jced.5b00565": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/155b9e568ff9e7ad574ce5660e8cbbf9afdfd3cec03894a8372d32bd8c70243b.json",
+      "sha256": "ea24deda5c232e67d5ec63ebcb7d1168dcdebc8a5b46e84bf81adbeeda5f5402",
+      "archive_member": "10.1021/acs.jced.5b00565.json"
+    },
+    "10.1021/acs.jced.5b00616": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/31cf4acef2761d4ccea3666b1caf671b836be6dea7ce801324c2f710539d84a0.json",
+      "sha256": "573a85199254952570be4a0aec426f7ab2aae0a5cb4263a756647a2109c5ed46",
+      "archive_member": "10.1021/acs.jced.5b00616.json"
+    },
+    "10.1021/acs.jced.5b00736": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ff8afc0abe07e500dda8451401a7fc02f5675341e497d5869dd6a7fbfdb40733.json",
+      "sha256": "53a71d8ed559b788f34fe97343c61302d3921dff7010c19bc77bcc63a39edfa2",
+      "archive_member": "10.1021/acs.jced.5b00736.json"
+    },
+    "10.1021/acs.jced.5b00823": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5c6aca91b5be35de1e0380f344cbb58bb0956b511417e9c193ba4e24be74f1f9.json",
+      "sha256": "e1964dd691b259918309303888bc2c5753e9b04d457fab98913b0e0fc0a7a12e",
+      "archive_member": "10.1021/acs.jced.5b00823.json"
+    },
+    "10.1021/acs.jced.5b00857": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4d817e828c0a5157f6c231738282a3fcaaf719345b9c55e61842ff75e0d2a15e.json",
+      "sha256": "bb8950087817464cdeb7a9db0731be7fdd81ecd8a3e1a8b54db783a17dbaa59e",
+      "archive_member": "10.1021/acs.jced.5b00857.json"
+    },
+    "10.1021/acs.jced.5b00994": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b0af3bcf783228a2450408e5842f05c776abce1efd33360ac01c7ea6937c7951.json",
+      "sha256": "c8daf504d43a99bb2da7659ba639a602b9850456b7e1a6c4dd3f78749e0cfd33",
+      "archive_member": "10.1021/acs.jced.5b00994.json"
+    },
+    "10.1021/acs.jced.6b00008": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e0547c35dd0b9cab275c4ebf1dc891eceb558aeba51931a21b7309ceeb96968c.json",
+      "sha256": "9e1b4ab33028eee0428d094b4a491d9dcc9fd801f569f783001f70038493abde",
+      "archive_member": "10.1021/acs.jced.6b00008.json"
+    },
+    "10.1021/acs.jced.6b00009": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2e97ea6c47b74dcb0a1730797f813ad62fd71be71f5976930725f1d61e010206.json",
+      "sha256": "c176dbd4b3e1bcdff5e2eeb22d7ca841f50c27d402b2ae6b9fb6270cec69a7a5",
+      "archive_member": "10.1021/acs.jced.6b00009.json"
+    },
+    "10.1021/acs.jced.6b00163": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/84e3730c40096ab82b40aa84fedc7e98e9d9e0e4ae410dd2c18d921e7989eaac.json",
+      "sha256": "c92b98acd655fd73272b89d20f63654961f47105daf2791d10c1cbb738f0a917",
+      "archive_member": "10.1021/acs.jced.6b00163.json"
+    },
+    "10.1021/acs.jced.6b00219": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5b515a0d01b8db70183d1bdf1d6a7c5ccdca0a1dee620a436fa79f3b5dcc1c46.json",
+      "sha256": "1712b0e8343c346a4a56a9017d4af220142040892ce14b3db1da24b5cf9bfce1",
+      "archive_member": "10.1021/acs.jced.6b00219.json"
+    },
+    "10.1021/acs.jced.6b00230": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b7c2c1f2aec01febc6c52308605a3b6f0b3020889d17831c0849fe2445cdb351.json",
+      "sha256": "cea5946dcb76b7806650bdd656b447692865f1d4d6cfe056d262e6d12ee39609",
+      "archive_member": "10.1021/acs.jced.6b00230.json"
+    },
+    "10.1021/acs.jced.6b00349": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0ccc241d24ea679154f7eaccd8b53f173041bc43d9cc6a96e5a81c37363b890c.json",
+      "sha256": "0dd6655c0b4b6095159765c101963e75312a58643816c0962abfe490cfaaa4ac",
+      "archive_member": "10.1021/acs.jced.6b00349.json"
+    },
+    "10.1021/acs.jced.6b00543": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/db6ea178da3ff9146cc26b7e67f763ad115e2eeef9747ba31a6e30ae195c0e4e.json",
+      "sha256": "64b53738f5286bfe0579c8323ec76dbe5010f7ba7b3be6bdd4fa8a0fab024e4f",
+      "archive_member": "10.1021/acs.jced.6b00543.json"
+    },
+    "10.1021/acs.jced.6b00929": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/63e80692a9df2ba8b4c7d130afb7a9a86fb8dd4e2988212e4b43609fb9fdfb59.json",
+      "sha256": "953a753710aaaf745cd055b5cac48de6802d3b42a71484c43d95cf7d6c1a9dbd",
+      "archive_member": "10.1021/acs.jced.6b00929.json"
+    },
+    "10.1021/acs.jced.7b00065": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3a836147931202fd0d0d304ef2ea4114d6b78c1587dee8a3cbb98ba3129bfed4.json",
+      "sha256": "ffc47d44ebdae174062a5550f07bf3e45385637e6321c4aac95ed00b67db71d4",
+      "archive_member": "10.1021/acs.jced.7b00065.json"
+    },
+    "10.1021/acs.jced.7b00238": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5c26fcecac51e1a54c6c9d57567c8fd36c468fcc6990558a395b3beadcf64c13.json",
+      "sha256": "1cb75ddccffca71d1427d194b9f8ecf920de04faaa83b6ea5992654108cdc486",
+      "archive_member": "10.1021/acs.jced.7b00238.json"
+    },
+    "10.1021/acs.jced.7b00245": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f856a7995fc5ce995c2bd435c2c98e1fde14ca1bbca52561d14c4444d252eb57.json",
+      "sha256": "b0eea391ad8932d3f2f39e261070a9da80111bc1832b604a749493e421e621cf",
+      "archive_member": "10.1021/acs.jced.7b00245.json"
+    },
+    "10.1021/acs.jced.7b00316": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7d9176af4628393611c590359f3252b61767b3c7fb83ab49af819fd33f03a13b.json",
+      "sha256": "94520ddf40c2b3b83dd93a5f8ea22c355b21fb38af869be69f71ba90094ed741",
+      "archive_member": "10.1021/acs.jced.7b00316.json"
+    },
+    "10.1021/acs.jced.7b00538": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1700693e1f7bcb5e976157ba2bc737816b55c47800c8adbe685684a5084e127a.json",
+      "sha256": "172d7a0aa0ae46f575c7ef0f3cfbfa3916217756e1db182cf5bea991a9dd52d3",
+      "archive_member": "10.1021/acs.jced.7b00538.json"
+    },
+    "10.1021/acs.jced.7b00638": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b1ff649ef6d538b96cb196176cea55a535cd74e28f2d149eb2c30d69c46472fb.json",
+      "sha256": "0c171dfb093111c38a737ea10e6cd37d391b6e531035fb8cdc10f3e090becbfc",
+      "archive_member": "10.1021/acs.jced.7b00638.json"
+    },
+    "10.1021/acs.jced.7b00641": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/50694be66607327017aa5434c06d2859403d8fd0e21c234d0296ce86d6d35ac1.json",
+      "sha256": "da00109ae75e84e9ef7c608f029e55038f5b988e7e89147c224be7a46dc465d2",
+      "archive_member": "10.1021/acs.jced.7b00641.json"
+    },
+    "10.1021/acs.jced.7b00695": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/044da37d47a0436ceba45e07201e662afbe51ccfec37b0f41aab7faaa56c8cd9.json",
+      "sha256": "053560fd3033c011cef26ee3913e36a213bbcd6012eddf09d4ce4b9687e26862",
+      "archive_member": "10.1021/acs.jced.7b00695.json"
+    },
+    "10.1021/acs.jced.7b00743": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7241a6b7d58169183c17a396b259be422e07ac9824673c116825466d01ccf436.json",
+      "sha256": "c96f60015775f29dffeb117a8975e92d6f09de5c8fb95e709d5305443e287894",
+      "archive_member": "10.1021/acs.jced.7b00743.json"
+    },
+    "10.1021/acs.jced.7b00825": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3ba4c202d47957ac052b8d09c9195a86da91767b6ba27a9b1ac6402e3a291bb1.json",
+      "sha256": "43875d63967922a946f2ff83e91bc6464f0363893ed9406f845edcc728f6d723",
+      "archive_member": "10.1021/acs.jced.7b00825.json"
+    },
+    "10.1021/acs.jced.7b00846": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e40fb785128d01be09c80d394a6602c13aec40d8224b42bd06c487a4fcd80a64.json",
+      "sha256": "fbd91c4724b4efdfc40b3c9c8a53152c4120a969c582c2c55ea1c5f6e8f22ff5",
+      "archive_member": "10.1021/acs.jced.7b00846.json"
+    },
+    "10.1021/acs.jced.7b00851": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a1003a01502952b1b187b9f7dab7fd3118225b3d546843cefda05772a1707f4a.json",
+      "sha256": "909b778d6fbf1db5e9033a14f51d3c342f6a07c6d1b1c727e19c5f8cc859833a",
+      "archive_member": "10.1021/acs.jced.7b00851.json"
+    },
+    "10.1021/acs.jced.7b00927": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/69352b1df51a72aff7e2f9ecb3ffbfd2fac8f67c4c02662682579064d87f4364.json",
+      "sha256": "aafcb30761cc4f935f555c574f1c84028b16a3b0526306286f21d2886b2d4b74",
+      "archive_member": "10.1021/acs.jced.7b00927.json"
+    },
+    "10.1021/acs.jced.7b00948": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fdd422d1e1dcfedaa2ffb819aa3647b655eb237c6b3b048eb62503451e2cf94c.json",
+      "sha256": "d0ba304c53a43f2f16c6687aaf3310275685da2f0c676ebda5ae4869c0ec97f2",
+      "archive_member": "10.1021/acs.jced.7b00948.json"
+    },
+    "10.1021/acs.jced.7b01011": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9ad6d72e3d264002d6602bdde32ef7335c87b89412216dc9fddb3ef5c6bf2582.json",
+      "sha256": "20dd3bb50b6b130fc962701bd1b5bd85094dbac4b9fc77474b6ef6b4c52eedb5",
+      "archive_member": "10.1021/acs.jced.7b01011.json"
+    },
+    "10.1021/acs.jced.7b01112": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/08a9cf12068c149738d4b34db39b66c5d77ce7171999e6e2af647dfcf107178f.json",
+      "sha256": "22b4c59d48a8e571cacea3781d520b6ac333734621bbc92879018dc6be27d117",
+      "archive_member": "10.1021/acs.jced.7b01112.json"
+    },
+    "10.1021/acs.jced.8b00023": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2dd4af1f2ae69db78e6eacdbbbd9ec4c5a5390fa4b83a7abaf518fb2f087daf6.json",
+      "sha256": "d8cd87c0463ea635e89ed90730fe22866dbf8010f804bda9574d6f83dbeb3083",
+      "archive_member": "10.1021/acs.jced.8b00023.json"
+    },
+    "10.1021/acs.jced.8b00124": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3cffcc0925266b542e2af2cd10efb54a89ab802dcfb5c9babe1d5c241c79fb60.json",
+      "sha256": "0a912449732ed4147dd9ff3128f6c729bdd9c10c972382203bf80dadd05c3c84",
+      "archive_member": "10.1021/acs.jced.8b00124.json"
+    },
+    "10.1021/acs.jced.8b00139": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9d5cbf0371aeaee2f315c6368eb903b6b978192f59deb302d05bef34486a4958.json",
+      "sha256": "5d70b636fdae5100d0fd0887c1e23c2d4e43a69e4fdc302e32b3169b3ae843e9",
+      "archive_member": "10.1021/acs.jced.8b00139.json"
+    },
+    "10.1021/acs.jced.8b00235": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d91ce08d707ede9cc8e3dcaa799b99f9a9097a4d117e09d2b22039ac11451f68.json",
+      "sha256": "71d9c799eb129ae104d3f7ea1a900fa83598bb8d15be0df74e98a90946779a67",
+      "archive_member": "10.1021/acs.jced.8b00235.json"
+    },
+    "10.1021/acs.jced.8b00333": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d7725fa5f6875cbe2ee5b9a1662c1bbcf1ee48d074b4b4293e3b3ff2a7b77197.json",
+      "sha256": "26580fcf5c3e1a37a326c4acfe0fd66ed4743261b400cb03d9ca689baa7d5f2b",
+      "archive_member": "10.1021/acs.jced.8b00333.json"
+    },
+    "10.1021/acs.jced.8b00361": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/82c46a9bdc45fca979ea0b746081e3aeeb8578813ac0fb8469bd0ae564b7978e.json",
+      "sha256": "85ed59c0f77ff8c768bf941c279e992eef52fe73b659cacb1a4bbccc1608673c",
+      "archive_member": "10.1021/acs.jced.8b00361.json"
+    },
+    "10.1021/acs.jced.8b00425": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/03c77b51f17029eea5a937c28dbbd5bd8b08e6869fc6d87e9c134b2c2b3604e6.json",
+      "sha256": "9c34bffee46f89a3cc10012af6c04e0054fb29136f442b41698688cad5cd372f",
+      "archive_member": "10.1021/acs.jced.8b00425.json"
+    },
+    "10.1021/acs.jced.8b00430": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/16f987233dc0dd5e040330c41e4cc7b9cde613a6bd23aaff9d6b04911f0c2bf8.json",
+      "sha256": "38aa87b69b2c8267f3921970aacef3dcec12d0db837767586c9d20ccbe45a7d7",
+      "archive_member": "10.1021/acs.jced.8b00430.json"
+    },
+    "10.1021/acs.jced.8b00496": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/508d01e92ecfafb4c881e1ce40ec1b3b7dca5240b0950ad03fc6d16dba8b1e5d.json",
+      "sha256": "22a0d327ee2947698b7f7f84c92f6e251bb864ca50005d1ae2a9d288fef128b6",
+      "archive_member": "10.1021/acs.jced.8b00496.json"
+    },
+    "10.1021/acs.jced.8b00551": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6f89486f022a22086b7f3ddc1a525ab2f4befa2c5f267e84dc0e30d7ab04d353.json",
+      "sha256": "3558a3ae79e9b06544f5ee584b134aec6111ca20701d36eb4b4cb95b79552635",
+      "archive_member": "10.1021/acs.jced.8b00551.json"
+    },
+    "10.1021/acs.jced.8b00566": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d200d8b129edfd2e8d7b0dca604e00d9f06d0f1995c2fb8a278ab32151982b7a.json",
+      "sha256": "5a7d7e0804e4ae0f5919afcdbdb63f66abfb2114f91c545ea56314015fa6fe5d",
+      "archive_member": "10.1021/acs.jced.8b00566.json"
+    },
+    "10.1021/acs.jced.8b00632": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0c6334fe53298411c07bdc84750df2b08d4d0fe49bdbdd661f67132134cb07b3.json",
+      "sha256": "281b5b7efc7a7d6390aa6787dc2524cf800f72819d8669408f7623cff1c767ec",
+      "archive_member": "10.1021/acs.jced.8b00632.json"
+    },
+    "10.1021/acs.jced.8b00720": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/17923b5dd423664a4ec3b129c3e9b07f97b386082f7f5929e31ae066122fa03b.json",
+      "sha256": "b809bd83839c88474bf369877fdb240b425223c08a060a41bdc06c277172c1ef",
+      "archive_member": "10.1021/acs.jced.8b00720.json"
+    },
+    "10.1021/acs.jced.8b00732": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7fe1f7ff6a54848dd2d3a55ad80e8ace0df8a2948c299e70a037909d1d5eddf0.json",
+      "sha256": "e6e3fee4e75bc230bdadd7f755e753af93ce419c7361d8a7e1a89cc2e0d14c16",
+      "archive_member": "10.1021/acs.jced.8b00732.json"
+    },
+    "10.1021/acs.jced.8b00888": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4c5369c7f2099ad6ea9d5b04a62aa505e722b5be320a7c5d78ce073e9684355f.json",
+      "sha256": "20e964921fb71ae6c73f0dea60f4504950452cf084673499e3db6e10fd5a001d",
+      "archive_member": "10.1021/acs.jced.8b00888.json"
+    },
+    "10.1021/acs.jced.8b00902": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/970aef36be10af9adf637fedef6f17a16374324f21b1d11f9fbe13661f00f9a0.json",
+      "sha256": "8378f5117f8731d6c47f6d47c48f9029d8e607c37ffe7d051395031072a265f6",
+      "archive_member": "10.1021/acs.jced.8b00902.json"
+    },
+    "10.1021/acs.jced.8b00988": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/faac294c33c95b036727bf44d999d0e36a09762afa4536550868ee98718e80a7.json",
+      "sha256": "65c86d91193595d8775cc038c4ce63f6cc81752962edb8a1f2785a27b25cef95",
+      "archive_member": "10.1021/acs.jced.8b00988.json"
+    },
+    "10.1021/acs.jced.8b01001": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/591c7751c865bf691e1699747acc547b3d76cf4eba34385c5ae605de8fbd90dd.json",
+      "sha256": "e196f463880395354680f57590bd3c87665db915425e43b156ee31366f23b4c3",
+      "archive_member": "10.1021/acs.jced.8b01001.json"
+    },
+    "10.1021/acs.jced.8b01014": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/258020d6cf44dafc53ca2454bd3a2034803a353c33c7f6248b438d16438cc442.json",
+      "sha256": "bf61704a596e6e7003c532ec3e8e01a7a11ce10ab9ef85465d5daaff5d433292",
+      "archive_member": "10.1021/acs.jced.8b01014.json"
+    },
+    "10.1021/acs.jced.8b01051": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b82708fc236050dce764d0b24502f3e154d9c1eca982413f3512e3681a7d5c0d.json",
+      "sha256": "d4c4ad82ef1cbe7c7a1aaf7b745156a6f5381160a25b28023a7e144548c023cb",
+      "archive_member": "10.1021/acs.jced.8b01051.json"
+    },
+    "10.1021/acs.jced.8b01055": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0c063b8fef6c62c34fbb8028e2ba908a58ce99f7e175130d274825afa30f61e6.json",
+      "sha256": "3618ce4497ecb92f78f0dafeab6b0a14cd4f9a2724794a320464e251775381b4",
+      "archive_member": "10.1021/acs.jced.8b01055.json"
+    },
+    "10.1021/acs.jced.8b01080": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/06c5755409c62261bbf41e79680a88c81ca2c02a9d8997c297ea52e97a02fe4c.json",
+      "sha256": "37598d9db746148ec5d6cf10ede0e5716e35f8e157feccf693f7e4adb9263763",
+      "archive_member": "10.1021/acs.jced.8b01080.json"
+    },
+    "10.1021/acs.jced.8b01099": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8bcc86e4fbf02236a2d471906fd24e16af57dc483edb6cc1d7395030d39c585e.json",
+      "sha256": "0c07606dab44946b7544909cd28b23986f16808544f8fdd5ebd71d59d0f53242",
+      "archive_member": "10.1021/acs.jced.8b01099.json"
+    },
+    "10.1021/acs.jced.8b01181": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/164f04ae077291708d2d45d0b8a26f9866625681ba8a675d33ba79313e1d0ab7.json",
+      "sha256": "999bb88faa96efecaa7e0a8fd7936f3c8fbbf6300f458e45d577cb249241ab17",
+      "archive_member": "10.1021/acs.jced.8b01181.json"
+    },
+    "10.1021/acs.jced.8b01205": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bfd1e5a906f44464665cee3e65ec41fa5aff97495536b95a83a6bcc3c224a82b.json",
+      "sha256": "8772a3b9e15a284a47dd984754c0fa54846bc9e4efa42cd4a3c55560434ebb45",
+      "archive_member": "10.1021/acs.jced.8b01205.json"
+    },
+    "10.1021/acs.jced.8b01256": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/de5031b11efe375165690c512d0533ab0614aab97038bd49048f353b8ac7913a.json",
+      "sha256": "681699855a0f4ba172a01c59f190eedb537e625bc462afad8f3e2759f3da27fa",
+      "archive_member": "10.1021/acs.jced.8b01256.json"
+    },
+    "10.1021/acs.jced.8b01265": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c1b67ab082f682cc663a54b2bad7231646304853b3303c5fc6b94f9070c2fa09.json",
+      "sha256": "90e1c3c8bde85de0f5d1ed90080492bce4744ec4493e334277f18bd3fc767fe8",
+      "archive_member": "10.1021/acs.jced.8b01265.json"
+    },
+    "10.1021/acs.jced.9b00097": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6d49166e7121d27a67ae00da9b212725df895bbd6ac8281c0ebb94a50e5ef162.json",
+      "sha256": "067c87f4ccbad245874923e1a6a09db6dc39d85bbbdaf52207470f74b59d468a",
+      "archive_member": "10.1021/acs.jced.9b00097.json"
+    },
+    "10.1021/acs.jced.9b00190": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1c4fe6e33abbb03e0709742f08cb5db9ce15a0eaa629d071f9683763bacb7dce.json",
+      "sha256": "27f4e55f47ed80a742296ea9ecb3bfa819a52ff9bef6a69301f07fcb7d71f5d1",
+      "archive_member": "10.1021/acs.jced.9b00190.json"
+    },
+    "10.1021/acs.jced.9b00216": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/11a64375758de1412f5b31a6c2d00e4c2d1ccbb72daa8a77190a76b064bf1df8.json",
+      "sha256": "6605f5fd924f60b9bdf81f4c26eadbceef09a09eb59dce75ced60496d277fdad",
+      "archive_member": "10.1021/acs.jced.9b00216.json"
+    },
+    "10.1021/acs.jced.9b00229": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1ebfef4f99d04915bc4678e6a161fe405de21b155ef3710cb7aa720a21f7f925.json",
+      "sha256": "f872eeb9063fadc5cb492aa68269485aed4620592dbc5864f3a32ccc7776addb",
+      "archive_member": "10.1021/acs.jced.9b00229.json"
+    },
+    "10.1021/acs.jced.9b00258": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/db1e43e5c3daa25533142a94d9230b9daa7a4144ef8a90d44b08d327a8b8bb07.json",
+      "sha256": "cea9cbe237fd838e1993351af7376ee2aa8ff4becdb09f374145b9d06a419339",
+      "archive_member": "10.1021/acs.jced.9b00258.json"
+    },
+    "10.1021/acs.jced.9b00275": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/86be8c9e4fad120b3ed9292572c02206ed5fd259a5df959151d656cc21430121.json",
+      "sha256": "a2c7b261d4edaa189cf631f7cd71626700bd6aa11fd33c4d757b1d8706b71855",
+      "archive_member": "10.1021/acs.jced.9b00275.json"
+    },
+    "10.1021/acs.jced.9b00286": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/64c225bf2cf07b57ea7f75eccaadc1f21a9deba31245976e38d426eb01f403a5.json",
+      "sha256": "2cad9faaa3ad78f77d56e73f3fa39501cf9e0b579ec301fb5dab78f62533e88f",
+      "archive_member": "10.1021/acs.jced.9b00286.json"
+    },
+    "10.1021/acs.jced.9b00308": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1fa5a4004988971d68fe3ceadd1c3cd796b6dd8b00f5634ad2aef45276b70d40.json",
+      "sha256": "1514e0cec9d9c26944f045d27666deec75e42d02894fe56b2aaabf83711be3d2",
+      "archive_member": "10.1021/acs.jced.9b00308.json"
+    },
+    "10.1021/acs.jced.9b00331": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/28d52c29ecc67d88c0d7942eec1333bb6e8e1ed6d24d90562cf33732a2a8bcef.json",
+      "sha256": "4f4d70fd2111c1a19106b0e3c4523f8cd9e1a5d3dd187787c4499205b675a847",
+      "archive_member": "10.1021/acs.jced.9b00331.json"
+    },
+    "10.1021/acs.jced.9b00385": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/742a435dc82979d77bd2107d04431cd097b38775769c2c187efd716234b26eae.json",
+      "sha256": "f44830b92d2b172b936c719b9f80b85361ecadc2e96583ca96d7349233d9bd82",
+      "archive_member": "10.1021/acs.jced.9b00385.json"
+    },
+    "10.1021/acs.jced.9b00406": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2e2dbad4aa03e23ddc3342e5be098131052a6354de4b10d3fb50b9d868fa8188.json",
+      "sha256": "33538aebf2c63e7a1c52dea3e097805f49110508da338cdcc1578615ed906b61",
+      "archive_member": "10.1021/acs.jced.9b00406.json"
+    },
+    "10.1021/acs.jced.9b00432": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/dd1814dbb641f26a7c6af1bcca685d229da4783f40ad186febba738e595a973e.json",
+      "sha256": "75cbb87c6a0c299df9875f813bdfe0550ee9e8d95f2804c8fa0c110e9ecd80d6",
+      "archive_member": "10.1021/acs.jced.9b00432.json"
+    },
+    "10.1021/acs.jced.9b00458": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/271f363bf1b50423dc46d9d41c70e452801804ea0060aa9478810a5660493481.json",
+      "sha256": "3db10897f789f54877086f627bd302e2fa86e1d7c787b126fb9cb6bb1f648415",
+      "archive_member": "10.1021/acs.jced.9b00458.json"
+    },
+    "10.1021/acs.jced.9b00460": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b46b0eba4cdea986ec0aa72e926ad30afa461c72f4db8cf7418d68c750d4e9c2.json",
+      "sha256": "77d061f8ed145997f38b82c31dee39d440b679a99c3efeadfe68aa2b03d5f099",
+      "archive_member": "10.1021/acs.jced.9b00460.json"
+    },
+    "10.1021/acs.jced.9b00471": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bd1d86a6bb65792a9e7caa1ebef92db791258065452372fefc6023f949ae7686.json",
+      "sha256": "0ef81304c1c0d3008f876ccd9c3e19e062d38b44fc828bb3cb35cd79bf3aecdc",
+      "archive_member": "10.1021/acs.jced.9b00471.json"
+    },
+    "10.1021/acs.jced.9b00490": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ad142e7a724509bb0bd245405471bfb70ff352bb3cebdf439e43f07022670c81.json",
+      "sha256": "193c7b0234f9c07101413957a8edeb03aa78f4da9676a101ff33a4a4b2d2e466",
+      "archive_member": "10.1021/acs.jced.9b00490.json"
+    },
+    "10.1021/acs.jced.9b00562": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8384ccc2cec46503a41d628f8a6151098d37a5e29ba3bf3bcb416e050050aebc.json",
+      "sha256": "866c99d29d01c86dc8151e9e5b9532a1ceb7bff2fa94f10f28f424d67ab4c4ae",
+      "archive_member": "10.1021/acs.jced.9b00562.json"
+    },
+    "10.1021/acs.jced.9b00593": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d3cd180de9868803db60a08f0b80689f0946d9e4a1d589859331df2f6f88e13c.json",
+      "sha256": "9657a725cc22b68dc49d8ed1a27b16298a7f4e1f5041fb949dcdec972dd7e94e",
+      "archive_member": "10.1021/acs.jced.9b00593.json"
+    },
+    "10.1021/acs.jced.9b00659": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f2e93aa6b637dec1db1ef5437c3149f3e23ff0c162b0439607e104d299c176f9.json",
+      "sha256": "a42c70420a955820e863d3af51007f4f5d48c9ed67edfc5416e1a01f01bfa96c",
+      "archive_member": "10.1021/acs.jced.9b00659.json"
+    },
+    "10.1021/acs.jced.9b00693": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9293058914e3e71a489c7167b79c2d1797a06743f06125743433cd1901860904.json",
+      "sha256": "a9eef3bb03f0c7782f1cd355426769af91b1270136a117ed0ef5415c9eba1460",
+      "archive_member": "10.1021/acs.jced.9b00693.json"
+    },
+    "10.1021/acs.jced.9b00696": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9ec07d4238c3b379362f97d564fb476597980a99bf136f35230607e77c36e31b.json",
+      "sha256": "15d082cf59129a1e4891463b4f294aa738860f7e47833c2d22ce33a2fab9f2c7",
+      "archive_member": "10.1021/acs.jced.9b00696.json"
+    },
+    "10.1021/acs.jced.9b00703": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5dafd3fd324e82cff97ee755beb89a4010304d2e28c2eb148e78b010a7693dff.json",
+      "sha256": "d9752bb244e9f1dbbef49fcec37a509ac9df7dccf93e11f80780e908d8c91a1e",
+      "archive_member": "10.1021/acs.jced.9b00703.json"
+    },
+    "10.1021/acs.jced.9b00710": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/99e5b5c0333b08278f469b262366f7370795ce7590e50024f7616b46186e8996.json",
+      "sha256": "dc862409d970ec0f7ae7d21faba9798123ac46e198a5c59c700e2518ebd3991c",
+      "archive_member": "10.1021/acs.jced.9b00710.json"
+    },
+    "10.1021/acs.jced.9b00717": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b1db3ddbaa3acc0afd4238b4f82db4c7a0d3eb90ec459165a063336b68470bba.json",
+      "sha256": "59565541c0675c19522745748cbc5174cb4176ff0cf98cc9b50b962fa8be680e",
+      "archive_member": "10.1021/acs.jced.9b00717.json"
+    },
+    "10.1021/je030165y": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/26add8d55be0016dbe13787b9c6ec9b9c47f395d6255a2838790f7cd9a563149.json",
+      "sha256": "2f799f97981df22c59d1cf68f77d854e8c073a658de02d39218b34bb59c95811",
+      "archive_member": "10.1021/je030165y.json"
+    },
+    "10.1021/je0495583": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4d3b038a8d5e9b4f64dbedf74281d36ff5deb479cfae1618e9bfa2063e039aaf.json",
+      "sha256": "5c41b42e840fffb279aa8440c971de51bc5c52a33f3de5d06b607341f1abfee6",
+      "archive_member": "10.1021/je0495583.json"
+    },
+    "10.1021/je060329l": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b0d88b9e69780c7a1c31c76a762ddc82aa456075717b1f05e7f1d2f265ca9927.json",
+      "sha256": "8651617c37a72743baa9f073ddbfe9ad9235bc30d27602b6d6c1c72a907b4725",
+      "archive_member": "10.1021/je060329l.json"
+    },
+    "10.1021/je060346a": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/da6127d575225d65d3a79dd2de16c0dd82317bed29a3c91a21137aec1bcfc847.json",
+      "sha256": "2d167aa25ff91e47d6f9299681a5365ae4ba42f7ff02ce0b84635adc2d36da1e",
+      "archive_member": "10.1021/je060346a.json"
+    },
+    "10.1021/je060350m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/08e25e58be59a84c5f1e37c4f0d4b640132aaf892d0ab078c5cf07cbefee2132.json",
+      "sha256": "9a45696cf5c124227ad473fea542adfad9354244d017841f56a3662a5be4581c",
+      "archive_member": "10.1021/je060350m.json"
+    },
+    "10.1021/je0603630": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/407412f88126e9b4fc10404054ef0981ce342bb6a9fa29015f7dec086f5d38fd.json",
+      "sha256": "08ef4bad873c994901146124992efd8c375e780d9b1728fd84167f6a73488c8d",
+      "archive_member": "10.1021/je0603630.json"
+    },
+    "10.1021/je060376d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/41d06bdf3f0bfc9dc204fff506df3985099e846592b162f29d4bc4b484357784.json",
+      "sha256": "ca669d47afcd05ea9cf30c0df3b79ae52223ec4a8cfcbe02631a41ef2ebac604",
+      "archive_member": "10.1021/je060376d.json"
+    },
+    "10.1021/je060380p": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9fd663d48bffa3cd470340fbd923d70f2e2aaaa3941b81faf8edbe2af11150bf.json",
+      "sha256": "7f062e7cd34d53402580553888f15cd2beaaeb5a9e8923f377eaf936127fb1ec",
+      "archive_member": "10.1021/je060380p.json"
+    },
+    "10.1021/je060452c": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c2cf8df9b59b6405af6ba6a1766a3ae9bbd6114fd7a41f5053249c2805c009bd.json",
+      "sha256": "fc438e2853cdf46a8c6bdeaf17d874f4d1acf6a5d7eea4079ae3562985252c27",
+      "archive_member": "10.1021/je060452c.json"
+    },
+    "10.1021/je060454x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f98831a932f816f3df27affa0ed59498f30c552a559a294e3735b9a4ecf2293f.json",
+      "sha256": "c36c4fc4a485790dffaf6eb65d3216974f6abd3bb87aba255bc184b1afe18a90",
+      "archive_member": "10.1021/je060454x.json"
+    },
+    "10.1021/je100030j": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1d23d41f383e7e5c086449e43c470921346e91da4962c21e1bb0a784f93bb111.json",
+      "sha256": "79e9a09f80e10481332c414feec8c0e83bbcca859c508e9950535f662bad5d9d",
+      "archive_member": "10.1021/je100030j.json"
+    },
+    "10.1021/je100048g": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/26712e26e97c2aebf05f64bda1aea65dec7cab7c6cd8c92abf0c6374756f7440.json",
+      "sha256": "c1cc1b58731f149e89ed95cc9d0a437be885d64670912f26f29b9407df0f384d",
+      "archive_member": "10.1021/je100048g.json"
+    },
+    "10.1021/je1002016": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/61faf97f86f76f5391194896a21b17b6c5ffd5c1638492bb5b0d1bc56bdd2bb3.json",
+      "sha256": "d1911b57e175b8f61608b7269e9852ee20c0e5b7c4cec86ff16ef5fe19641321",
+      "archive_member": "10.1021/je1002016.json"
+    },
+    "10.1021/je100227k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e5859e3fbc71664901557b27c0fa60314fa8fc920b43f7ef1847f7566e9ac47a.json",
+      "sha256": "f5d6fdf0f1262ed9d71c457199e21a0082b881c5da27df485d32fbdb84d2984b",
+      "archive_member": "10.1021/je100227k.json"
+    },
+    "10.1021/je100316k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4c30cf900530a5f2c73a862ae0ee239e3b1a45fa98576a05b611a431488cd86a.json",
+      "sha256": "63da527cd56e1c326ddf0a0750f23c4f23231e221b7193207b8845637ab45821",
+      "archive_member": "10.1021/je100316k.json"
+    },
+    "10.1021/je100397q": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c354c4b5a92e2a0ae98876b3a1822fbb99e6128b25f463bb57263dfe2a8e583f.json",
+      "sha256": "9df21a4203ac493951a0c99c848bed91cd7fb814a6eec8a07569c1e722edc62b",
+      "archive_member": "10.1021/je100397q.json"
+    },
+    "10.1021/je100626x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a515d4b6c703f65571c780e2247e12d59b65486816bb9789f70d23061d9bc0d5.json",
+      "sha256": "cf5f974fe4da9c0c317146db99cd5f61d336814016fc8282ed30d8e54add6a8e",
+      "archive_member": "10.1021/je100626x.json"
+    },
+    "10.1021/je100890f": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/336a25630c85164476cdcdce33d184bd1acfc21d6f33c1cf76ac680cf7bf0610.json",
+      "sha256": "07b0a9a2015541b1fc2c532af239ee6a94f1492cbaeb3a4571eca499b617bb23",
+      "archive_member": "10.1021/je100890f.json"
+    },
+    "10.1021/je1009812": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6b31f12094af8e3144039f8c7854647b40d4c59ce18a682ae323dd0f3565f0d8.json",
+      "sha256": "7e592db175e23abde7ed19abde6429231d644022f0cf89fa19bc100e0c3e9811",
+      "archive_member": "10.1021/je1009812.json"
+    },
+    "10.1021/je101020m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/440a10d2315ab59ad638faf9b11d54224f065184e9f7c074eb3329a6df97544f.json",
+      "sha256": "5564a992edb4bd279af06e72ac46f77e0a369560d1c6b410a47a57afb8dd2a23",
+      "archive_member": "10.1021/je101020m.json"
+    },
+    "10.1021/je101167z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/73edc964afe900121d25ec1ec261e4b4d2a312732eb680671b8f0f7eac629e22.json",
+      "sha256": "8f6fcac4826630387ef54779e23111116c364e302901e648f7b207367b09b570",
+      "archive_member": "10.1021/je101167z.json"
+    },
+    "10.1021/je101168w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/75ab85237791c8b9a195e3bdb7337d7b8faeb1b84d5cc442eede98d457cd0f94.json",
+      "sha256": "480d22dd6953f276d2c70ca00bf71fae471215358f592da75f4801da58f8d90c",
+      "archive_member": "10.1021/je101168w.json"
+    },
+    "10.1021/je101201w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4535a925224c2e951da6fc74b756a39561b9064adc46dba3ea9d64cbf2e9cbf8.json",
+      "sha256": "c8f55094ab10f7df8e696bc1ed74607e781e164a292bf770fb6b3f04be374381",
+      "archive_member": "10.1021/je101201w.json"
+    },
+    "10.1021/je101272u": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/93f7209cec6a9bdd083e02e603a2925da708114a9f459603c013c7904e56db18.json",
+      "sha256": "3f20999e86a16ee95b74bc6f35e116562434360620449caf36257089f9d5b8fb",
+      "archive_member": "10.1021/je101272u.json"
+    },
+    "10.1021/je1012839": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/89b0a9bd2f64086d202bf0b2a357ecf5d2f450b1ad4d3754de0de36996523ff6.json",
+      "sha256": "cde797873c421838a768b6e5725555916e21199bb2fcdaa2fc56aed6bcf363e3",
+      "archive_member": "10.1021/je1012839.json"
+    },
+    "10.1021/je2000292": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ca12fd218b76a5dc4eec58d2f631046d704ab636364b47b9216a40c601d12e6b.json",
+      "sha256": "da3d6f9c6f85e3b0097bcb13cea9039ca9a9d8ad13ec1d20d6f35d0721e1f81d",
+      "archive_member": "10.1021/je2000292.json"
+    },
+    "10.1021/je200151j": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/23e6e1c7841d2e7ea512a47d4550d13673bf1d8c89dc50b3f49880d4f5590829.json",
+      "sha256": "f8d8bcffb129b518c0d9680d0b32149a8eddd86946abbf4831018e93d9803473",
+      "archive_member": "10.1021/je200151j.json"
+    },
+    "10.1021/je201268b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7adbacb70f1ce4ac7e5a01a11f4bbc37b15bbd3cf3c32136567e51de843ea049.json",
+      "sha256": "403b5e8468e29e2e3f4ecfb54fa3097e795bf37902fb0bd42f1e195c4a082e4e",
+      "archive_member": "10.1021/je201268b.json"
+    },
+    "10.1021/je201282d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ce7093410309853012f795296df3b2577f45d89f877301abb668997a47288296.json",
+      "sha256": "de8d025696799fc00b2ab03258427ab53d3c3f539a7f4110c86d3c6e8103d4aa",
+      "archive_member": "10.1021/je201282d.json"
+    },
+    "10.1021/je300401c": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c7b9ee4700fd0bdcb51765101863ef621592f8a88f495cc762a047032e88c180.json",
+      "sha256": "f1040df58c7dd7481fce99250b9b93f3755042d010471c1f344696137aec96f7",
+      "archive_member": "10.1021/je300401c.json"
+    },
+    "10.1021/je300647k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5a4de4486caa829bab98fec4ca7891830c41809c607c3a3743eb40e5d28b16df.json",
+      "sha256": "c91cbf2ed76684e7eb85696ce941ca7f76d88120bff5b6bea11317dbcd2f7adb",
+      "archive_member": "10.1021/je300647k.json"
+    },
+    "10.1021/je3009842": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c481c10aa79d82827d72cd48380a59736a66296698b598e61c36a2f2bdd641b6.json",
+      "sha256": "e151e8b06eb18d980140d0f45604ae4822d380d6740291eacb8618d057ee1c52",
+      "archive_member": "10.1021/je3009842.json"
+    },
+    "10.1021/je301014d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/654de9bc89ab47f8bfe59054400b72c8108f73a4b4c73f83f0d0717f8d5e16f3.json",
+      "sha256": "886e672f1975feb884148f7c5cb4461688cc794cfc583322314c5e06bc59c394",
+      "archive_member": "10.1021/je301014d.json"
+    },
+    "10.1021/je301029j": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4bf6d8e1b064b5da0849ad971690f747f9c82aeb23cd69ae9eed8839857e2d0b.json",
+      "sha256": "46a783587b3afe2f09c9c12a8a51006682dbbf2908aef311a5ee9aad9417fdeb",
+      "archive_member": "10.1021/je301029j.json"
+    },
+    "10.1021/je301243f": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bc7a077e8fe098fd7ab97dd24d7dcea03243b4ce337e5ba46c5c9c965be3da4c.json",
+      "sha256": "723f5c382d898d7723c4f2540fda4668217002ce60d791fbb788dac42d12b899",
+      "archive_member": "10.1021/je301243f.json"
+    },
+    "10.1021/je4000718": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/851d83e019d18e5b6e11e5311071487344eaa58d5fe3092b83c1e4f6b5d35d0c.json",
+      "sha256": "a8daec421b4653439ac7281b405f8b6bee506bd31a8e49e357ee5728ddfce7c7",
+      "archive_member": "10.1021/je4000718.json"
+    },
+    "10.1021/je4000982": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3c39607a045575cce8c71a6997806161c6387fcabc9f9ed58d8525c20ae247cb.json",
+      "sha256": "343a3a062d8b3ec135adaba506572ad9e51ba4ee4e47b55d11b6619a52e56f0e",
+      "archive_member": "10.1021/je4000982.json"
+    },
+    "10.1021/je400188h": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/be8f1eb6698755eae50a88e048e30c041d1068bceca84a4cee6626e777892f29.json",
+      "sha256": "13eee91822a41571612fa821700ec63292290274f3c2b3817190ca3318b45ffc",
+      "archive_member": "10.1021/je400188h.json"
+    },
+    "10.1021/je400218d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2d5b37c838e6261ee73ab0ed67578f76f35637590c74a9a30111d3db2688c3a2.json",
+      "sha256": "e87aef405a8608a10da5e8ce44a67935780a76151a6523cac106e71a2c1d9a00",
+      "archive_member": "10.1021/je400218d.json"
+    },
+    "10.1021/je400246s": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e09eb99167be4a001f75080455a9733aa4fb3cb0d8b4266765a2d32916bd2936.json",
+      "sha256": "bb6da0b5be4f7804dd9177f1cbe7e71b81338432bc9c5e129eaa2e000e082b92",
+      "archive_member": "10.1021/je400246s.json"
+    },
+    "10.1021/je400259a": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/82819763a627e3e6807a3c12c84616362cce092aeba19e024954fe614ec71a1e.json",
+      "sha256": "1b7c3f56c442adde5313d16e8a2ca437f9c15c8cc7aeb1a28e71a9c76163b07e",
+      "archive_member": "10.1021/je400259a.json"
+    },
+    "10.1021/je4003114": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3a3c989bdaee91e6591ae1aa5a4b988fb862da6c874ab1ff7197d5e7496c5d9f.json",
+      "sha256": "827f5c19df540ca716e3eadde94a5b6a30c3fc3735b162bfc489c6aefb3bfa8b",
+      "archive_member": "10.1021/je4003114.json"
+    },
+    "10.1021/je400412z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f900a020b75a3a71b41d901832d09669e086e63afb8f7941ffb83693b70b591b.json",
+      "sha256": "6998db3011ea6ddf807fd71dd9cb650a38f16129ea17ef2c193857eb15918823",
+      "archive_member": "10.1021/je400412z.json"
+    },
+    "10.1021/je4005992": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/790bbdf490da9849b97d0997936c685e61242b42257ea4aff970a055c2f10001.json",
+      "sha256": "0e1246c62697c855b66df857e8d923dd66bbab331c50e67bcef20921953dbef2",
+      "archive_member": "10.1021/je4005992.json"
+    },
+    "10.1021/je400639m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/40be90a674a156202718f13b2dd597236febbab583284e59c45aa85924ac3f9e.json",
+      "sha256": "33c90fceaea479439f95dc4abcfcc484febd4cd866517e284a4151ca05bd968f",
+      "archive_member": "10.1021/je400639m.json"
+    },
+    "10.1021/je400754e": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/29b3f9eb9dae42ecc6af0587a801134a8803db3dd982b768ef30e65fdd3ee4c1.json",
+      "sha256": "3cb6685353e3be065edecbd51b84dfe65024ccb8822d8b737bba12303071c913",
+      "archive_member": "10.1021/je400754e.json"
+    },
+    "10.1021/je400813d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f8308c3ba9a9260362cdd54605e7891366aeee389076316c28b52e97332eb24a.json",
+      "sha256": "46719de017dd7f8c3519544dcc1e53a346806d6bf3266efca85f287cc11572b6",
+      "archive_member": "10.1021/je400813d.json"
+    },
+    "10.1021/je400838e": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0c6ee40cc1b2fb982feb20a35dc851080cb9e84bf28e6dd71b339231b7e3dea7.json",
+      "sha256": "91ef1a8ada15fa00d6edfc408c884b7dd221b6f73f5b2231421039f50419ae2f",
+      "archive_member": "10.1021/je400838e.json"
+    },
+    "10.1021/je400899e": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/54b6b09a24e73d00619d4148fb9e51e6179b9e286df2d7545c1765a998a3771f.json",
+      "sha256": "48c1223ef780be143191d63407b8b7da06124f596e76909f70c33cc0126eb7cf",
+      "archive_member": "10.1021/je400899e.json"
+    },
+    "10.1021/je4009816": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/17084b88513e740417b119e24f76bc9c2132cb248084f362a16395af9349a5f7.json",
+      "sha256": "6734a8ea5d32e9530a9aa752f1ff15f65da135d175b987c3c970f2b2d2783144",
+      "archive_member": "10.1021/je4009816.json"
+    },
+    "10.1021/je4010257": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f54153d1b0bb8c6037566b1eee6c31fe30df12858d2cb134c300e91e45d17155.json",
+      "sha256": "ff02fba8a6969b59dcfe5f27c6630502a2f95c85a557e82c02da569914d12005",
+      "archive_member": "10.1021/je4010257.json"
+    },
+    "10.1021/je4010905": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9cb7e9ca2f4ebbf125d2eb82788b34f1d9568ac4f24ceb590dbcf7fb9019b038.json",
+      "sha256": "f0192826bed248bfbc4becf18f881f950fd04bfd3e9f513c167016902fdaadbd",
+      "archive_member": "10.1021/je4010905.json"
+    },
+    "10.1021/je500012b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b1efdbb6d0b0623f5d8fe1732046331a68174f8520fb0d994721906661b1d7c2.json",
+      "sha256": "9ce4295811feae9e768f9e93e889679327fad3dfd7bfeabc18f2775daaf6c046",
+      "archive_member": "10.1021/je500012b.json"
+    },
+    "10.1021/je5000428": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/72deeaa624c223e0cd58d086393373d90733af65e70aa0988db37d89c794c29e.json",
+      "sha256": "bdaf97f245e64dd772cc5fc7f756329ab694574574f4e0430acba941637eb9b9",
+      "archive_member": "10.1021/je5000428.json"
+    },
+    "10.1021/je5000605": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4f1151b6727799d45f6d842ea1dd699c3c12689a4b5b6c71dfc664eb3b499b31.json",
+      "sha256": "5a47e9ca8a6b76734b26cf8d1d9f01d707ffb8f962b800e2772f0aa4671bd813",
+      "archive_member": "10.1021/je5000605.json"
+    },
+    "10.1021/je500068b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a2e43d9b0245194920d3f43d7a849b2baec0bffa9ae7fc6c8af1daf42f98f834.json",
+      "sha256": "122e3d79b251f4a0d2b3b9a7a2e031831f3d29f756a623063b5970feba45ea14",
+      "archive_member": "10.1021/je500068b.json"
+    },
+    "10.1021/je500078n": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/15ee37732cbe7cb9907297bdc21d70847be813e39cea0ea41545f7000e1fdc27.json",
+      "sha256": "85dba0b8f09552214cc312ad1156ca5042005d3935e2dc7e8e6bcacc680cd433",
+      "archive_member": "10.1021/je500078n.json"
+    },
+    "10.1021/je500206w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ed5b0c86a80a7e923276563e2efcf7fcf7b2dd129286336fb6f853a7c13a5999.json",
+      "sha256": "fa51c75b96e73d449167108f52faf0d2ff120d47c3424d4fbc0d66b755ab0650",
+      "archive_member": "10.1021/je500206w.json"
+    },
+    "10.1021/je5002158": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8e83e15250a414d9f40f2366e22c159f03980b88626af08d3c1a920829a79299.json",
+      "sha256": "352b944b39239e8d7a808728aabf96698edd4287b8fb0faf6be02fb799cf527b",
+      "archive_member": "10.1021/je5002158.json"
+    },
+    "10.1021/je500363r": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/54ae5372a9740c81bc5ea2cd7576e9edc2579b2e7c84029fd1325796044d710f.json",
+      "sha256": "08c20a1f5300c4123ab300e33cae5b17683c1584a0e13ab1a11433a437d27e75",
+      "archive_member": "10.1021/je500363r.json"
+    },
+    "10.1021/je500392g": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0c872c15b7f45126cc8bf1144756a53d51d215df38b87ca92809d2efa369a00f.json",
+      "sha256": "db5bfa49475aabd1da796330bfdd33e1111d0375886bb8a3f86214153bb0da76",
+      "archive_member": "10.1021/je500392g.json"
+    },
+    "10.1021/je500396b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/796c1ced64d37edcaf0532283c95b7a271d26386f732d2e19564f283eb42f977.json",
+      "sha256": "f82a83826e1b3bd4a0809b75d8802e354fe6dcc8893482fdb78e4cccb8bd73a9",
+      "archive_member": "10.1021/je500396b.json"
+    },
+    "10.1021/je500437m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ec7bebea95012e449cab99017283b8e782047fcb9d0f5491cffc562d8b4aecb3.json",
+      "sha256": "f385148127ce36c50b9fd555858b4cca654a08b9fa6170bce543cd58e8ea6629",
+      "archive_member": "10.1021/je500437m.json"
+    },
+    "10.1021/je5004466": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a4a60deac3d8866db67a3b52f74aa9043af9a39bbf04e86e3e4133754a0067e9.json",
+      "sha256": "acf71a046ecfe1bec4ecfb7ecaeca9dfd4f76e88efe8bcbf5ea8acd612710a3a",
+      "archive_member": "10.1021/je5004466.json"
+    },
+    "10.1021/je500678z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1fa7c8212ca0d7e5a8f6a42205975fd555e2cc1c306725e201d805c0181ed1f2.json",
+      "sha256": "4fb1c979a6090a08299ea18ad09d54e9c04a7ba15bc5d73ed344530d95f4bb2f",
+      "archive_member": "10.1021/je500678z.json"
+    },
+    "10.1021/je500787x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/746415f1fb4777829798cb3ec452771c72728286e3e28887e5019fe932fec957.json",
+      "sha256": "4f11f6c2d385d7ecfd9c7c3ea893253e22d4bf0c850d6780396870928e663c02",
+      "archive_member": "10.1021/je500787x.json"
+    },
+    "10.1021/je500806u": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6618e8b3492f206aea4059ce921ab63f01a21e8deba0416fe0b6344c2f411953.json",
+      "sha256": "68bac14e316c31722aea4f8a5d8c5d875a4fed3c7be00a3cdec738ca6a49560b",
+      "archive_member": "10.1021/je500806u.json"
+    },
+    "10.1021/je5008422": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/66e690aba6a239306baa275e02425429312f5800103995730b4962b143ccc41a.json",
+      "sha256": "97a54da4a35ca560216b25eed6f39100122cd958bf7339c190c6b0fc152c3679",
+      "archive_member": "10.1021/je5008422.json"
+    },
+    "10.1021/je500996n": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/2714e0466df50e9fb86b2c69790154a44bf4642365cec64c53ca0649ed6a9779.json",
+      "sha256": "8ebf3d2f2234def08a518466170f2fb511bbf33d4761f4e02eef8fbabfd774af",
+      "archive_member": "10.1021/je500996n.json"
+    },
+    "10.1021/je501002a": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f3c8b701a1a8963ce4e8494fe20e4ca163c72775d5bfe7dc1c4e6604e4840fdd.json",
+      "sha256": "256e4484bdc30e00d1111c07dfd9b758ba40a4512dd20ff0cefddaad816b2c1f",
+      "archive_member": "10.1021/je501002a.json"
+    },
+    "10.1021/je5010033": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/614bb854103f6216fcef00e5778f5aa62fe5acda5b01756f41ab29b49fef7de0.json",
+      "sha256": "6ec18501ea0cbfdbb8ec3049e1643e8eb4d1ae8c3834ee0bdf2a7e159147ae9d",
+      "archive_member": "10.1021/je5010033.json"
+    },
+    "10.1021/je501011t": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/05010d454b008a0ef835cc3f1ede8de6d4edce791ee0056688482472dd3b55dc.json",
+      "sha256": "5c58a5d950633ffdb3980cc5e2901fbde222c9be2c749476791c81c0af03da6a",
+      "archive_member": "10.1021/je501011t.json"
+    },
+    "10.1021/je501026m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8d47e357b8233eadb1ce95a6157cac7041af8979397649cc765b66b614cc49fa.json",
+      "sha256": "9b0c4793b3a7bbb872cad1cb98cefca54d58172df33421ccc2d2d86a86cbc3c1",
+      "archive_member": "10.1021/je501026m.json"
+    },
+    "10.1021/je501036r": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/94c0c5dd9e9c70c5ffaf866b1da450f27d68abdc5aefa5dd0b60a3e8b020141d.json",
+      "sha256": "da8052dce872590e06d5a77722761867dc4db9138f2908b933705efd19346857",
+      "archive_member": "10.1021/je501036r.json"
+    },
+    "10.1021/je501111d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/77d9faa580a8f72a971ed7f0ca78a5e24391dab0afe2005d7c737530322db217.json",
+      "sha256": "4b445c8d9af7e0b4b1f047959b74d1c97b6c063113591456b9373e71515d2db6",
+      "archive_member": "10.1021/je501111d.json"
+    },
+    "10.1021/je501173n": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4661570bec154891d2a6c98ecadd40d1dfcf8fc5a3d8b67f74fc1fb1d586fc83.json",
+      "sha256": "541fae6b34962fff476bc627e15c326cffcb9d6a68237e2c9a6983329b5e614e",
+      "archive_member": "10.1021/je501173n.json"
+    },
+    "10.1021/je6005482": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a4b121b72c67595588ba0a54a23c0f23418dc33739291be8f208cc9c580e7267.json",
+      "sha256": "f6b995c94a5671510dab1b7a2059dfbba2d4bc5bfd9075fd9745147e49e9c162",
+      "archive_member": "10.1021/je6005482.json"
+    },
+    "10.1021/je600564q": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4c3343491e68492ea4b755d5c9206d3de8bd142d6ffba917cc7d85f1ebd05b44.json",
+      "sha256": "aaeb465860dbf532d1199faf18c8e7bd03fd1a93edaadcb0fbaf96983cab4e49",
+      "archive_member": "10.1021/je600564q.json"
+    },
+    "10.1021/je600579s": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8c4397fc9fd59f389753e2b34a5ddb6f76e7f85c8690f3ca22dfa91d553eae6c.json",
+      "sha256": "22f575b9939db7d5b6212c95326a118c31d3550db4fd8019fb66328e52479591",
+      "archive_member": "10.1021/je600579s.json"
+    },
+    "10.1021/je700122y": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0622f4e22465c2e132199ab9219a83218883a2d21e58aeebd0ffc23b9f426551.json",
+      "sha256": "ebdd581bb47715afdafe8e9bb645c2d43827fe13be541f2abeb08351d8de6dbe",
+      "archive_member": "10.1021/je700122y.json"
+    },
+    "10.1021/je700179q": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/08771d02972970b87e15968360e828abd7af8178da001d591b838581a4c827aa.json",
+      "sha256": "173217360e28f53921e98b7d6a3be18bc1a6add18fe55027cdb5c1df5556b672",
+      "archive_member": "10.1021/je700179q.json"
+    },
+    "10.1021/je700200b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/eb91e1861e4a65643ba40bf74e81e12bc87f00813a075a40c3032971ed3e6b62.json",
+      "sha256": "cf69010a53353be6bef392cc7c91336820e046c4130d2f329696891500df7f80",
+      "archive_member": "10.1021/je700200b.json"
+    },
+    "10.1021/je700216w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e6fef2fcd2e99aa4f5549eea1601733299fa0488c5c1d9c6f9f2c08c821933e5.json",
+      "sha256": "003a77e7224e4bc42b1c4c7a3dfda8da6365e2284b101c41589f150906f9bfa4",
+      "archive_member": "10.1021/je700216w.json"
+    },
+    "10.1021/je700284r": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/016b18a54daa56633f5db7e1353100e608c44051c3f211ea21bddfcc2d855a5b.json",
+      "sha256": "1395f9c3b442ce2de86d2cc378668e171d831caf25eecbc747cf7fe882c14318",
+      "archive_member": "10.1021/je700284r.json"
+    },
+    "10.1021/je700296x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1e025012af15171d3eabb211af68d26a916647bd6d7f0500783218a097bf788c.json",
+      "sha256": "4a582ebd39edadcd5b8d90393164b2429b583748ff153191ee94a6320b3c8f55",
+      "archive_member": "10.1021/je700296x.json"
+    },
+    "10.1021/je700304z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ed4f0cac6a6982e56cd4e5a22387f91a90f151813d92d6feb05b7c8b707611e1.json",
+      "sha256": "81fbaf933c4e8af6db50db8e26f69e676e0b16a1b6c15cabbff2c5064d4bd78b",
+      "archive_member": "10.1021/je700304z.json"
+    },
+    "10.1021/je700347h": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/76a898997dd3edc27698caf42945fce5fb2023ade3b823dcbce485da21bff3d7.json",
+      "sha256": "70f90afc665d22f5efb44dadc91957df3daebe36e791722c247fc159e7dee23d",
+      "archive_member": "10.1021/je700347h.json"
+    },
+    "10.1021/je7003885": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5dd346462ea324326c51a90bea83adc4119c67c428b992351664ba18d254dca7.json",
+      "sha256": "f09f1dd306a377ae9b43ca7a25982cf083691a5e648f5caa6091dd9d90aba41b",
+      "archive_member": "10.1021/je7003885.json"
+    },
+    "10.1021/je7004038": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/94688dcf3d1d9c20e70861788a629e2ffcb268721edd9f3f32a4576d73152d04.json",
+      "sha256": "5e13f2d43ed1f1ecd36a4b9e706369148e801b1246c252e324214ce84f63aa46",
+      "archive_member": "10.1021/je7004038.json"
+    },
+    "10.1021/je700404u": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8a5e1396b0465394e785fd34f55cada96ba9e628aebbbef7432c3f912ca8365d.json",
+      "sha256": "2beb86283b39c4f177e1451c6ce3cb738c6f34684808b8f60b4e99e46342c9c7",
+      "archive_member": "10.1021/je700404u.json"
+    },
+    "10.1021/je700453v": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/4ed6046783a416a3452e7279c54306b26b2588755ca613a01786236b0014240b.json",
+      "sha256": "bb4407a2af521bc73bd9aa350b9246c665a5152e71de44c643f802006b15fcc3",
+      "archive_member": "10.1021/je700453v.json"
+    },
+    "10.1021/je700497h": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c9951357fa4b41745165f3ae4989af2e37cddb95c361b40da60fd9a922628a2e.json",
+      "sha256": "36aea64796401f6daa63b2bdfa12068da2b42d6e9e3157e9e7069e275b26cf65",
+      "archive_member": "10.1021/je700497h.json"
+    },
+    "10.1021/je700664g": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/94cb3a6a575bac89b7d97e27d1d790c8044f716ed2f78faba09f48daa4620106.json",
+      "sha256": "cfe4167cc8d42ccd1d517042f45980fe69a9d6eead48a9226c7d1d9d6ca9739d",
+      "archive_member": "10.1021/je700664g.json"
+    },
+    "10.1021/je700713q": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/45c78838e115fea34c6e630df4410e39e0059f296f29541331dc3d517249ea10.json",
+      "sha256": "c06c33063ca5011c296fe3e7765b26e7fc78359053900a0124528a19f43ebf69",
+      "archive_member": "10.1021/je700713q.json"
+    },
+    "10.1021/je7007236": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/192f73a662ac18a3cc7b9541ada6dae762ef872c9fcb35b08af81593428f0a2b.json",
+      "sha256": "f6371613b613d7e62b0075baafb48e08ba60c745aef928ee45db2ac3e7f9ec19",
+      "archive_member": "10.1021/je7007236.json"
+    },
+    "10.1021/je7007457": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/48bd496e9ac2946fbd3e493bd3762f3c3080769ef36506bff14c39dd8dc1ace0.json",
+      "sha256": "7588f9ba37eaaeabf114ea14756d38fa774be98ae5988f95c883aea68f08983e",
+      "archive_member": "10.1021/je7007457.json"
+    },
+    "10.1021/je800029c": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/311dc6d2e5e09a6b4e3132d5fb2d70c97f58bfcc1bd5acc1803334cb9a8de64b.json",
+      "sha256": "26527fd077057c410724bf8ac2961df3cf89b054827d6ec76bcbdf2d8f53d1ef",
+      "archive_member": "10.1021/je800029c.json"
+    },
+    "10.1021/je800056h": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/9ff30a6b3d8d73013d0903593b6a15634591110d013dae19707d3f13310a3ced.json",
+      "sha256": "c59600f03d607e7a51b667dbb7cfaebac914b3b69b651378ad4c06b3a1a2bfe5",
+      "archive_member": "10.1021/je800056h.json"
+    },
+    "10.1021/je800063d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8290f70840abdb3195cd9400d4ed2bd5fafe7160a0baeb725a2803a74d8241d4.json",
+      "sha256": "7287a00941089cd5ecd6ca8b4b7b6b0e57aa0dd22d4f419a044f04cdb3432afc",
+      "archive_member": "10.1021/je800063d.json"
+    },
+    "10.1021/je800120p": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0945971a1aaa636b7ad21677016ebd34ead7a6ff5290dcf0429de4e59e227346.json",
+      "sha256": "f4d4aecba786c28456857cdcdea62a9fa94769462ed66702c77b9af4ac16b195",
+      "archive_member": "10.1021/je800120p.json"
+    },
+    "10.1021/je800174u": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/86acca9115f3188593cac80f5e6d284ea125738e7960d1944df092e191b1fc63.json",
+      "sha256": "c5064f9bc3d71e24da78a0411659ff988ac700a8ea39852739c5f6c70a6c5007",
+      "archive_member": "10.1021/je800174u.json"
+    },
+    "10.1021/je800196k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/82e494c95eb93e9f81d4328399ff8d6709a85c4b116141b3f7ce644ed3c817d5.json",
+      "sha256": "9d9dd2ecc5e89ac2f69dcfe0e1cece88e0eb14fcb17ed520bb8bd658f558aac9",
+      "archive_member": "10.1021/je800196k.json"
+    },
+    "10.1021/je8002578": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/b8b1734bf9fe81b9bfebec69b511bc625c280d0a4780cb9cf17f373b8527f14d.json",
+      "sha256": "bcbe0d2398f9e29e842e37f8424c3a98659a560c3bbc86863517f1f7f84204ce",
+      "archive_member": "10.1021/je8002578.json"
+    },
+    "10.1021/je800291t": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5ec32e8e1c9b5371f33c97b2e0def40bc59f048773e17d0be7101f5e4de1b8dd.json",
+      "sha256": "674e6fabfff481e4b7863ad3ca05a45cbef372fc93d2800345c53fb39af8d5bb",
+      "archive_member": "10.1021/je800291t.json"
+    },
+    "10.1021/je800405b": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c15d5f14070a0cd8cb974bae98375505eee67b0495e1985aeea02af37e02da6c.json",
+      "sha256": "9983bd52bae1e8aec018537505605ee8522682c2b3614799d7cfe398267a641a",
+      "archive_member": "10.1021/je800405b.json"
+    },
+    "10.1021/je800426w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3a678f32b77bb620edf06b868bc63424ec019aaa003c6927cad3df73753552d5.json",
+      "sha256": "20c42885c72848b0f2764905a52551a421514da4c8f94e716f30112ba13d245a",
+      "archive_member": "10.1021/je800426w.json"
+    },
+    "10.1021/je8005419": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8280f3835e66ce83ac6ffb3c0ad5b2d7b1eb0c39ad36abd2c2d2a939b33e4338.json",
+      "sha256": "a4ded2785741ab6c6f8d113d1ab31befdd584a9fed27e106d83f4ca094682e64",
+      "archive_member": "10.1021/je8005419.json"
+    },
+    "10.1021/je800569v": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d620409ca5ec3de8ee54bda62c81742c50ebee71aaf04a4fc273dfbaeaefbc1d.json",
+      "sha256": "783f734411bfe449d951cf28e5d623ac45198be40891479d33b000be9c060a82",
+      "archive_member": "10.1021/je800569v.json"
+    },
+    "10.1021/je8005826": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f5d1f78ac503ff0f45f2422219db02e31de20f5fe4e8cddb95d26112d6cd3f38.json",
+      "sha256": "2564b4cb43dee1c33f62c995be3105ac60f75ab9fb589ebe3ac009c63bed0721",
+      "archive_member": "10.1021/je8005826.json"
+    },
+    "10.1021/je800618x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ccc59e44a0fef26b0ef75679c12fa8a51e24e853161b4ce9a3ab8fd26a5d64af.json",
+      "sha256": "b500b31a07a838fcda1ea5e13c1b758cac95fc4632c9b327d47b4db309a097ff",
+      "archive_member": "10.1021/je800618x.json"
+    },
+    "10.1021/je800662m": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/f1dbf8a3ba07e7f97f32880cf289cc863fbf2961de902e10e0ae8e02ca9bb10f.json",
+      "sha256": "5d085994930de2c3d61da69ba953a9733f3dabbab27684adf931e83f729b999a",
+      "archive_member": "10.1021/je800662m.json"
+    },
+    "10.1021/je800668j": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3b7075ac73d12f38282e1648fcc8cdf9fd5b1215b671e9a7b93fa02c08623d7d.json",
+      "sha256": "c8c7676e1c9e939a98c4d43a93689f1aa7b60206055968e8f5e6eaf4b0dccee9",
+      "archive_member": "10.1021/je800668j.json"
+    },
+    "10.1021/je800676s": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7d77e7d30e21f8a90b559aec91090b9d501054ed17805e8c13e6b98f59e733a3.json",
+      "sha256": "9baac4ace77099de7271cf1fcfb78fdd02e736e01d2bae2ed1a037f8d9b1d905",
+      "archive_member": "10.1021/je800676s.json"
+    },
+    "10.1021/je8006869": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/3c2531e40bb9c99bb9de833e93ccc1490c1e489465c7b884dc76c9a1690e353e.json",
+      "sha256": "863d2ce359463555a88124ffb318bd3f6b9066ef710d42c0b05ce09ce26b93fb",
+      "archive_member": "10.1021/je8006869.json"
+    },
+    "10.1021/je800742d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/19e28d239418a8bbe8ecf5b504b0305f866d000190e39d1b2479194e5f03b1e7.json",
+      "sha256": "fcfa7147fd7cb74e3ae5d15e9c3f88ad2807353f1565a6aa563060e54973d03f",
+      "archive_member": "10.1021/je800742d.json"
+    },
+    "10.1021/je8007815": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/ceef086ae81caa61bfd087f55e1f8027cde156a843972239cc46344a7be6249d.json",
+      "sha256": "8ba3f7d7f99a42819dda80eb4ba0d855d7b85dcd263a80804fd934e7e66517f5",
+      "archive_member": "10.1021/je8007815.json"
+    },
+    "10.1021/je800801x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/aa23d719a5dfcae8ca518a04d44f65056d914e0d4974c125b38b4df08ac446c0.json",
+      "sha256": "44a5ba130944c9299afa4a52453cc0a7f8d19d80e4bef60e82bb1ec9e94d0fea",
+      "archive_member": "10.1021/je800801x.json"
+    },
+    "10.1021/je800842z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/07fe2763332fbf3d9627c1af7188414e3a56a5d2f4f1d54efc0771b8b0dc16d7.json",
+      "sha256": "dc151f523a8db8ffa257a325ba789c972496d0ed95013f501122a9625c46ce63",
+      "archive_member": "10.1021/je800842z.json"
+    },
+    "10.1021/je800869g": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/673530dec2633cf9afb06ede295a601d10d89884a109f44edabf766483dabaa0.json",
+      "sha256": "f5153a67ffca5a7d02ebaa4118d6323611f4d9fab42b1906ee6f1c26e79cf4ed",
+      "archive_member": "10.1021/je800869g.json"
+    },
+    "10.1021/je800946x": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/fc763a6b7c1fd9d5e8712e6a57fa9094150fbfaeef390cfe8142c21f3cc0e8e4.json",
+      "sha256": "d3f33679636b491c5e057d4db945457c3d589f397ab66e0e296c13ab4e3fa2b1",
+      "archive_member": "10.1021/je800946x.json"
+    },
+    "10.1021/je800991v": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/31fc05bffe2d2f0b615b9df57e1e87c30b88c686f5a893786b0c671541bdda13.json",
+      "sha256": "dfe897e791ac0c7de10825b677aa22f7711f7da77fb5d587295e72939b160c26",
+      "archive_member": "10.1021/je800991v.json"
+    },
+    "10.1021/je900022k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/dbcf96e8fec6875728110a18ab4513352a99333299af2777a6ed92ef14d3dafe.json",
+      "sha256": "dda662a614bdc58c009040b4e00477d4c33b65b459b8bf5ed2e254708c35c2db",
+      "archive_member": "10.1021/je900022k.json"
+    },
+    "10.1021/je900159a": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5568720f1cea7e28991943b8efc72f829068666232cc07cd8c25f8c69dbbec25.json",
+      "sha256": "8451544b2b61690b88a387d46b1f3e5bc8dbf5dd55ad18fc602ebf63d6b38528",
+      "archive_member": "10.1021/je900159a.json"
+    },
+    "10.1021/je9001637": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1e7f2e4e61996014fc5b2131b5527f24313ea123ea1b05e243fb34a005f5c59e.json",
+      "sha256": "ad1e102fe139350a93752929e6b3e67a31ea579ef8fc98b0b029a191d52628c6",
+      "archive_member": "10.1021/je9001637.json"
+    },
+    "10.1021/je900177h": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/8b1ad8c84c5ab8626c54763040312e47ad487234f2af3dae039d094b54b843ae.json",
+      "sha256": "6dab6c4364c4146d578f6b686981bce50e9f805c0f2b357053a256a963126b40",
+      "archive_member": "10.1021/je900177h.json"
+    },
+    "10.1021/je900235s": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7d3347b387cfa3e07f4628ac291c2df62b61234ef00a53b53b36d901e631bfbf.json",
+      "sha256": "3911eed29371040a4f361dfbc3b9585a6f40c4f5870137f81ac9af4dcb0a7bf6",
+      "archive_member": "10.1021/je900235s.json"
+    },
+    "10.1021/je900326e": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/73b030e1d431c01a920002057407d90950229d036d147be956aebe1e297fe799.json",
+      "sha256": "8b33d664cc60a1881e1dd9e2a74a74c8c9e2d890d38038405c800076e8d7dcef",
+      "archive_member": "10.1021/je900326e.json"
+    },
+    "10.1021/je900462z": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c4c3ed78b920d7434e14534f7ee3918f00e9cb6ac68406a19ee42cfc9145bd7a.json",
+      "sha256": "9e24d64be8b4a61792178808809193184f5be98b8a213d26576e7857e28f074f",
+      "archive_member": "10.1021/je900462z.json"
+    },
+    "10.1021/je9004855": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/e78f3b30210763d63758e01f7e13f9a22a4e3a3d285292cd1d665035f7573e99.json",
+      "sha256": "e12dd29cd1ff6ac7ac75dcfff684a5442288a4739cc004e26ada3d0d429d912c",
+      "archive_member": "10.1021/je9004855.json"
+    },
+    "10.1021/je9005097": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/0da80b0f60a507617dcf5c3266da035b5074bc6693bd0296f6617f686ee25c1b.json",
+      "sha256": "d15950d09e25c8e48a0d5dcc0635a9c0c3bc4156387623a465d0875568e8b25a",
+      "archive_member": "10.1021/je9005097.json"
+    },
+    "10.1021/je900540d": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/c1cfb7995aa0f6653f0e1c607ff293eb14116a3e91190f2d1a9157be70c763e5.json",
+      "sha256": "2e494be6a5d99d1046410fe831859dc5805e58e153ede71544f4dbccd6ce5393",
+      "archive_member": "10.1021/je900540d.json"
+    },
+    "10.1021/je900543q": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/bf939e2288432c2f59d24658fe6a0e3c5afd9f0e3f7bb504f3873ff86d3b820a.json",
+      "sha256": "48793ce23e453eb546025a979e28799a3a11622e47a5c220e45fa7d661042784",
+      "archive_member": "10.1021/je900543q.json"
+    },
+    "10.1021/je9006585": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/129a0fe7573d0aa3753fcbf54f139bb111c496d7eca1554fd8bcd5314ac891d3.json",
+      "sha256": "d4ea9749d2810347ff2e3edfe99ba6c81db0bb42bef721e6a8d68f7c186b10ee",
+      "archive_member": "10.1021/je9006585.json"
+    },
+    "10.1021/je900730w": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/1a8008e87aa8a7a4acc7d2c6442d15aa644457299ff23332c3b846978e5b3b73.json",
+      "sha256": "367e8cadba8aafb53b9b16383be9316589d24d1f1f7d9192e908ffb4cc2063fd",
+      "archive_member": "10.1021/je900730w.json"
+    },
+    "10.1021/je900742p": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/26c3b496880c9c4d0ab51302080c529307e1aa450a35402494d4ca9c0eaa12f5.json",
+      "sha256": "312fd1f7d47b94473ea538d0568b7bf52983d2e02c8d61dc50b1c4eebece2f7c",
+      "archive_member": "10.1021/je900742p.json"
+    },
+    "10.1021/je9007475": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/6c9444ac81943a086a96a615e94afa726ae580e6571d6408f21099ccabed1cb6.json",
+      "sha256": "3bcd6fdcd65d885cd9148bb2f1cbeb4228bb75c531bb0de8e8ee708f87b00217",
+      "archive_member": "10.1021/je9007475.json"
+    },
+    "10.1021/je900784v": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a7b094275e19b35a6134fd7d0dd60ab064b85d295a521e28bd4a070749efaf69.json",
+      "sha256": "f991b074513818ca3f2b6eb8d7d26278d5ad6a37fb8aba4063241e8e4cf62725",
+      "archive_member": "10.1021/je900784v.json"
+    },
+    "10.1021/je900826p": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a81f4cab5d3e04d52ba40858577899be08fa1a3661ab3763282aa7dea7c1e848.json",
+      "sha256": "0c9894a509fd7ac5625e31c66b2bf2eb3e0890c3755a9096be532a52b7642bf0",
+      "archive_member": "10.1021/je900826p.json"
+    },
+    "10.1021/je9008427": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/d2d242184f2e4e67aeb77c5afdc88d1c965315590ad984395191867949596b14.json",
+      "sha256": "44bc5b07597e9969c86714d755cfefba33149f64ec2a5eee8143850fb917f18e",
+      "archive_member": "10.1021/je9008427.json"
+    },
+    "10.1021/je900851k": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/618044edf33bdd80f7cc27d5e2331fe8e17c634cf291fccc70f085645e9ea333.json",
+      "sha256": "c3fa3ce22abf6fc2e4e3bb036d496fc57a2e69963d62c6999aa7e21825c7c610",
+      "archive_member": "10.1021/je900851k.json"
+    },
+    "10.1021/je9009877": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/a6a4f7f8127de289689cf40f8a590f922a5c64e0f24927b519094fd98082e478.json",
+      "sha256": "1988a108606117d244b1090fa24800e8b2795d1021fa08a1747bdb1788d6ea02",
+      "archive_member": "10.1021/je9009877.json"
+    },
+    "10.1021/je901006c": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/5889b2061ad1e9c0b21b085bdb172aa2606ba010f7b06d84c534c6056b274d5c.json",
+      "sha256": "2abb2aa5b222caf4b458e639ef559a6800301e59c0107b749cb8f57bc90b83ef",
+      "archive_member": "10.1021/je901006c.json"
+    },
+    "10.1021/je901024t": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/60628a9e1683313eac022f492e7b6b0b2c2fbc71becb767dc962f4cd79faee3e.json",
+      "sha256": "36dd44231a131b7ec9c5b68d2329f5828d4a15d97fd7ae0fb0f39c029ed87ee3",
+      "archive_member": "10.1021/je901024t.json"
+    },
+    "10.1021/je9010954": {
+      "path": "data/raw/source_audit/nist_strict_training_jsons/7e3c38497cc01124d197cb92529e06d83ffee8157fd723563ffbdec9c762308e.json",
+      "sha256": "1668a4009113486aa3636ff9c85194481939ba515688ae0d6eae1a86db32e1c8",
+      "archive_member": "10.1021/je9010954.json"
+    }
+  },
+  "archive_url": "https://data.nist.gov/od/ds/mds2-2422/ThermoML.v2020-09-30.tgz",
+  "archive_sha256": "231161b5e443dc1ae0e5da8429d86a88474cb722016e5b790817bb31c58d7ec2",
+  "selection_path": "artifacts/audit/strictqa/training_sources/selection.json",
+  "selection_sha256": "b8e6df826bf50442a7e614703ece026a3aef95af4c3cfae93ad78da1242bc178",
+  "scope": "Only NIST-available DOI sources occurring exclusively in original strict training. No strict validation/test numeric values determine source flags."
+}

@@ -1,0 +1,335 @@
+{
+  "status": "PASSED_LOCAL_RELEASE_VALIDATION",
+  "checked_utc": "2026-10-30T07:02:44.651729+00:00",
+  "scope": "Clean code checkout, isolated CPU dependency environment, no model training or final-test inference",
+  "software_tests": {
+    "passed": 73,
+    "command": "PYTHON_BIN=.venv/bin/python bash scripts/test_unit.sh",
+    "source_log_sha256": "e66c2672a57fc8d006e6b8c9eaa4a2544e37dd5f3c20e89e896a18097d6c6721"
+  },
+  "cli_help_checks": {
+    "data": {
+      "returncode": 0,
+      "help": true
+    },
+    "views": {
+      "returncode": 0,
+      "help": true
+    },
+    "baselines": {
+      "returncode": 0,
+      "help": true
+    },
+    "chemprop_runner": {
+      "returncode": 0,
+      "help": true
+    },
+    "llm": {
+      "returncode": 0,
+      "help": true
+    },
+    "evaluate": {
+      "returncode": 0,
+      "help": true
+    },
+    "compare": {
+      "returncode": 0,
+      "help": true
+    },
+    "source_quarantine": {
+      "returncode": 0,
+      "help": true
+    },
+    "strict_quarantine": {
+      "returncode": 0,
+      "help": true
+    },
+    "pipeline": {
+      "returncode": 0,
+      "help": true
+    },
+    "freeze": {
+      "returncode": 0,
+      "help": true
+    },
+    "final_plan": {
+      "returncode": 0,
+      "help": true
+    },
+    "final_runner": {
+      "returncode": 0,
+      "help": true
+    }
+  },
+  "figure_outputs_byte_identical": 29,
+  "figure_rebuild_environments": [
+    "fresh requirements-analysis.lock environment",
+    ".venv-reproduce"
+  ],
+  "fixed_data_reconstruction": {
+    "status": "PASSED_BYTE_IDENTICAL",
+    "scientific_outputs": 74,
+    "installed": 59,
+    "source_policy": "Existing frozen source evidence, not a new ThermoML audit",
+    "elapsed_seconds": 81.36550915241241,
+    "models_invoked": false,
+    "existing_outputs_overwritten": false,
+    "sha256": {
+      "data/processed/identity/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+      "data/processed/identity/train_queries.jsonl": "66a104098e1e090e093b269427245b293dca192426b72ca5132f87598b19eff8",
+      "data/processed/identity/val_queries.jsonl": "382ef6c29dd89829dd53ac61f979c5698e82abb25a861f8a417e6541fcac6656",
+      "data/processed/measurements.parquet": "9704e375234fd8c9728bceffb182d36557c725985b20ea1b462b136dbe6ece5d",
+      "data/processed/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+      "data/processed/scaffold/train_queries.jsonl": "abf5ab3a9e6ccc0a5fb7cc632f7a04d180ff44bd1800512f99a8c2f191544678",
+      "data/processed/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+      "data/processed/solute_identities.parquet": "fdb7cb5202d959fd671c20776daa178b4b8b7099d554de1f2806c3f4d00e5178",
+      "data/splits/identity.csv": "8e7806677cd9c6e3dec1bed47fca24be04942cc0ac7061342baa920093d059eb",
+      "data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+      "data/targets/identity/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+      "data/targets/identity/train.jsonl": "cc3310211180401f1a167c1e8e91b04b09597ed8c44812a73ca78c45d021d95d",
+      "data/targets/identity/val.jsonl": "4cdf3bb7cea5f80f119b9a4167fc9ccc703c5d45ce45ddc3560519063a8c6620",
+      "data/targets/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+      "data/targets/scaffold/train.jsonl": "5f24850f5114f3683a9eeaaec27c189dbb90f361e5e2648b074f4f09a051eee5",
+      "data/targets/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+      "data/processed/measurements_scaffold.parquet": "de592cccde3758a20aa876c28d91fdcc1aa18a6acbfe8a95d8a8041b341e1f58",
+      "data/splits/scaffold_excluded.csv": "a99ffe85505a4674eba5a68cbdebb8ad036a9450c7ad6415f9f0c6ffeb68fdef",
+      "data/processed/sourceqa/measurements.parquet": "0acdf743c18904287e897df78955ead12ac1a880a60932e4449d0b2dc83fa423",
+      "data/processed/sourceqa/measurements_scaffold.parquet": "d32e950ac3fc893ba91d7b27ae90199aff29a81bf18b9dd7d04d2541699727df",
+      "data/processed/sourceqa/identity/train_queries.jsonl": "f5f2778cb752b92dc85c93dd9cbe818c5228237faddf0c4cfad9dd2ab71c58bd",
+      "data/processed/sourceqa/identity/val_queries.jsonl": "382ef6c29dd89829dd53ac61f979c5698e82abb25a861f8a417e6541fcac6656",
+      "data/processed/sourceqa/identity/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+      "data/processed/sourceqa/scaffold/train_queries.jsonl": "cfe3a471bb3bca5beacb1cb3d533d7f2493d4ed520a9686b73b878e56ce42fcf",
+      "data/processed/sourceqa/scaffold/val_queries.jsonl": "b5321ad5ee8e410a1fdd103de712975e259345f1b8f96bd39e56dfaa0ca453ea",
+      "data/processed/sourceqa/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+      "data/targets/sourceqa/identity/train.jsonl": "4005585bcadce670f9f767b6dca82e7b7a8977172219d2afce9d1ccc391ad72b",
+      "data/targets/sourceqa/identity/val.jsonl": "4cdf3bb7cea5f80f119b9a4167fc9ccc703c5d45ce45ddc3560519063a8c6620",
+      "data/targets/sourceqa/identity/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+      "data/targets/sourceqa/scaffold/train.jsonl": "f18a8a7db12e5d24da4dbeed7d1fe512ccfab15587ac0d1b298fb4198e2f79d4",
+      "data/targets/sourceqa/scaffold/val.jsonl": "97fe2ff24082d4283a3f798512d2de1de15ddb794ca8441ec544105a4deef1bc",
+      "data/targets/sourceqa/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+      "data/splits/sourceqa/identity.csv": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+      "data/splits/sourceqa/scaffold.csv": "14e7cdc285375898e10703367f5916409daeed2884c0778a39dbeac6694e5ccb",
+      "data/splits/sourceqa/scaffold_excluded.csv": "91b4f6ee73323d96e1254f2ca0cd002b9618deec2a8e6cb77991be079e54b02b",
+      "data/processed/strictqa/measurements_scaffold.parquet": "5a5bc07f9396fa0a52c061c84126572cc96795eb73f0d9235d1796b1510a9040",
+      "data/processed/strictqa/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+      "data/processed/strictqa/scaffold/train_queries.jsonl": "cc7b24bd7e1c05782b833cab90836260a897fa3fd0702bc653240aa0048bb5a2",
+      "data/processed/strictqa/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+      "data/targets/strictqa/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952",
+      "data/targets/strictqa/scaffold/train.jsonl": "134abee2104c7159dfcf72187abe58e96f982b0ffd129b04bccb77cee6e12b01",
+      "data/targets/strictqa/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+      "data/splits/strictqa/scaffold.csv": "ea9e0d49e8aa15e2fbcaa1f9f9a3bb42a2f207e6373903173b6f18db3c347cbd",
+      "data/splits/strictqa/scaffold_excluded.csv": "a99ffe85505a4674eba5a68cbdebb8ad036a9450c7ad6415f9f0c6ffeb68fdef",
+      "data/views/identity/train_queries.jsonl": "d2ab992cc08d8e263af8768aefe5d9cf42134322f31dbea7a4c21454ed42bdf0",
+      "data/views/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+      "data/views/identity/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+      "data/views/identity/train_targets.jsonl": "f42f05983c955e6dfd0d9be296009f2123ae8c47168f935bc30576e7c419c23c",
+      "data/views/identity/val_targets.jsonl": "1f4fbdef3f07654142faea5f116c560966928b99d8b04b71e08c9ebf0a7ab64a",
+      "data/views/identity/test_targets.jsonl": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204",
+      "data/views/scaffold/train_queries.jsonl": "6433204f7834b867148f8f127aac57f1a822f54ff068e752d758bdb7d626d25e",
+      "data/views/scaffold/val_queries.jsonl": "751cc5c4e20340d916a34199c1bd3b44b2dc50cffe0f1227d7c6f79dbf7b7249",
+      "data/views/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+      "data/views/scaffold/train_targets.jsonl": "245dbd6644ea4c353d512a67625fe7b256e7466a19bd58d23304c438c2b31c31",
+      "data/views/scaffold/val_targets.jsonl": "027e53b012e806c63f161e9571708ab6c1c3f71e138be44380cd72aa72b730c6",
+      "data/views/scaffold/test_targets.jsonl": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204",
+      "data/views/sourceqa/identity/train_queries.jsonl": "cfa2abc238dc74cdc0c1fd9dcd061447028fab28bc5afd0d45cd8496e5531404",
+      "data/views/sourceqa/identity/val_queries.jsonl": "8c4962fd21a354d73f832b25e630a8d02d81eef90b35e1433acdd8fdf29c3f59",
+      "data/views/sourceqa/identity/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+      "data/views/sourceqa/identity/train_targets.jsonl": "ba71ba7c247fbe82ccd742e5b3e36b601c121a8ff8b03d5cf10279cf55b406f2",
+      "data/views/sourceqa/identity/val_targets.jsonl": "1f4fbdef3f07654142faea5f116c560966928b99d8b04b71e08c9ebf0a7ab64a",
+      "data/views/sourceqa/identity/test_targets.jsonl": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204",
+      "data/views/sourceqa/scaffold/train_queries.jsonl": "b685be1273458b04069ad3e86f3ff421726c0824ba604d30c18720fc81b86077",
+      "data/views/sourceqa/scaffold/val_queries.jsonl": "4ae538ae40fcce2fe9557b92df7851b4b4fdb58dbea40080cdf4b280362bdefe",
+      "data/views/sourceqa/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+      "data/views/sourceqa/scaffold/train_targets.jsonl": "99e46f72e6bc80872265c6c3ed96e8594a52b34f0fda2dcc57d192cb2a60eadf",
+      "data/views/sourceqa/scaffold/val_targets.jsonl": "82b9435c27516b5eda04c272067a58e81d314581ad911ac6bf5b44b261bcfded",
+      "data/views/sourceqa/scaffold/test_targets.jsonl": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204",
+      "data/views/strictqa/scaffold/train_queries.jsonl": "3093f64c8ffc16a121eaa4340e891b008c8a6a2c143474b479d33f23b60e7902",
+      "data/views/strictqa/scaffold/val_queries.jsonl": "751cc5c4e20340d916a34199c1bd3b44b2dc50cffe0f1227d7c6f79dbf7b7249",
+      "data/views/strictqa/scaffold/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+      "data/views/strictqa/scaffold/train_targets.jsonl": "9db69228a40c54afbf6576759f17ca157884aef6880d439b8862552dde4811a4",
+      "data/views/strictqa/scaffold/val_targets.jsonl": "027e53b012e806c63f161e9571708ab6c1c3f71e138be44380cd72aa72b730c6",
+      "data/views/strictqa/scaffold/test_targets.jsonl": "4a3413f97eb791b296db34d55dc31f223ad9e9afad54632e36476b8f01abe204"
+    }
+  },
+  "upstream_csv_scope": "Reused original downloaded public CSV after checksum verification; no new-network-download claim",
+  "input_archive_idempotence": "Verified, zero differing inputs overwritten",
+  "original_scientific_modules": 28,
+  "original_snapshot_files_verified": 325,
+  "changed_scientific_algorithms": false,
+  "new_gpu_jobs": false,
+  "complete_original_raw_prediction_archive_included": false,
+  "publication_code_license": "Not inferred; repository owner has not specified a blanket code license",
+  "dependency_lock_sha256": "65706e3484400f217f7ed038d0be311304cdc460bd2231e8e39421c175e50217",
+  "installed_analysis_environment": [
+    {
+      "name": "certifi",
+      "version": "2026.10.23"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2"
+    },
+    {
+      "name": "cloudpickle",
+      "version": "3.1.2"
+    },
+    {
+      "name": "condition-solvent-selection",
+      "version": "0.1.0",
+      "editable_project_location": "/root/autodl-tmp/light_modeltune/.tmp/github_release/repository"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1"
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.67.0"
+    },
+    {
+      "name": "fsspec",
+      "version": "2026.9.0"
+    },
+    {
+      "name": "hf-xet",
+      "version": "1.7.0"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "0.35.3"
+    },
+    {
+      "name": "idna",
+      "version": "3.20"
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1"
+    },
+    {
+      "name": "joblib",
+      "version": "1.6.0"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1"
+    },
+    {
+      "name": "lightgbm",
+      "version": "4.6.0"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.10.7"
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6"
+    },
+    {
+      "name": "packaging",
+      "version": "26.3"
+    },
+    {
+      "name": "pandas",
+      "version": "2.3.3"
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0"
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0"
+    },
+    {
+      "name": "pyarrow",
+      "version": "21.0.0"
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3"
+    },
+    {
+      "name": "pytest",
+      "version": "8.4.2"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "3.0.0"
+    },
+    {
+      "name": "pytz",
+      "version": "2026.5"
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.3"
+    },
+    {
+      "name": "rank-bm25",
+      "version": "0.2.2"
+    },
+    {
+      "name": "rdkit",
+      "version": "2025.9.1"
+    },
+    {
+      "name": "requests",
+      "version": "2.32.5"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.7.2"
+    },
+    {
+      "name": "scipy",
+      "version": "1.16.3"
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.2"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0"
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.7.0"
+    },
+    {
+      "name": "tqdm",
+      "version": "4.70.1"
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.5"
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0"
+    }
+  ],
+  "packaging_fixes": [
+    "Dependency installation completed before data reconstruction",
+    "Stage frozen split metadata before original strict-split amendment; original scientific modules unchanged"
+  ],
+  "independent_review": "Separate AI agent read-only code/claim check; not external human peer review"
+}

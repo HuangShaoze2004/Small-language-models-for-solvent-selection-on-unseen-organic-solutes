@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETED_SINGLE_SEED_VALIDATION_ONLY",
+  "created_utc": "2026-10-26T04:32:41.680273+00:00",
+  "seed": 17,
+  "adapter_kind": "ordinary_sft",
+  "retrieval_mode": "none",
+  "queries": 5133,
+  "metrics": {
+    "pair": {
+      "solutes": 120,
+      "queries": 3440,
+      "tau_defined_queries": null,
+      "tau_defined_solutes": null,
+      "pair_accuracy": 0.6656857649029341,
+      "nontie_pair_accuracy": 0.7542605550336192,
+      "top1": null,
+      "rank_tau": null,
+      "regret": 0.10713577377201222,
+      "covered": 1.0
+    },
+    "rank": {
+      "solutes": 109,
+      "queries": 1693,
+      "tau_defined_queries": 1693,
+      "tau_defined_solutes": 109,
+      "pair_accuracy": null,
+      "nontie_pair_accuracy": null,
+      "top1": 0.64275280059695,
+      "rank_tau": 0.40385732893038284,
+      "regret": 0.24029439946767533,
+      "covered": 1.0
+    }
+  },
+  "sources": {
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/predictions.jsonl": "b9d522a1aad4842776b1b4c6ad20cb6fd60e72d65e095d122474e5fad7545d4d",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/predictions.jsonl.run.json": "038d8d6849866d5442eb7b627de2a1ef2ba216aa558d17686cf793970227529f",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/evaluation_view10000/metrics.json": "1a9990537fc4f5e4f4e211c3da9a87a22295c3390378bea041265f5c2609cc5a",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/evaluation_view10000/per_solute.csv": "1bd1bc1ea1e02a5845df1d4ad3353216ef5436db242872661a0465644bf4c1c7",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_sft_17_none_val/error_analysis_val_v1/analysis.json": "3b3e3aecb10b4d5d03c5eea87ff7bc87e645930bb7cdbfa268115281308d46eb"
+  },
+  "inference_cost": "1928.7173829600215seconds summed once per persisted batch_id across both inference segments; excludes model loading and discarded interrupted batches. Last invocation wall1645.707928seconds applies only to4301new predictions.",
+  "main_hypothesis_assessed": false,
+  "test_predictions_generated": false,
+  "next_registered_task": "sourceqa_identity_qwen_sft_17_condition_val"
+}

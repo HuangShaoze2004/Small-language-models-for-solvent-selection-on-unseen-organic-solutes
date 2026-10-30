@@ -1,0 +1,59 @@
+{
+  "status": "STRICT_TRAINING_ONLY_SOURCE_QUARANTINE_APPLIED",
+  "dataset_version": "strictqa",
+  "target": "log10_mole_fraction",
+  "threshold_dex": 0.3,
+  "base_strict_measurements": 69625,
+  "final_measurements": 68829,
+  "source_quarantined_records": 796,
+  "source_quarantined_dois": 16,
+  "removed_training_identities": 11,
+  "splits": {
+    "scaffold": {
+      "train": {
+        "solutes": 732,
+        "records": 51931,
+        "queries": {
+          "pair": 105044,
+          "rank": 8018
+        }
+      },
+      "val": {
+        "solutes": 93,
+        "records": 6243,
+        "queries": {
+          "pair": 11937,
+          "rank": 956
+        }
+      },
+      "test": {
+        "solutes": 144,
+        "records": 10655,
+        "queries": {
+          "pair": 19300,
+          "rank": 1457
+        }
+      }
+    }
+  },
+  "heldout_query_target_bytes_preserved": {
+    "data/processed/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+    "data/targets/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+    "data/processed/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "data/targets/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952"
+  },
+  "all_surviving_roles_inherited": true,
+  "validation_or_test_labels_used_for_quarantine": false,
+  "numeric_labels_replaced": false,
+  "historical_disclosure": "The previous primary-training audit examined some strict-development labels; those global-quarantine strict results are superseded. This amendment uses only strict-training-only source evidence and restores every original strict validation/test record.",
+  "inputs": {
+    "configs/strict_quarantine_v1.json": "054842f52464cb9c0946f91cda47818f491f3b309cf45be6620d95c7004dcdc1",
+    "data/processed/scaffold/train_queries.jsonl": "abf5ab3a9e6ccc0a5fb7cc632f7a04d180ff44bd1800512f99a8c2f191544678",
+    "data/targets/scaffold/train.jsonl": "5f24850f5114f3683a9eeaaec27c189dbb90f361e5e2648b074f4f09a051eee5",
+    "data/processed/scaffold/val_queries.jsonl": "70cd0f418a8270f3654bbeca654c3e60e7670c24989217916393b563af06a6e7",
+    "data/targets/scaffold/val.jsonl": "f9d48594093e5202d0b4393a8039b568319c36044db5de3a7e99c27dbe20a36e",
+    "data/processed/scaffold/test_queries.jsonl": "77231789a0d43bbcbf247d2c4ecac5e14f83c760cbb2e6c2f5a9b631ac085fd7",
+    "data/targets/scaffold/test.jsonl": "4f7e5de9f4d6d141af7c87aac8e811606dece748b411ae35b3b1bd1c1b331952"
+  },
+  "code_sha256": "a8ff2070aa1d6697a53a1d7b0366db7415278b08313bb7e9a0e68f74ae60feca"
+}

@@ -1,0 +1,51 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lp{.27\linewidth}rrr}
+\caption{All registered final method groups. Values are solute-macro means with 95\% solute-bootstrap intervals. Learning seeds are averaged within solute; deterministic controls run once.}\label{tab:all-methods}\\
+\toprule
+Protocol & Method & Accuracy (\%) & Best hit (\%) & Regret (dex) \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{Continued}} \\
+\toprule
+Protocol & Method & Accuracy (\%) & Best hit (\%) & Regret (dex) \\
+\midrule
+\endhead
+Identity & NN & 58.5 [53.8, 63.2] & 50.3 [42.9, 57.8] & 0.449 [0.342, 0.570] \\
+Identity & LightGBM & 67.4 [63.1, 71.6] & 73.5 [66.8, 79.9] & 0.143 [0.101, 0.190] \\
+Identity & Chemprop & 70.1 [66.3, 73.9] & 75.4 [69.4, 81.0] & 0.133 [0.097, 0.172] \\
+Identity & Fixed evidence / BM25 & 36.4 [31.7, 41.3] & 48.5 [41.8, 55.2] & 0.470 [0.378, 0.571] \\
+Identity & Fixed evidence / structure & 38.9 [33.7, 44.4] & 43.8 [36.1, 51.4] & 0.539 [0.421, 0.666] \\
+Identity & Fixed evidence / condition & 61.7 [57.0, 66.3] & 64.8 [58.1, 71.3] & 0.274 [0.206, 0.349] \\
+Identity & Fixed evidence / without temperature & 63.0 [58.2, 67.7] & 63.0 [55.5, 70.2] & 0.276 [0.201, 0.361] \\
+Identity & Fixed evidence / without solvent match & 40.8 [35.7, 45.9] & 46.1 [39.0, 53.1] & 0.516 [0.405, 0.639] \\
+Identity & Ordinary SFT & 68.1 [64.2, 71.8] & 71.7 [65.9, 77.2] & 0.193 [0.141, 0.251] \\
+Identity & Ordinary SFT / condition & 66.7 [62.4, 71.0] & 62.6 [57.4, 67.7] & 0.390 [0.316, 0.466] \\
+Identity & Retrieval SFT / BM25 & 66.3 [62.5, 70.1] & 69.9 [64.1, 75.4] & 0.208 [0.157, 0.266] \\
+Identity & R-SFT + structure & 68.6 [64.8, 72.3] & 69.8 [63.9, 75.4] & 0.192 [0.145, 0.245] \\
+Identity & R-SFT + condition & 69.4 [65.6, 73.1] & 73.3 [67.7, 78.5] & 0.166 [0.122, 0.217] \\
+Identity & Retrieval SFT / without temperature & 68.8 [65.1, 72.4] & 73.0 [67.4, 78.2] & 0.169 [0.124, 0.222] \\
+Identity & Retrieval SFT / without solvent match & 68.1 [64.2, 72.0] & 69.8 [63.9, 75.4] & 0.187 [0.141, 0.240] \\
+Identity & Base LM & 38.6 [34.8, 42.5] & 27.5 [23.2, 32.1] & 0.842 [0.717, 0.979] \\
+Identity & Base LM / BM25 & 44.6 [41.1, 48.2] & 32.6 [27.5, 37.8] & 0.704 [0.608, 0.810] \\
+Identity & Base LM / structure & 44.8 [40.9, 48.9] & 30.6 [25.6, 35.9] & 0.715 [0.604, 0.833] \\
+Identity & Base LM / condition & 45.9 [42.1, 49.8] & 34.5 [29.5, 39.5] & 0.652 [0.563, 0.749] \\
+Scaffold & NN & 53.1 [48.1, 58.0] & 42.7 [35.1, 50.3] & 0.561 [0.441, 0.694] \\
+Scaffold & LightGBM & 63.6 [59.2, 67.9] & 72.0 [65.6, 78.1] & 0.151 [0.109, 0.200] \\
+Scaffold & Chemprop & 67.1 [62.8, 71.3] & 71.6 [65.3, 77.4] & 0.177 [0.125, 0.240] \\
+Scaffold & Fixed evidence / BM25 & 34.7 [30.1, 39.5] & 43.6 [37.0, 50.1] & 0.532 [0.431, 0.646] \\
+Scaffold & Fixed evidence / structure & 34.6 [29.3, 40.0] & 40.2 [32.4, 47.8] & 0.570 [0.443, 0.708] \\
+Scaffold & Fixed evidence / condition & 59.6 [55.1, 64.0] & 60.9 [54.2, 67.6] & 0.307 [0.237, 0.383] \\
+Scaffold & Fixed evidence / without temperature & 59.6 [55.0, 64.1] & 58.8 [51.2, 66.1] & 0.329 [0.249, 0.413] \\
+Scaffold & Fixed evidence / without solvent match & 35.7 [30.9, 40.7] & 42.8 [36.1, 49.5] & 0.534 [0.430, 0.651] \\
+Scaffold & Ordinary SFT & 64.0 [59.6, 68.3] & 65.4 [59.2, 71.4] & 0.225 [0.165, 0.297] \\
+Scaffold & R-SFT + structure & 64.7 [60.3, 68.9] & 64.4 [58.3, 70.3] & 0.244 [0.185, 0.313] \\
+Scaffold & R-SFT + condition & 66.0 [61.5, 70.4] & 66.2 [60.0, 71.9] & 0.227 [0.170, 0.296] \\
+Scaffold & Base LM & 38.6 [34.8, 42.5] & 27.5 [23.2, 32.1] & 0.842 [0.717, 0.979] \\
+Scaffold & Base LM / BM25 & 41.5 [37.8, 45.2] & 32.2 [27.1, 37.6] & 0.683 [0.593, 0.778] \\
+Scaffold & Base LM / structure & 44.0 [40.2, 47.9] & 31.3 [26.2, 36.5] & 0.760 [0.656, 0.871] \\
+Scaffold & Base LM / condition & 46.8 [43.0, 50.4] & 36.1 [30.6, 41.8] & 0.624 [0.536, 0.721] \\
+\bottomrule
+\end{longtable}
+\endgroup
+\input{generated/supplemental_metrics.tex}

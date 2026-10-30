@@ -1,0 +1,50 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{p{.26\linewidth}lrrr}
+\caption{Scaffold protocol, equivalent\_smiles transformation. Solute-macro means and 95\% solute-bootstrap intervals; invalid outputs retain disagreement penalties.}\label{tab:consistency-scaffold-equivalent-smiles}\\
+\toprule
+Method & Task & Exact (\%) & First choice (\%) & Both valid (\%) \\
+\midrule
+\endfirsthead
+\multicolumn{5}{l}{\textit{Continued}} \\
+\toprule
+Method & Task & Exact (\%) & First choice (\%) & Both valid (\%) \\
+\midrule
+\endhead
+Ordinary SFT / no retrieval & pair & 73.4 [69.2, 77.6] & 73.4 [69.2, 77.6] & 100.0 [100.0, 100.0] \\
+Ordinary SFT / no retrieval & rank & 15.6 [11.5, 20.1] & 50.8 [44.7, 57.1] & 100.0 [100.0, 100.0] \\
+Retrieval SFT / structure & pair & 76.2 [72.1, 79.8] & 76.2 [72.1, 79.8] & 100.0 [100.0, 100.0] \\
+Retrieval SFT / structure & rank & 18.7 [14.5, 23.2] & 55.2 [49.7, 60.8] & 100.0 [100.0, 100.0] \\
+Retrieval SFT / condition & pair & 76.0 [71.6, 80.1] & 76.0 [71.6, 80.1] & 100.0 [100.0, 100.0] \\
+Retrieval SFT / condition & rank & 20.8 [16.2, 26.0] & 55.6 [50.1, 61.3] & 100.0 [100.0, 100.0] \\
+Base LM / no retrieval & pair & 59.0 [52.4, 65.6] & 59.0 [52.4, 65.6] & 100.0 [100.0, 100.0] \\
+Base LM / no retrieval & rank & 31.6 [25.2, 37.9] & 63.9 [57.0, 70.4] & 99.2 [97.9, 100.0] \\
+Base LM / BM25 & pair & 61.0 [54.8, 66.9] & 61.0 [54.8, 66.9] & 100.0 [100.0, 100.0] \\
+Base LM / BM25 & rank & 16.2 [10.8, 22.0] & 40.3 [33.8, 46.6] & 93.4 [90.1, 96.3] \\
+Base LM / structure & pair & 71.8 [66.0, 77.4] & 71.8 [66.0, 77.4] & 100.0 [100.0, 100.0] \\
+Base LM / structure & rank & 22.2 [16.5, 28.3] & 48.5 [42.1, 55.0] & 93.7 [90.5, 96.4] \\
+Base LM / condition & pair & 70.6 [64.5, 76.3] & 70.6 [64.5, 76.3] & 100.0 [100.0, 100.0] \\
+Base LM / condition & rank & 20.9 [15.2, 27.0] & 48.1 [41.6, 54.4] & 92.7 [89.0, 95.8] \\
+Fixed evidence / BM25 & pair & 69.4 [62.8, 75.5] & 69.4 [62.8, 75.5] & 100.0 [100.0, 100.0] \\
+Fixed evidence / BM25 & rank & 20.1 [14.1, 26.5] & 42.7 [35.9, 49.5] & 100.0 [100.0, 100.0] \\
+Fixed evidence / structure & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / structure & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / condition & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / condition & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / without temperature & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / without temperature & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / without solvent match & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / without solvent match & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Nearest neighbor & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Nearest neighbor & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+LightGBM & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+LightGBM & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Chemprop & pair & 98.1 [96.4, 99.4] & 98.1 [96.4, 99.4] & 100.0 [100.0, 100.0] \\
+Chemprop & rank & 92.0 [87.9, 95.6] & 98.7 [97.0, 99.9] & 100.0 [100.0, 100.0] \\
+Chemprop + canonicalization & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Chemprop + canonicalization & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / BM25 + canonicalization & pair & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+Fixed evidence / BM25 + canonicalization & rank & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] & 100.0 [100.0, 100.0] \\
+\bottomrule
+\end{longtable}
+\endgroup

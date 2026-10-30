@@ -1,0 +1,106 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1007/s10953-025-01495-8",
+  "retrieved_at_utc": "2026-10-25T05:43:45.125885+00:00",
+  "response_sha256": "0dbb1cae6051df6bb530caf371b2d462a2fff0bd6777385ecb6d2dd24c716710",
+  "metadata": {
+    "DOI": "10.1007/s10953-025-01495-8",
+    "title": [
+      "Machine Learning Models for Estimation of Solubility for A Wide Range of Solutes in Multiple Solvents Using Molecular Descriptors"
+    ],
+    "author": [
+      {
+        "given": "Shriya",
+        "family": "Deshpande",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "K. Yamuna",
+        "family": "Rani",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Solution Chemistry"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          22
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          22
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "volume": "54",
+    "issue": "12",
+    "page": "1787-1818",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              22
+            ]
+          ],
+          "date-time": "2025-09-22T00:00:00Z",
+          "timestamp": 1758499200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              22
+            ]
+          ],
+          "date-time": "2025-09-22T00:00:00Z",
+          "timestamp": 1758499200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+      }
+    ],
+    "URL": "https://doi.org/10.1007/s10953-025-01495-8"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

@@ -1,0 +1,88 @@
+{
+  "status": "PASSED_INDEPENDENT_FINAL_CONTRAST",
+  "comparisons": [
+    {
+      "task": "pair",
+      "metric": "pair_accuracy",
+      "solutes": 124,
+      "difference_first_minus_second": 0.008329876678320499,
+      "ci95": [
+        -0.004996940828804991,
+        0.022295361881798984
+      ],
+      "individual_seed_differences": [
+        0.007307079652564842,
+        0.006429162877238611,
+        0.01125338750515804
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 4.336808689942018e-18
+    },
+    {
+      "task": "rank",
+      "metric": "top1",
+      "solutes": 103,
+      "difference_first_minus_second": 0.03547775753307538,
+      "ci95": [
+        0.009754668573525273,
+        0.06486076531128043
+      ],
+      "individual_seed_differences": [
+        0.03702205577893482,
+        0.036459542132766455,
+        0.03295167468752488
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 6.938893903907228e-18
+    },
+    {
+      "task": "rank",
+      "metric": "regret",
+      "solutes": 103,
+      "difference_first_minus_second": -0.026847556258349312,
+      "ci95": [
+        -0.050972026398713365,
+        -0.00481270825177133
+      ],
+      "individual_seed_differences": [
+        -0.03132020713764166,
+        -0.031830618187604486,
+        -0.01739184344980179
+      ],
+      "maximum_absolute_arithmetic_discrepancy": 6.938893903907228e-18
+    }
+  ],
+  "hypothesis_joint_criteria_supported": false,
+  "seed_count": 3,
+  "bootstrap_repetitions": 10000,
+  "bootstrap_seed": 20261025,
+  "bootstrap_unit": "solute",
+  "bootstrap_algorithm": "Count repeated sampled solutes with multinomial counts; independently interpolate sorted percentile endpoints.",
+  "test_targets_read": false,
+  "models_invoked": false,
+  "evidence_sha256": {
+    "/root/autodl-tmp/light_modeltune/scripts/audit_paired_final_contrast.py": "964444d2a03f58eb70ce3ee5e3dd36f42e7e91c66222f7bd4f2f8ed74eb78a6c",
+    "artifacts/reports/frozen_dualqa/identity_primary_condition_minus_structure.json": "1a2fd6a1e9d2aa0ebbc90e0a8cb85d3fbe20cdc84ebd6ff915f7493d2b1bc580",
+    "artifacts/audit/dualqa/independent_final_scores_v1.json": "13b0d7885df9af9f2719e07c0f08bc308bc36e3660728aac9b014133d7795583",
+    "data/views/sourceqa/identity/test_queries.jsonl": "bac0c33a42836bd8347c062b062da03b59f6e130757db8f2b6580f02fb55247d",
+    "data/splits/sourceqa/identity.csv": "c8a06d85a9a5e29babf6e6df3ba46e2be1fb4c5131ef75ea55de0c2bb4685a39",
+    "configs/final_analysis_plan_dualqa_v2.json": "fee009831b5de8b3d9d2ee583de2f995967fadff7671f803982b4dc138b7e986",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/evaluation_test_view10000/metrics.json": "7bade1ccbcda32cb31d921db821167981feef3cc257b77723ca8a275abb893c8",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/evaluation_test_view10000/per_solute.csv": "5080f96def0088f8c710f36d3c51837006de7bc2b8a21209bc2cae622e993d84",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_condition_test/evaluation_test_view10000/per_query.parquet": "5a9daf96d1d5854bfe0a03b5999e928047d0d6a97e05f46b7acfd0df322d0c2d",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/evaluation_test_view10000/metrics.json": "3032d9a295db6de34333f6a74b3fcf8f5f5feb19cc34e9ced6ebf07c38839ba8",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/evaluation_test_view10000/per_solute.csv": "2f09ddb3fe68e8f71dcbc8c93f778136fe28aa4ab163e1265ab7b4dce65759ab",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_condition_test/evaluation_test_view10000/per_query.parquet": "631ffdf70b995deb1df4836cfb3bb31949523387849fc6878acea0ec9f194c97",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/evaluation_test_view10000/metrics.json": "6dbb5da6de616572312c26702fe3bf689de9cc9792f36df09353660a21999919",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/evaluation_test_view10000/per_solute.csv": "8b4b14bed3547994438e5d93e835d12d7d82db9c4045b82c909d2bf9b32fd60b",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_condition_test/evaluation_test_view10000/per_query.parquet": "0748f232637167ed84fdb656323637c8c8da057d3d38719f2507bd21e361df86",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_structure_test/evaluation_test_view10000/metrics.json": "d3f5f50789580158a89238fd415a8efb9345343324b692cc6ff595d3f19de8ca",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_structure_test/evaluation_test_view10000/per_solute.csv": "c733b1d46a86a6ee7c887eb401fc06c81d152f9f923afff37f1e52d5bf6bf67a",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_17_structure_test/evaluation_test_view10000/per_query.parquet": "45bd808914ce03742096d07a13625ebdf1289fd3be0af6e399230cf1aa584a4a",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_structure_test/evaluation_test_view10000/metrics.json": "f1d9ba3b41a04c824c7366ba8272629b6652fd1d6d8f4794a655264eac087f52",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_structure_test/evaluation_test_view10000/per_solute.csv": "226023efacac7d3a18c430f64d26ee15b3bf12e757a38b31aa4825ca5aa8afe1",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_42_structure_test/evaluation_test_view10000/per_query.parquet": "2bafea6a2ba483ed8774ba637f1b741fbce2f5df5d1b36fdecb7e178d809ed75",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_structure_test/evaluation_test_view10000/metrics.json": "28450cb63168a86f8223e0af19ed99d2e4d994756e1073ece03c0863d4bb9e51",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_structure_test/evaluation_test_view10000/per_solute.csv": "e08930b8a9053139fa7a3cfbcb84ae405ef55761f6bfb05625dc7e0ca64733f0",
+    "artifacts/runs_sourceqa/sourceqa_identity_qwen_rag_2026_structure_test/evaluation_test_view10000/per_query.parquet": "b4ab3b84e3d8c46bf1fc9031b8aedf851cc52f00f18b7378e72d8c631927d3d2"
+  },
+  "scope": "Independent arithmetic audit of fixed-checkpoint frozen-test estimates; no causal, equivalence or publication claim."
+}

@@ -1,0 +1,78 @@
+\begingroup\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{longtable}{lp{.30\linewidth}lrrr}
+\caption{Observed final inference costs. E: saved evidence retrieval/decision, excluding setup and persistence; P: model-resident feature/prediction and persistence; G: graph prediction/persistence excluding graph and checkpoint preparation; L: successful saved LM batches, excluding setup and persistence. CPU/GPU and records/queries are distinct scopes; do not interpret quotients as controlled speedups. Shared base-LM inference is a reused timing observation, not additional compute. Peaks are allocated memory where recorded.}\label{tab:resources}\\
+\toprule
+Protocol & Run & Scope & Seconds & Denominator & Peak GiB \\
+\midrule
+\endfirsthead
+\multicolumn{6}{l}{\textit{Continued}} \\
+\toprule
+Protocol & Run & Scope & Seconds & Denominator & Peak GiB \\
+\midrule
+\endhead
+identity & \path{evidence_text} & E & 44.412 & 4546 queries & -- \\
+identity & \path{evidence_structure} & E & 35.153 & 4546 queries & -- \\
+identity & \path{evidence_condition} & E & 63.802 & 4546 queries & -- \\
+identity & \path{evidence_no_temperature} & E & 60.597 & 4546 queries & -- \\
+identity & \path{evidence_no_solvent} & E & 55.919 & 4546 queries & -- \\
+identity & \path{nearest} & P & 1.160 & 10655 records & -- \\
+identity & \path{lgbm_17} & P & 1.602 & 10655 records & -- \\
+identity & \path{lgbm_42} & P & 1.405 & 10655 records & -- \\
+identity & \path{lgbm_2026} & P & 1.612 & 10655 records & -- \\
+identity & \path{chemprop_17} & G & 1.202 & 10655 records & -- \\
+identity & \path{chemprop_42} & G & 1.301 & 10655 records & -- \\
+identity & \path{chemprop_2026} & G & 1.157 & 10655 records & -- \\
+scaffold & \path{evidence_text} & E & 36.239 & 4546 queries & -- \\
+scaffold & \path{evidence_structure} & E & 31.930 & 4546 queries & -- \\
+scaffold & \path{evidence_condition} & E & 53.919 & 4546 queries & -- \\
+scaffold & \path{evidence_no_temperature} & E & 50.106 & 4546 queries & -- \\
+scaffold & \path{evidence_no_solvent} & E & 43.236 & 4546 queries & -- \\
+scaffold & \path{nearest} & P & 0.966 & 10655 records & -- \\
+scaffold & \path{lgbm_17} & P & 1.549 & 10655 records & -- \\
+scaffold & \path{lgbm_42} & P & 1.401 & 10655 records & -- \\
+scaffold & \path{lgbm_2026} & P & 1.452 & 10655 records & -- \\
+scaffold & \path{chemprop_17} & G & 1.213 & 10655 records & -- \\
+scaffold & \path{chemprop_42} & G & 1.220 & 10655 records & -- \\
+scaffold & \path{chemprop_2026} & G & 1.153 & 10655 records & -- \\
+identity & \path{qwen_sft_17_none} & L & 1677.589 & 4546 queries & 3.75 \\
+identity & \path{qwen_sft_17_condition} & L & 2370.725 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_17_text} & L & 2232.957 & 4546 queries & 4.22 \\
+identity & \path{qwen_rag_17_structure} & L & 2187.796 & 4546 queries & 4.08 \\
+identity & \path{qwen_rag_17_condition} & L & 2344.999 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_17_no_temperature} & L & 2313.176 & 4546 queries & 4.23 \\
+identity & \path{qwen_rag_17_no_solvent} & L & 2244.635 & 4546 queries & 4.18 \\
+identity & \path{qwen_sft_42_none} & L & 1651.527 & 4546 queries & 3.75 \\
+identity & \path{qwen_sft_42_condition} & L & 3681.369 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_42_text} & L & 2230.470 & 4546 queries & 4.22 \\
+identity & \path{qwen_rag_42_structure} & L & 2241.728 & 4546 queries & 4.08 \\
+identity & \path{qwen_rag_42_condition} & L & 2334.055 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_42_no_temperature} & L & 2348.718 & 4546 queries & 4.23 \\
+identity & \path{qwen_rag_42_no_solvent} & L & 2288.841 & 4546 queries & 4.18 \\
+identity & \path{qwen_sft_2026_none} & L & 1709.013 & 4546 queries & 3.75 \\
+identity & \path{qwen_sft_2026_condition} & L & 3023.686 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_2026_text} & L & 2230.481 & 4546 queries & 4.22 \\
+identity & \path{qwen_rag_2026_structure} & L & 2231.891 & 4546 queries & 4.08 \\
+identity & \path{qwen_rag_2026_condition} & L & 2355.156 & 4546 queries & 4.24 \\
+identity & \path{qwen_rag_2026_no_temperature} & L & 2327.617 & 4546 queries & 4.23 \\
+identity & \path{qwen_rag_2026_no_solvent} & L & 2264.906 & 4546 queries & 4.18 \\
+identity & \path{qwen_base_17_none} & L & 1105.700 & 4546 queries & 3.75 \\
+identity & \path{qwen_base_17_text} & L & 1530.624 & 4546 queries & 3.75 \\
+identity & \path{qwen_base_17_structure} & L & 1508.062 & 4546 queries & 3.75 \\
+identity & \path{qwen_base_17_condition} & L & 1585.995 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_sft_17_none} & L & 1699.385 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_rag_17_structure} & L & 2175.811 & 4546 queries & 4.06 \\
+scaffold & \path{qwen_rag_17_condition} & L & 2334.029 & 4546 queries & 4.22 \\
+scaffold & \path{qwen_sft_42_none} & L & 1692.071 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_rag_42_structure} & L & 2207.582 & 4546 queries & 4.06 \\
+scaffold & \path{qwen_rag_42_condition} & L & 2307.339 & 4546 queries & 4.22 \\
+scaffold & \path{qwen_sft_2026_none} & L & 1661.098 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_rag_2026_structure} & L & 2149.979 & 4546 queries & 4.06 \\
+scaffold & \path{qwen_rag_2026_condition} & L & 2318.005 & 4546 queries & 4.22 \\
+scaffold & \path{qwen_base_17_none} & L & 1105.700 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_base_17_text} & L & 1475.972 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_base_17_structure} & L & 1440.410 & 4546 queries & 3.75 \\
+scaffold & \path{qwen_base_17_condition} & L & 1588.700 & 4546 queries & 3.75 \\
+\bottomrule
+\end{longtable}
+\endgroup

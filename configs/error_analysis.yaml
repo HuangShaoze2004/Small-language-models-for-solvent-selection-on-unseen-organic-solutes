@@ -1,0 +1,53 @@
+schema_version: 1
+protocol: predefined_validation_error_slices_v1
+allowed_partition: val
+test_access: 'Test analysis requires status FROZEN and the exact query SHA256 in a separate freeze manifest. Current scientific runs are validation only.'
+tie_dex: 0.1
+minimum_independent_solutes: 10
+morgan:
+  radius: 2
+  fingerprint_size: 2048
+  include_chirality: true
+temperature_boundaries_kelvin: [283.15, 303.15, 323.15]
+temperature_labels: ['<283.15', '[283.15,303.15)', '[303.15,323.15)', '>=323.15']
+similarity_edges: [0.0, 0.2, 0.4, 0.6, 0.8, 1.0]
+similarity_labels: ['[0,0.2)', '[0.2,0.4)', '[0.4,0.6)', '[0.6,0.8)', '[0.8,1]']
+solute_functional_groups:
+  carboxylic_acid: '[CX3](=[OX1])[OX2H1]'
+  ester: '[CX3](=[OX1])[OX2H0][#6]'
+  amide: '[NX3][CX3](=[OX1])'
+  amine: '[NX3;+0;!$(N-[CX3]=[OX1]);!$(N-[SX4,SX6](=[OX1]));!$(N=*)]'
+  alcohol: '[OX2H1][CX4]'
+  phenol: '[OX2H1][c]'
+  nitrile: '[CX2]#[NX1]'
+  halogen: '[F,Cl,Br,I]'
+  aromatic: '[a]'
+  sulfonyl: '[SX4,SX6](=[OX1])(=[OX1])'
+solvent_smarts:
+  alcohol: '[OX2H1][CX4]'
+  amide: '[NX3][CX3](=[OX1])'
+  nitrile: '[CX2]#[NX1]'
+  ester: '[CX3](=[OX1])[OX2H0][#6]'
+  ketone: '[#6][CX3](=[OX1])[#6]'
+  ether: '[OX2H0;!$([O]-[CX3]=[OX1])]([#6])[#6]'
+  aromatic: '[a]'
+  halogenated: '[F,Cl,Br,I]'
+solvent_group_order: [water, alcohol, amide, nitrile, ester, ketone, ether, aromatic, halogenated, hydrocarbon, other]
+solvent_rule_definitions:
+  water: 'The complete canonical isomeric SMILES is O.'
+  hydrocarbon: 'At least one carbon atom; every explicit atom has atomic number 1 or 6.'
+  other: 'No water, hydrocarbon or configured SMARTS class matches.'
+failure_examples:
+  greatest_regret_per_task: 5
+  hash_sample_errors_per_task: 5
+  hash_seed: 20261025
+definitions:
+  grouping: 'Queries within a physical condition, then conditions within solutes, then solutes; regroup separately inside every slice.'
+  similarity: 'Maximum Morgan Tanimoto to unique training solute identities only; ties choose the lexicographically first training solute ID.'
+  temperature_boundaries: 'Left-inclusive and right-exclusive, except the open first and last bins.'
+  similarity_boundaries: 'Left-inclusive and right-exclusive; the last bin includes 1.'
+  functional_groups: 'Multi-label SMARTS on the retained full structure as drawn, including any counterions; no neutralization or salt stripping. The acid and amine patterns describe neutral forms, not their ionized analogues. The ester pattern also matches carbonate and carbamate motifs; carbamates can simultaneously match amide.'
+  solvents: 'Multi-label per solvent; each query has the union of its candidate classes. Aromatic hydrocarbons match both aromatic and hydrocarbon. These slices overlap and are not independent populations.'
+  small_samples: 'Always report every predefined group for both tasks. Fewer than 10 independent solutes is insufficient; do not select groups by score.'
+  examples: 'Greatest regret is selected among all queries, including a possibly correct near-tie decision. Hash samples use errors in pair accuracy or top-one hit (including invalid outputs). The two selection sets may overlap.'
+  interpretation: 'Descriptive validation diagnostics only, not causal mechanisms or new chemistry claims. pH, solid form and experimental protocol are unavailable unless recorded explicitly.'

@@ -1,0 +1,9 @@
+{
+  "status": "REGISTERED_BEFORE_CONTROL_RUN",
+  "hypothesis": "Canonicalizing full isomeric SMILES before graph construction removes representation changes arising from raw atom chiral tags under equivalent SMILES.",
+  "observation": "Raw Chemprop validation consistency changed on equivalent-SMILES queries; initial inspected mismatches were chiral and predicted logx changed by0.06–0.35dex, exceeding ordinary floating-point noise.",
+  "control": "Same completed checkpoints, CPU, query cohort, temperature scalers, batch size and decoder; only canonicalize solute/solvent query SMILES before graph construction. Preserve stereo/charge/fragments.",
+  "criterion": "Report all three seeds and both protocols. Exact agreement and prediction changes are measured; do not claim canonicalization as method novelty.",
+  "scope": "Validation only; no target values used.",
+  "source": "Installed Chemprop2.3.1 featurizer source, GetChiralTag feature; code-level association rather than a causal chemistry claim."
+}

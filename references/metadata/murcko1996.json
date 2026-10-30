@@ -1,0 +1,82 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/jm9602928",
+  "retrieved_at_utc": "2026-10-25T05:43:46.255178+00:00",
+  "response_sha256": "c6758160a7abda989bba2eacd06e7c7e6e7de0aef1dc20212aa1ad47e71eb514",
+  "metadata": {
+    "DOI": "10.1021/jm9602928",
+    "title": [
+      "The Properties of Known Drugs. 1. Molecular Frameworks"
+    ],
+    "author": [
+      {
+        "given": "Guy W.",
+        "family": "Bemis",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Vertex Pharmaceuticals, 130 Waverly Street, Cambridge, Massachusetts 02139-4242"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mark A.",
+        "family": "Murcko",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Vertex Pharmaceuticals, 130 Waverly Street, Cambridge, Massachusetts 02139-4242"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Medicinal Chemistry"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          1996,
+          1,
+          1
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          1996,
+          7,
+          19
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1996,
+          1,
+          1
+        ]
+      ]
+    },
+    "volume": "39",
+    "issue": "15",
+    "page": "2887-2893",
+    "article-number": null,
+    "license": null,
+    "URL": "https://doi.org/10.1021/jm9602928"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

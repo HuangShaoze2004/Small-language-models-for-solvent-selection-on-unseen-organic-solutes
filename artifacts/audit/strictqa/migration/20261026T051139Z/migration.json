@@ -1,0 +1,10 @@
+{
+  "status": "MIGRATED_WITHOUT_RETRAINING",
+  "old_queue_pid": 385726,
+  "current_task": "sourceqa_identity_qwen_sft_17_condition_val",
+  "new_plan": "configs/development_queue_identity_sourceqa_v2.json",
+  "new_state": "artifacts/development_queue_identity_sourceqa_v2/state.json",
+  "old_queue_terminal": true,
+  "completed_identity_tasks_reused": 3,
+  "resume_command": "source scripts/env.sh\n.venv/bin/python scripts/run_development_queue.py --plan configs/development_queue_identity_sourceqa_v2.json --state artifacts/development_queue_identity_sourceqa_v2/state.json --resume-task sourceqa_identity_qwen_sft_17_condition_val"
+}

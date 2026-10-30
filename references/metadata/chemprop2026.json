@@ -1,0 +1,397 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.5c02332",
+  "retrieved_at_utc": "2026-10-25T05:43:43.907886+00:00",
+  "response_sha256": "fccf1bb83e899f6818312b6def572afdedd2e0015c49f630b143eaadbb98341f",
+  "metadata": {
+    "DOI": "10.1021/acs.jcim.5c02332",
+    "title": [
+      "Chemprop v2: An Efficient, Modular Machine Learning Package for Chemical Property Prediction"
+    ],
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-1250-3329",
+        "authenticated-orcid": true,
+        "given": "David E.",
+        "family": "Graff",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemistry and Chemical Biology",
+            "place": [
+              "Cambridge, United States"
+            ]
+          },
+          {
+            "name": "Harvard University",
+            "place": [
+              "Cambridge, United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-1653-8716",
+        "authenticated-orcid": true,
+        "given": "Nathan K.",
+        "family": "Morgan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0657-9426",
+        "authenticated-orcid": true,
+        "given": "Jackson W.",
+        "family": "Burns",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Anna C.",
+        "family": "Doner",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8645-0034",
+        "authenticated-orcid": true,
+        "given": "Shih-Cheng",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Joel",
+        "family": "Manu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Angiras",
+        "family": "Menon",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9381-7500",
+        "authenticated-orcid": true,
+        "given": "Hao-Wei",
+        "family": "Pang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0644-7554",
+        "authenticated-orcid": true,
+        "given": "Haoyang",
+        "family": "Wu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9549-7547",
+        "authenticated-orcid": true,
+        "given": "Akshat Shirish",
+        "family": "Zalte",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4863-1325",
+        "authenticated-orcid": true,
+        "given": "Jonathan W.",
+        "family": "Zheng",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8271-8723",
+        "authenticated-orcid": true,
+        "given": "Connor W.",
+        "family": "Coley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-2603-9694",
+        "authenticated-orcid": true,
+        "given": "William H.",
+        "family": "Green",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6466-1401",
+        "authenticated-orcid": true,
+        "given": "Kevin P.",
+        "family": "Greenman",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, 77 Massachusetts Avenue, Cambridge, Massachusetts 02139, United States"
+          },
+          {
+            "name": "Department of Chemical Engineering",
+            "place": [
+              "Cambridge, United States"
+            ]
+          },
+          {
+            "name": "Catholic Institute of Technology",
+            "place": [
+              "Cambridge, United States"
+            ]
+          },
+          {
+            "name": "Department of Chemistry",
+            "place": [
+              "Cambridge, United States"
+            ]
+          },
+          {
+            "name": "Catholic Institute of Technology",
+            "place": [
+              "Cambridge, United States"
+            ]
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          12,
+          26
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          12
+        ]
+      ]
+    },
+    "volume": "66",
+    "issue": "1",
+    "page": "28-33",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2025-12-26T00:00:00Z",
+          "timestamp": 1766707200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2025-12-26T00:00:00Z",
+          "timestamp": 1766707200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              12,
+              26
+            ]
+          ],
+          "date-time": "2025-12-26T00:00:00Z",
+          "timestamp": 1766707200000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-045"
+      }
+    ],
+    "URL": "https://doi.org/10.1021/acs.jcim.5c02332"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

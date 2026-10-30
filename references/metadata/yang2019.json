@@ -1,0 +1,313 @@
+{
+  "source_url": "https://api.crossref.org/works/10.1021/acs.jcim.9b00237",
+  "retrieved_at_utc": "2026-10-25T05:43:44.525002+00:00",
+  "response_sha256": "6d6eaa280e00b559dc3a7b460addf0f25a74b845d76435c4583c29afcfaccad0",
+  "metadata": {
+    "DOI": "10.1021/acs.jcim.9b00237",
+    "title": [
+      "Analyzing Learned Molecular Representations for Property Prediction"
+    ],
+    "author": [
+      {
+        "given": "Kevin",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7385-7844",
+        "authenticated-orcid": true,
+        "given": "Kyle",
+        "family": "Swanson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Wengong",
+        "family": "Jin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-8271-8723",
+        "authenticated-orcid": true,
+        "given": "Connor",
+        "family": "Coley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Philipp",
+        "family": "Eiden",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BASF SE, Ludwigshafen 67063, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hua",
+        "family": "Gao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Amgen Inc., Cambridge, Massachusetts 02141, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Angel",
+        "family": "Guzman-Perez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Amgen Inc., Cambridge, Massachusetts 02141, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Timothy",
+        "family": "Hopper",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Amgen Inc., Cambridge, Massachusetts 02141, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Brian",
+        "family": "Kelley",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Novartis Institutes for BioMedical Research, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Miriam",
+        "family": "Mathea",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BASF SE, Ludwigshafen 67063, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Andrew",
+        "family": "Palmer",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BASF SE, Ludwigshafen 67063, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Volker",
+        "family": "Settels",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "BASF SE, Ludwigshafen 67063, Germany"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Tommi",
+        "family": "Jaakkola",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7192-580X",
+        "authenticated-orcid": true,
+        "given": "Klavs",
+        "family": "Jensen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemical Engineering, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Regina",
+        "family": "Barzilay",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Computer Science and Artificial Intelligence Laboratory, MIT, Cambridge, Massachusetts 02139, United States"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "container-title": [
+      "Journal of Chemical Information and Modeling"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          30
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2019,
+          7,
+          30
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2019,
+          8,
+          26
+        ]
+      ]
+    },
+    "volume": "59",
+    "issue": "8",
+    "page": "3370-3388",
+    "article-number": null,
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2019,
+              8,
+              13
+            ]
+          ],
+          "date-time": "2019-08-13T00:00:00Z",
+          "timestamp": 1565654400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 14,
+        "URL": "http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html"
+      }
+    ],
+    "URL": "https://doi.org/10.1021/acs.jcim.9b00237"
+  },
+  "note": "Publisher-deposited Crossref metadata; not a full-text verification."
+}

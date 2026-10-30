@@ -1,0 +1,36 @@
+{
+  "status": "TRAINING_ARCHIVE_DISCREPANCY_AUDIT_NOT_LABEL_CORRECTION",
+  "training_records": 52727,
+  "downloaded_training_only_sources": 372,
+  "parsed_pure_solvent_equilibrium_points": 21111,
+  "exact_unambiguous_training_matches": 13063,
+  "matched_sources": 237,
+  "matched_training_solutes": 225,
+  "ambiguous_records_skipped": 84,
+  "threshold_dex": 0.3,
+  "flagged_records": 272,
+  "flagged_sources": 16,
+  "skip_reasons": {
+    "not_binary_solute_pure_solvent": 801,
+    "solute_crystal_not_identified": 57,
+    "additional_unmatched_condition": 70,
+    "not_liquid_property": 30,
+    "not_equilibrium_mole_fraction": 46,
+    "calculated_property": 4
+  },
+  "test_target_values_read": false,
+  "data_mutations": false,
+  "selection_rule": "Only NIST-available DOI sources occurring exclusively in original strict training. No strict validation/test numeric values determine source flags.",
+  "interpretation": "This measures agreement between archives under recorded identity/temperature. NIST does not guarantee critically evaluated correctness. Unrecorded phase/pH/pressure and transcription differences require primary-source review; do not automatically replace labels.",
+  "inputs": {
+    "data/processed/measurements_scaffold.parquet": "de592cccde3758a20aa876c28d91fdcc1aa18a6acbfe8a95d8a8041b341e1f58",
+    "data/splits/scaffold.csv": "a8898dd82dcc416654a45fc0cadd2d584566393e1a0f5e8763b3a4188c4d18ad",
+    "artifacts/audit/strictqa/training_sources/download_manifest.json": "ce309ffe33e10578c9ff03829afc86b9184592887cfbed87bc124e34e39356fe",
+    "/root/autodl-tmp/light_modeltune/src/solvent_select/source_audit.py": "d0292f66ee925175b1ce17020d9813baa410629e14b8a7c6376bde8cefd39b98"
+  },
+  "outputs": {
+    "all_training_matches.csv": "500d33c69008c1286588a2ae018ac79b089fee29cd7b7139fec13544ccfa7a30",
+    "training_discrepancies.csv": "713c3b0f3ec9753681e7f45d0dc2ec2ab7420f6f1d5eccaba55716a64659b49d",
+    "source_summary.csv": "142abf5f2141a378185601aa9542b5c813eac9a71978db699226673534e920d2"
+  }
+}

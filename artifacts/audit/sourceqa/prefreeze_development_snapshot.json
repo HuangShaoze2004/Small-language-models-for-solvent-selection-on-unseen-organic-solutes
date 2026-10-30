@@ -1,0 +1,417 @@
+{
+  "status": "INCOMPLETE",
+  "created_utc": "2026-10-26T04:29:33.976030+00:00",
+  "queue_audits": [
+    {
+      "plan": "configs/development_queue_sourceqa_primary.json",
+      "state": "artifacts/development_queue_sourceqa_primary/state.json",
+      "plan_sha256": "d86f999ecacffa289295ef7199640d6ef5b3ea8a5df5c38836077ab3c79f3e1d",
+      "state_sha256": "1f3b2ebe01edad718aec9141c583776a71d5fe087cdbccfb584a5451e8e8c01a",
+      "tasks": 6,
+      "pending": [],
+      "errors": []
+    },
+    {
+      "plan": "configs/development_queue_sourceqa.json",
+      "state": "artifacts/development_queue_sourceqa/state.json",
+      "plan_sha256": "daf12973e823ce18d68c53b7b746009982fcb3b32a277e0726287624d635a7ab",
+      "state_sha256": "54497010deca8c7f9af60c449f540be3d5113f8888981c72c0e37cbbca07f9e1",
+      "tasks": 94,
+      "pending": [
+        {
+          "task": "sourceqa_identity_qwen_sft_17_none_val",
+          "status": "running"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_17_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_42_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_sft_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_temperature_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_temperature_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_solvent_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_rag_2026_no_solvent_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_identity_qwen_base_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_17",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_17",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_17_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_42_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_42_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_42",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_42_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_42_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_42_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_42_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_2026_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_sft_2026_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_2026",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_2026_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_2026_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_2026_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_rag_2026_condition_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_none_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_none_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_text_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_text_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_structure_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_structure_val_evaluate",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_condition_val",
+          "status": "not_started"
+        },
+        {
+          "task": "sourceqa_scaffold_qwen_base_17_condition_val_evaluate",
+          "status": "not_started"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "pending_tasks": 87,
+  "missing_consistency": [
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_42_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_2026_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_sft_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_rag_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/identity/sourceqa_identity_qwen_base_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_sft_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_17_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_sft_42_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_42_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_42_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_sft_2026_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_2026_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_rag_2026_condition_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_base_17_none_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_base_17_text_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_base_17_structure_consistency_val/evaluation/metrics.json",
+    "artifacts/consistency/sourceqa/scaffold/sourceqa_scaffold_qwen_base_17_condition_consistency_val/evaluation/metrics.json"
+  ],
+  "gaps": [
+    "Missing artifacts/reports/sourceqa/validation_decision.json",
+    "Missing artifacts/audit/sourceqa/pretest_review.json"
+  ],
+  "decision_path": "artifacts/reports/sourceqa/validation_decision.json",
+  "review_path": "artifacts/audit/sourceqa/pretest_review.json",
+  "test_target_values_read": false,
+  "test_predictions_generated": false,
+  "code_sha256": "30998d9775a3b620fb4d1482278c4f154fb190aaa7c7155bd4ac8fdda6ec2989"
+}

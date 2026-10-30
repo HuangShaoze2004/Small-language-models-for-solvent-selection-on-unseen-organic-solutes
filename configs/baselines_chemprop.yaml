@@ -1,0 +1,15 @@
+hidden_dim: 300
+depth: 3
+dropout: 0.1
+ffn_hidden_dim: 300
+ffn_layers: 2
+batch_size: 128
+max_epochs: 50
+patience: 8
+warmup_epochs: 2
+init_lr: 0.0001
+max_lr: 0.001
+final_lr: 0.0001
+num_workers: 4
+torch_threads: 6
+precision: 32-true

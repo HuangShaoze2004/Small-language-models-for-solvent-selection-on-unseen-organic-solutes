@@ -1,0 +1,28 @@
+{
+  "status": "PASSED_CURRENT_ENGINEERING_AND_DATA_CHECKS",
+  "created_utc": "2026-10-26T05:24:15.268791+00:00",
+  "full_tests": "180passed2skipped",
+  "targeted_final_pipeline_and_source_scope_tests": "44passed",
+  "real_final_control_helper_replays": "22actual validation runs; all decisions exact; all property-value differences0; old strict dataset remains diagnostic",
+  "strictqa_cold_reconstruction": "9files byte-identical; no finaltest scoring",
+  "classical_strictqa_models_completed": 4,
+  "strict_erratum_resolved_and_reevaluated": false,
+  "test_predictions_generated": false,
+  "sources": {
+    "logs/tests_full_strictqa_repair.log": "e197880e2131470b8677893400925dd42f2bc06c10382189a10a6403e539cdb6",
+    "logs/tests_strictqa_and_final_pipeline.log": "1040f3516d3ade5b0e27249229ff5db9e0d3127b351ddce6e6504ad0a4aa32ba",
+    "logs/strict_training_source_audit.log": "3ec39102cea778f400176d36c302ec697175cb6efd312cfb1e8b707e29e40ae7",
+    "logs/strictqa_build.log": "02d553cadef6223c88a2a0db4b6c893bb76581a83579d672b8015900e81c9f6c",
+    "logs/strictqa_classical_baselines.log": "6742153e174a4d3de2cfc0c832f994773b1f21bda711be7bcd3d2541a37bbaef"
+  },
+  "code": {
+    "src/solvent_select/final_plan.py": "384e5cb7e5ec6f9a03dbd6895e7e22bb26e278bb24232a7270376573772eb1d9",
+    "src/solvent_select/final_runner.py": "0db326a28a29a3bf7a001138fde1700824ef0b33711ba34514e4f498f9371f2e",
+    "src/solvent_select/final_controls.py": "9e4bc6f41f702331279578edeb0d569b2ad7a9cdf786083f1ac74056e36b4730",
+    "src/solvent_select/release_guard.py": "e9e381a79fc2e180c42d8ac3ca9770df0bb10e9fa59d18b0b6cf812227ac531e",
+    "src/solvent_select/freeze.py": "83bf86157e862c08e01e858d349b2bcef08086da5916d1772128efb3c92e9cba",
+    "src/solvent_select/source_audit.py": "d0292f66ee925175b1ce17020d9813baa410629e14b8a7c6376bde8cefd39b98",
+    "src/solvent_select/strict_quarantine.py": "a8ff2070aa1d6697a53a1d7b0366db7415278b08313bb7e9a0e68f74ae60feca",
+    "src/solvent_select/report.py": "fc22bbb7544f64304947f4ef02282d77c0de89dce89807a7bb832f52e49330ad"
+  }
+}

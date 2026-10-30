@@ -1,0 +1,44 @@
+{
+  "status": "METADATA_PORTABILITY_AMENDMENT_NO_CRITERION_OR_DATA_CHANGE",
+  "created_utc": "2026-10-26T02:39:01.270569+00:00",
+  "version": "source_quarantine_v1",
+  "base_archive": "BigSolDB2.0/Zenodo15094979, unchanged",
+  "action": "Quarantine every record from18 primary-training-only DOI sources with an exact, unambiguous cross-archive discrepancy above0.3dex. Do not substitute/rescale any measured value.",
+  "threshold_dex": 0.3,
+  "source_dois": [
+    "10.1016/j.fluid.2018.03.021",
+    "10.1016/j.jct.2012.11.021",
+    "10.1016/j.jct.2014.08.012",
+    "10.1016/j.jct.2014.11.011",
+    "10.1016/j.tca.2019.178431",
+    "10.1021/acs.jced.5b00565",
+    "10.1021/acs.jced.9b00286",
+    "10.1021/acs.jced.9b00406",
+    "10.1021/je100964a",
+    "10.1021/je101168w",
+    "10.1021/je400246s",
+    "10.1021/je4011097",
+    "10.1021/je500068b",
+    "10.1021/je5001654",
+    "10.1021/je500437m",
+    "10.1021/je700404u",
+    "10.1021/je900401z",
+    "10.1021/je9008427"
+  ],
+  "selection_scope": "Preselected NIST-available DOI sources occurring only in primary training. No validation/test target values or model scores determine exclusions.",
+  "reference_limit": "NIST ThermoML is not critically evaluated ground truth. Quarantine expresses unresolved transcription/condition uncertainty, not proof that all records in a flagged source are wrong. Remaining sources are not universally validated.",
+  "whole_source_reason": "A power-of-ten mismatch can concern a table-wide unit multiplier; retaining unmatched rows from the same uncertain source could retain the same error. Whole-source removal is conservative and its coverage cost is reported.",
+  "split_policy": "Retain every surviving solute in its original identity/scaffold role; never rerandomize. Preserve global144test-solute membership and byte-identical test queries/targets.",
+  "outputs_tag": "sourceqa",
+  "evidence": {
+    "artifacts/audit/source_discrepancy/training_archive_check/all_training_matches.csv": "0351f4092f94b16d6f66816edf2d78cd1b415c8b0f382319827dddd498ae08a2",
+    "artifacts/audit/source_discrepancy/training_archive_check/training_discrepancies.csv": "1c5c5dd83979ba8ad9a135ab39c52064f1bf8cfce96d61ea22f18c9bdd93aef1"
+  },
+  "prior_original_conflict_threshold": 0.3,
+  "retraining": "Old experiments retained under original inputs. Refit every affected method on sourceqa version; no old/new-bank mixing.",
+  "decision_metadata_snapshot": {
+    "artifacts/audit/source_discrepancy/training_archive_check/audit.json": "3ec814161cf969568f72a444bc1b59ae87aec90951155afe5856891b91ed2812"
+  },
+  "original_decision_policy_sha256": "ae0e835ba8bafc03cd93562b970050b434531a44d44559b43b28e85a66010326",
+  "reproduction_note": "Only stable numerical CSV evidence is an execution gate. Original audit metadata contains installation-specific absolute paths and download timestamps; its decision-time hash remains preserved, and may differ on a clean rebuild. Source list,0.3dex threshold and every data decision are unchanged."
+}

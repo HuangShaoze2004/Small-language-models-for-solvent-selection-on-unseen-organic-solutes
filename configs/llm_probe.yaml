@@ -1,0 +1,10 @@
+model_id: Qwen/Qwen3-4B-Instruct-2507
+revision: cdbee75f17c01a7cc42f958dc650907174af0554
+local_files_only: true
+seed: 17
+retrieval_mode: none
+max_sequence_length: 3072
+max_evidence_tokens: 1536
+max_new_tokens: 256
+inference_batch_size: 4
+cpu_threads: 4

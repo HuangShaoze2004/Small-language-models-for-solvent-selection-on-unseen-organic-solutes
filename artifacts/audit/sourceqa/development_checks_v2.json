@@ -1,0 +1,26 @@
+{
+  "status": "PASSED_DEVELOPMENT_CHECKS",
+  "created_utc": "2026-10-26T04:30:39.288211+00:00",
+  "tests": {
+    "full_main_environment": "155passed2skipped before inventory/release-guard additions",
+    "later_targeted_guards_main": "17passed",
+    "restored_project_environment_current_guard_report_compare_inventory_suite": "31passed"
+  },
+  "baseline_audit": "14models and10evidence modes passed",
+  "paper": "Both draft PDFs compiled; no overfull boxes or undefined citations after correction. Underfull typography warnings remain. Scientific final-results placeholders remain explicit.",
+  "sources": {
+    "logs/tests_sourceqa_freeze_and_controls.log": "f2d86578e34428511678d190cb50d121bc2497659987b8a64960867614fe58f8",
+    "logs/tests_sourceqa_release_guards.log": "3d81d90a2a96b7060ae62c03efd0f1eafb10562798cb57623da39e33ca7606d8",
+    "logs/tests_sourceqa_guards_reproduced_environment.log": "b13697f3be1515f947bfcb05afa88a22078f8332740ad1be62c98d70b3efadfd",
+    "logs/sourceqa_completed_baseline_audit.log": "faf6ea4979c88ddfa25483982256dedcbabf25774a022b2cfb548a42ca49e878",
+    "logs/paper_build_sourceqa_controls.log": "92335e55fe435d5d0d8e3ccff232f9948811bc9b568ac42d75391e847293320a"
+  },
+  "code": {
+    "src/solvent_select/freeze.py": "30998d9775a3b620fb4d1482278c4f154fb190aaa7c7155bd4ac8fdda6ec2989",
+    "src/solvent_select/release_guard.py": "3728a6a8c8cf48f49f429beb49a6cd30fdd78eab8164bc12e567e534bf4fcf2e",
+    "src/solvent_select/report.py": "f2bb93bfc9c059f94e4ca6ada4f70d3bd5171f74ec0d38cebb8c503f70d118b5",
+    "src/solvent_select/compare.py": "50bd1739137fa9bc7f9f9bca5b6aca77ef3764265533cce13c84bc7a92429fae",
+    "scripts/build_run_inventory.py": "c34df22842a590df9fa4e1929f5b129eef1941050bd3d1009e384b691c0f7314"
+  },
+  "test_predictions_generated": false
+}

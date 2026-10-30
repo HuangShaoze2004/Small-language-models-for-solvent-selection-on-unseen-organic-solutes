@@ -1,0 +1,33 @@
+{
+  "status": "REGISTERED_BEFORE_STRICT_DATA_AMENDMENT",
+  "created_utc": "2026-10-26T05:09:02.229933+00:00",
+  "source_protocol": "configs/strict_source_audit_v1.json",
+  "source_protocol_sha256": "c40a30aabda90b1e19a76528002db9769ba0fc19e54425fbcadc392148131c9a",
+  "source_summary": "artifacts/audit/strictqa/training_sources/numeric/source_summary.csv",
+  "source_summary_sha256": "142abf5f2141a378185601aa9542b5c813eac9a71978db699226673534e920d2",
+  "threshold_dex": 0.3,
+  "source_dois": [
+    "10.1016/j.fluid.2013.09.018",
+    "10.1016/j.fluid.2018.03.021",
+    "10.1016/j.jct.2012.11.021",
+    "10.1016/j.jct.2014.08.012",
+    "10.1016/j.jct.2015.05.019",
+    "10.1016/j.tca.2019.178431",
+    "10.1021/acs.jced.5b00306",
+    "10.1021/acs.jced.5b00565",
+    "10.1021/acs.jced.9b00286",
+    "10.1021/acs.jced.9b00406",
+    "10.1021/je101168w",
+    "10.1021/je400246s",
+    "10.1021/je500068b",
+    "10.1021/je500437m",
+    "10.1021/je700404u",
+    "10.1021/je9008427"
+  ],
+  "base_measurements": "data/processed/measurements_scaffold.parquet",
+  "base_splits": "data/splits/scaffold.csv",
+  "base_exclusions": "data/splits/scaffold_excluded.csv",
+  "output_tag": "strictqa",
+  "action": "Remove every original strict-training record from every flagged source. Do not replace values. Preserve all original strict validation/test records and query/target bytes. Inherit all surviving original scaffold assignments.",
+  "main_identity_protocol": "Unchanged sourceqa; no model-score-based selection or partition rerandomization."
+}
